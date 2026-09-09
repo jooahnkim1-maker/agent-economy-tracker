@@ -29,7 +29,8 @@ STATE = ROOT / "data" / "snapshot-state"
 
 UA = {"User-Agent": "agent-economy-tracker/1.0", "Accept": "application/json"}
 KEEP_ITEMS = 300      # 브라우저가 받는 파일은 작게.
-STATE_KEEP = 3000     # "24시간 +N"만 내면 되므로 최신 N건의 최초 관측 시각만 남긴다.
+STATE_KEEP = 1500     # "24시간 +N"만 내면 되므로 최신 N건의 최초 관측 시각만 남긴다.
+                      # 하루 증가분(수백 건)의 서너 배. 이걸 넘으면 증가분은 비워진다.
                       # 전체 키(수만 건)를 매일 커밋하면 저장소가 순식간에 불어난다.
 PAGE = 100
 PAGE_GUARD = 500      # 페이지네이션이 끝나지 않는 응답에 대비한 상한
@@ -125,30 +126,42 @@ def load_prev(name: str) -> dict[str, str]:
 
 
 def write(name: str, items: list[dict], total: int, extra: dict) -> None:
+    """스냅샷 파일과, 다음 실행에서 신규를 가려낼 상태 파일을 쓴다.
+
+    items는 최신순이라고 가정한다. 상태는 앞에서 STATE_KEEP건만 기억하므로, 신규 판정도
+    같은 창 안에서만 한다 — 창 밖의 항목은 상태에 없다는 이유로 매번 "신규"가 되어
+    증가분을 통째로 부풀린다.
+    """
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     prev = load_prev(name)
-    # 처음 본 항목의 시각을 기록해 둔다. 첫 실행이면 전부 "지금"이라 24h 증가분은 0.
-    added_at = {i["key"]: prev.get(i["key"]) or (now if prev else (i.get("updated") or now))
-                for i in items if i.get("key")}
+    window = [i for i in items[:STATE_KEEP] if i.get("key")]
+
+    # 처음 본 항목에 지금 시각을 찍는다. 이미 아는 항목은 그때 찍은 시각을 유지한다.
+    added_at = {i["key"]: prev.get(i["key"]) or now for i in window}
+
     day_ago = time.time() - 86400
-    added24h = 0
+    added24h = None
     if prev:
-        for k in added_at:
+        n = 0
+        for k, t in added_at.items():
+            if k in prev:
+                continue
             try:
-                if datetime.fromisoformat(added_at[k].replace("Z", "+00:00")).timestamp() > day_ago:
-                    added24h += 1
+                if datetime.fromisoformat(t.replace("Z", "+00:00")).timestamp() > day_ago:
+                    n += 1
             except Exception:
                 pass
+        # 창 전체가 신규면 실제 증가분이 창보다 크다는 뜻이라 셀 수 없다. 숫자 대신 비운다.
+        added24h = None if n >= len(window) else n
 
     payload = {"generatedAt": now, "total": total, "added24h": added24h,
                **extra, "items": items[:KEEP_ITEMS]}
     (OUT / f"{name}.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    # items는 최신순이므로 앞에서 자르면 최근 항목의 이력이 남는다.
-    kept = {i["key"]: added_at[i["key"]] for i in items[:STATE_KEEP] if i.get("key") in added_at}
     (STATE / f"{name}.json").write_text(
-        json.dumps({"addedAt": kept}, ensure_ascii=False), encoding="utf-8")
-    print(f"  {name}: total={total:,} items={len(items):,} +{added24h} (24h)")
+        json.dumps({"addedAt": added_at}, ensure_ascii=False), encoding="utf-8")
+    shown = "—" if added24h is None else f"+{added24h}"
+    print(f"  {name}: total={total:,} items={len(items):,} {shown} (24h)")
 
 
 def main() -> int:

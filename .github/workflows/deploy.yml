@@ -4,6 +4,11 @@ name: Deploy to Pages
 on:
   push:
     branches: [main]
+  # 스냅샷 워크플로의 커밋은 기본 GITHUB_TOKEN으로 push되어 위의 push 트리거를 깨우지
+  # 못한다(Actions의 재귀 방지). 그래서 그 워크플로가 끝나는 것을 직접 지켜본다.
+  workflow_run:
+    workflows: ["Refresh snapshots"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -19,6 +24,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # 스냅샷 워크플로가 실패했으면 배포할 새 내용도 없다.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
