@@ -1,0 +1,32 @@
+name: Deploy to Pages
+
+# 빌드 단계가 없다. 저장소 내용이 곧 사이트라 그대로 업로드한다.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포는 마지막 하나만 살아남으면 된다. 진행 중인 건 취소하지 않는다(반쯤 배포된 사이트 방지).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

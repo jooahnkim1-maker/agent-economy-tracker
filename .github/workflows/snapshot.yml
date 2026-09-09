@@ -1,0 +1,45 @@
+name: Refresh snapshots
+
+# CDP·PayAI Bazaar와 agentscan은 CORS 헤더가 없어 브라우저가 직접 못 읽는다.
+# 여기서 매일 받아 커밋하고, 그 push가 deploy 워크플로를 깨워 사이트에 반영한다.
+#
+# 나머지 두 층(체인 RPC 실시간, agenteconomy.to 누적 총계)은 브라우저가 직접 읽으므로
+# 이 워크플로와 무관하게 항상 최신이다.
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 매일 06:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 스크립트는 표준 라이브러리만 쓴다. 설치할 것이 없다.
+      - name: Fetch snapshots
+        run: python3 scripts/refresh_snapshots.py
+
+      # 소스가 전부 실패하면 스크립트가 파일을 건드리지 않으므로 diff도 비어 있다.
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git commit -m "chore: 스냅샷 갱신 ($(date -u +%Y-%m-%d))"
+          git push

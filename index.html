@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="AI 에이전트 경제 트래커 — x402 결제, ERC-8004 등록, 마켓플레이스를 공개 체인 데이터로 직접 읽는다. 백엔드 없음." />
+  <title>Agent Economy Tracker</title>
+  <script>
+    // 첫 페인트 전에 테마를 확정해 깜빡임을 막는다.
+    try {
+      var t = localStorage.getItem('aet-theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      if (t === 'light') document.documentElement.classList.add('light');
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.content = t === 'light' ? '#f7f7f8' : '#050505';
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#/overview"><i class="mark"></i><span>AGENT&nbsp;ECONOMY</span></a>
+      <nav class="tabs" id="tabs">
+        <a href="#/overview" data-route="overview">개요</a>
+        <a href="#/payments" data-route="payments">결제</a>
+        <a href="#/registry" data-route="registry">레지스트리</a>
+        <a href="#/marketplaces" data-route="marketplaces">마켓플레이스</a>
+      </nav>
+      <div class="top-right">
+        <button class="icon-btn" id="theme-btn" aria-label="색상 테마 전환" title="색상 테마 전환">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <p class="status"><i class="dot"></i><span class="upper">Base, Polygon, BNB를 직접 읽는 중</span></p>
+      <h1 id="page-title">개요</h1>
+      <p class="lead" id="page-lead"></p>
+    </section>
+    <div id="view"></div>
+    <footer class="bot">
+      <p>출처: base.org, publicnode, drpc, agenteconomy.to, onchainagentintel.io</p>
+      <p class="mono-dim">설계 참고: <a href="https://github.com/code0xff/agents" target="_blank" rel="noopener">code0xff/agents</a> (Apache-2.0)</p>
+    </footer>
+  </main>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

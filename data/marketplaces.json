@@ -1,0 +1,194 @@
+[
+  {
+    "id": "cdp-bazaar",
+    "name": "x402 Bazaar",
+    "operator": "Coinbase CDP",
+    "url": "https://api.cdp.coinbase.com/platform/v2/x402/discovery/resources?limit=25",
+    "kind": "x402disc",
+    "chains": [
+      "Base",
+      "Solana",
+      "Polygon",
+      "Arbitrum"
+    ],
+    "protocols": [
+      "x402"
+    ],
+    "feed": "snapshot",
+    "snapshot": "bazaar-cdp"
+  },
+  {
+    "id": "payai-bazaar",
+    "name": "PayAI Bazaar",
+    "operator": "PayAI",
+    "url": "https://facilitator.payai.network/discovery/resources?limit=25",
+    "kind": "x402disc",
+    "chains": [
+      "Base",
+      "Solana",
+      "Avalanche"
+    ],
+    "protocols": [
+      "x402"
+    ],
+    "feed": "snapshot",
+    "snapshot": "bazaar-payai"
+  },
+  {
+    "id": "erc8004",
+    "name": "ERC-8004 Identity Registry",
+    "operator": "Ethereum / 8004 team",
+    "url": "https://basescan.org/address/0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+    "kind": "registry",
+    "chains": [
+      "Base",
+      "Ethereum",
+      "BNB",
+      "+27"
+    ],
+    "protocols": [
+      "ERC-8004"
+    ],
+    "feed": "live"
+  },
+  {
+    "id": "agentscan",
+    "name": "agentscan",
+    "operator": "agentscan.info",
+    "url": "https://agentscan.info/agents",
+    "kind": "explorer",
+    "chains": [
+      "22 networks"
+    ],
+    "protocols": [
+      "ERC-8004"
+    ],
+    "feed": "snapshot",
+    "snapshot": "agentscan"
+  },
+  {
+    "id": "ocai",
+    "name": "On-Chain Agent Intel",
+    "operator": "onchainagentintel.io",
+    "url": "https://onchainagentintel.io/agents",
+    "kind": "index",
+    "chains": [
+      "Base",
+      "Ethereum"
+    ],
+    "protocols": [
+      "ERC-8004",
+      "x402",
+      "MCP"
+    ],
+    "feed": "live"
+  },
+  {
+    "id": "virtuals",
+    "name": "Virtuals ACP",
+    "operator": "Virtuals Protocol",
+    "url": "https://app.virtuals.io/acp",
+    "kind": "acp",
+    "chains": [
+      "Base"
+    ],
+    "protocols": [
+      "ACP",
+      "x402"
+    ],
+    "feed": "aggregate"
+  },
+  {
+    "id": "olas",
+    "name": "Olas Mech Marketplace",
+    "operator": "Olas",
+    "url": "https://marketplace.olas.network/ethereum/ai-agents",
+    "kind": "tasks",
+    "chains": [
+      "Gnosis",
+      "Base",
+      "Optimism",
+      "Polygon"
+    ],
+    "protocols": [
+      "Mech"
+    ],
+    "feed": "aggregate"
+  },
+  {
+    "id": "8004scan",
+    "name": "8004scan",
+    "operator": "AltLayer",
+    "url": "https://8004scan.io/agents",
+    "kind": "explorer",
+    "chains": [
+      "multi"
+    ],
+    "protocols": [
+      "ERC-8004"
+    ],
+    "feed": "link"
+  },
+  {
+    "id": "quicknode",
+    "name": "ERC-8004 Explorer",
+    "operator": "QuickNode",
+    "url": "https://erc-8004.quicknode.com",
+    "kind": "explorer",
+    "chains": [
+      "Ethereum",
+      "Base",
+      "BNB",
+      "Avalanche",
+      "Mantle"
+    ],
+    "protocols": [
+      "ERC-8004"
+    ],
+    "feed": "link"
+  },
+  {
+    "id": "agentarena",
+    "name": "Agent Arena",
+    "operator": "agentarena.site",
+    "url": "https://agentarena.site",
+    "kind": "catalog",
+    "chains": [
+      "16 EVM",
+      "Solana"
+    ],
+    "protocols": [
+      "ERC-8004"
+    ],
+    "feed": "link"
+  },
+  {
+    "id": "2s",
+    "name": "2s",
+    "operator": "2s.io",
+    "url": "https://2s.io",
+    "kind": "endpoints",
+    "chains": [
+      "Base"
+    ],
+    "protocols": [
+      "x402"
+    ],
+    "feed": "link"
+  },
+  {
+    "id": "x402scan",
+    "name": "x402scan",
+    "operator": "Merit Systems",
+    "url": "https://www.x402scan.com/",
+    "kind": "x402explorer",
+    "chains": [
+      "Base",
+      "Solana"
+    ],
+    "protocols": [
+      "x402"
+    ],
+    "feed": "link"
+  }
+]
