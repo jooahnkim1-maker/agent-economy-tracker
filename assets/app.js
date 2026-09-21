@@ -307,6 +307,164 @@ function sparkline(data, w = 86, h = 26) {
   </svg>`;
 }
 
+/* ══ 7b. 라인 차트 ════════════════════════════════════════════════ */
+
+/**
+ * 일간 시계열 하나를 그리는 면적+선 차트. 시리즈가 하나뿐이라 범례를 두지 않는다
+ * (제목이 무엇을 그렸는지 말한다). 거래액과 건수는 자릿수가 달라 한 판에 겹치지 않고
+ * 각각 자기 축을 가진 차트로 나눈다 — 축 두 개짜리 한 판은 없는 상관을 만들어 낸다.
+ *
+ * SVG를 컨테이너 실제 픽셀 폭에 맞춰 그린다. viewBox로 늘리면 글자까지 같이 늘어나
+ * 화면 폭마다 축 글씨 크기가 달라진다.
+ */
+const chartSpecs = new Map();
+let chartObserver = null;
+
+const CHART_PAD = { t: 14, r: 52, b: 22, l: 4 };
+const CHART_H = 190;
+
+/** 축 눈금은 깔끔한 수로 떨어뜨린다. */
+function niceTicks(max, n = 4) {
+  if (!(max > 0)) return [0];
+  const raw = max / n;
+  const mag = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((v) => v >= raw) ?? 10 * mag;
+  const out = [];
+  for (let v = 0; v <= max * 1.0001; v += step) out.push(v);
+  return out;
+}
+
+function drawChart(el, spec) {
+  const w = Math.max(220, el.clientWidth);
+  const { t, r, b, l } = CHART_PAD;
+  const iw = w - l - r, ih = CHART_H - t - b;
+  const data = spec.data;
+  if (data.length < 2) { el.innerHTML = '<p class="empty-note">데이터 없음</p>'; return; }
+
+  const max = Math.max(...data.map((d) => d.v));
+  const ticks = niceTicks(max);
+  const top = ticks[ticks.length - 1] || 1;
+  const X = (i) => l + (i / (data.length - 1)) * iw;
+  const Y = (v) => t + ih - (v / top) * ih;
+
+  const pts = data.map((d, i) => [X(i), Y(d.v)]);
+  const line = smoothPath(pts);
+  const area = `${line}L${X(data.length - 1).toFixed(2)},${t + ih}L${l},${t + ih}Z`;
+
+  // 눈금선은 표면에서 한 칸 떨어진 회색, 1px 실선. 데이터보다 뒤로 물러난다.
+  const grid = ticks.map((v) => `<line x1="${l}" x2="${l + iw}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}"
+      stroke="var(--ink-800)" stroke-width="1"/>`).join('');
+  const yLabels = ticks.map((v) => `<text x="${l + iw + 6}" y="${(Y(v) + 3.5).toFixed(1)}"
+      font-size="9" fill="var(--ink-500)" class="tab">${esc(spec.axis(v))}</text>`).join('');
+
+  // x축은 양 끝과 가운데만. 날짜를 촘촘히 깔면 읽히지 않는다.
+  const xIdx = [0, Math.floor((data.length - 1) / 2), data.length - 1];
+  const xLabels = xIdx.map((i, k) => `<text x="${X(i).toFixed(1)}" y="${CHART_H - 6}"
+      text-anchor="${k === 0 ? 'start' : k === 2 ? 'end' : 'middle'}"
+      font-size="9" fill="var(--ink-500)">${esc(spec.xLabel(data[i].d))}</text>`).join('');
+
+  // 직접 라벨은 아껴서 — 최고점과 마지막 값만. 점마다 숫자를 붙이면 아무도 읽지 않는다.
+  const maxI = data.reduce((a, d, i) => (d.v > data[a].v ? i : a), 0);
+  const lastI = data.length - 1;
+  // 라벨이 위로 넘치면 점 아래에 붙인다. 잘린 글자는 라벨이 없는 것보다 나쁘다.
+  const py = Y(data[maxI].v);
+  const above = py - 9 >= t + 8;
+  const px = Math.min(Math.max(X(maxI), l + 34), l + iw - 34);
+  const peak = maxI !== lastI ? `<g>
+      <circle cx="${X(maxI).toFixed(1)}" cy="${py.toFixed(1)}" r="4"
+        fill="var(--ink-200)" stroke="var(--ink-950)" stroke-width="2"/>
+      <text x="${px.toFixed(1)}" y="${(above ? py - 9 : py + 15).toFixed(1)}" text-anchor="middle"
+        font-size="9" fill="var(--ink-300)" stroke="var(--ink-950)" stroke-width="3"
+        paint-order="stroke" class="tab">최고 ${esc(spec.fmt(data[maxI].v))}</text>
+    </g>` : '';
+
+  el.innerHTML = `<svg width="${w}" height="${CHART_H}" role="img"
+      aria-label="${esc(spec.title)} 일간 추이">
+    ${grid}${yLabels}${xLabels}
+    <path d="${area}" fill="var(--ink-200)" opacity=".10"/>
+    <path d="${line}" fill="none" stroke="var(--ink-200)" stroke-width="2"
+      stroke-linejoin="round" stroke-linecap="round"/>
+    ${peak}
+    <line class="ch-cross" x1="0" x2="0" y1="${t}" y2="${t + ih}"
+      stroke="var(--ink-600)" stroke-width="1" opacity="0"/>
+    <circle class="ch-dot" r="4" fill="var(--ink-50)" stroke="var(--ink-950)" stroke-width="2" opacity="0"/>
+    <circle cx="${X(lastI).toFixed(1)}" cy="${Y(data[lastI].v).toFixed(1)}" r="4"
+      fill="var(--ink-200)" stroke="var(--ink-950)" stroke-width="2"/>
+  </svg>`;
+  const lastEl = el.closest('.chart')?.querySelector('.ch-last');
+  if (lastEl) lastEl.textContent = spec.fmt(data[lastI].v);
+
+  el.__geom = { X, Y, l, iw, t, ih };
+}
+
+/** 렌더 직후 호출. 컨테이너 폭을 재야 하므로 DOM에 붙은 뒤여야 한다. */
+function mountCharts() {
+  const els = view.querySelectorAll('[data-chart]');
+  if (!els.length) return;
+  if (!chartObserver && typeof ResizeObserver !== 'undefined') {
+    chartObserver = new ResizeObserver((entries) => {
+      for (const e of entries) {
+        const spec = chartSpecs.get(e.target.dataset.chart);
+        if (spec && e.target.isConnected) drawChart(e.target, spec);
+      }
+    });
+  }
+  for (const el of els) {
+    const spec = chartSpecs.get(el.dataset.chart);
+    if (!spec) continue;
+    drawChart(el, spec);
+    chartObserver?.observe(el);
+  }
+}
+
+/** 마크업만 내놓고, 실제 그리기는 mountCharts()가 한다. */
+function chartPanel(id, title, sub) {
+  return `<figure class="chart">
+    <figcaption>
+      <div style="min-width:0">
+        <h3 class="upper">${esc(title)}</h3>
+        <p class="ch-sub">${esc(sub)}</p>
+      </div>
+      <span class="ch-last tab" title="마지막 날 값"></span>
+    </figcaption>
+    <div class="chart-plot" data-chart="${esc(id)}" tabindex="0"
+         role="application" aria-label="${esc(title)} 일간 추이, 좌우 화살표로 날짜 이동"></div>
+    <div class="ch-tip" hidden><span class="v tab"></span><span class="d"></span></div>
+  </figure>`;
+}
+
+/** 포인터 x로 가장 가까운 날짜를 집는다. 독자는 날짜를 겨냥하지 2px 선을 겨냥하지 않는다. */
+function chartFocus(plot, idx) {
+  const spec = chartSpecs.get(plot.dataset.chart);
+  const g = plot.__geom;
+  if (!spec || !g) return;
+  const i = Math.max(0, Math.min(spec.data.length - 1, idx));
+  const d = spec.data[i];
+  const x = g.X(i), y = g.Y(d.v);
+  plot.querySelector('.ch-cross')?.setAttribute('x1', x);
+  plot.querySelector('.ch-cross')?.setAttribute('x2', x);
+  plot.querySelector('.ch-cross')?.setAttribute('opacity', '1');
+  const dot = plot.querySelector('.ch-dot');
+  if (dot) { dot.setAttribute('cx', x); dot.setAttribute('cy', y); dot.setAttribute('opacity', '1'); }
+  const tip = plot.parentElement.querySelector('.ch-tip');
+  if (tip) {
+    // 값이 앞, 날짜가 뒤. 독자는 시리즈를 이미 알고 숫자를 원한다.
+    tip.querySelector('.v').textContent = spec.fmt(d.v);
+    tip.querySelector('.d').textContent = spec.xLabel(d.d, true);
+    tip.hidden = false;
+    const w = plot.clientWidth;
+    tip.style.left = `${Math.max(0, Math.min(w - 128, x - 64))}px`;
+  }
+  plot.__i = i;
+}
+
+function chartBlur(plot) {
+  plot.querySelector('.ch-cross')?.setAttribute('opacity', '0');
+  plot.querySelector('.ch-dot')?.setAttribute('opacity', '0');
+  const tip = plot.parentElement.querySelector('.ch-tip');
+  if (tip) tip.hidden = true;
+}
+
 /* ══ 8. 실시간 결제 스토어 ════════════════════════════════════════ */
 
 const facilitatorByAddr = { base: {}, polygon: {} };
@@ -724,7 +882,7 @@ async function viewOverview() {
 
 /* ══ 13. 뷰 : 결제 ════════════════════════════════════════════════ */
 
-const ui = { payChain: 'base', payPage: 0, regChain: 'base', regPage: 0, regOpen: null };
+const ui = { payChain: 'base', payPage: 0, regChain: 'base', regPage: 0, regOpen: null, scRange: 90 };
 
 function viewPayments() {
   startPayments();
@@ -1021,6 +1179,22 @@ async function viewStablecoin() {
   const retailMonth = lastFull(retailMonthly);
   const x402Share = x402Month && retailMonth ? (x402Month / retailMonth) * 100 : null;
 
+  // 범위 토글은 두 차트를 함께 좁힌다. 차트마다 따로 두면 두 수치가 다른 구간을 말하게 된다.
+  const span = Math.min(ui.scRange, v.daily.length);
+  const slice = v.daily.slice(-span);
+  const dayLabel = (iso, long = false) => {
+    const [, m, d] = iso.split('-');
+    return long ? `${Number(m)}월 ${Number(d)}일` : `${Number(m)}/${Number(d)}`;
+  };
+  chartSpecs.set('sc-vol', {
+    title: '소매형 거래액', data: slice.map((r) => ({ d: r.day, v: r.retailVol })),
+    fmt: usdCompact, axis: (n) => (n ? usdCompact(n).replace('US$', '') : '0'), xLabel: dayLabel,
+  });
+  chartSpecs.set('sc-cnt', {
+    title: '소매형 거래 건수', data: slice.map((r) => ({ d: r.day, v: r.retailCnt })),
+    fmt: (n) => `${compact(n)}건`, axis: (n) => (n ? compact(n) : '0'), xLabel: dayLabel,
+  });
+
   const topChain = chains.find((c) => c.name !== '__others__');
   const topAsset = assets.find((a) => a.name !== '__others__');
   const facts = [
@@ -1052,6 +1226,19 @@ async function viewStablecoin() {
   </div>
 
   <div class="panel fade-in" style="animation-delay:.05s">
+    <div class="panel-head">
+      <div><p class="eyebrow upper">일간 추이</p><h2>소매형 거래는 어떻게 움직였나</h2></div>
+      <div class="seg">
+        ${[30, 90, 180].map((n) => `<button data-seg="scRange" data-val="${n}" class="${ui.scRange === n ? 'on' : ''}">${n}일</button>`).join('')}
+      </div>
+    </div>
+    <div class="chart-grid">
+      ${chartPanel('sc-vol', '소매형 거래액', `${dayLabel(slice[0].day)} – ${dayLabel(slice[slice.length - 1].day)} · 일별 USD`)}
+      ${chartPanel('sc-cnt', '소매형 거래 건수', `같은 구간 · 일별 건수`)}
+    </div>
+  </div>
+
+  <div class="panel fade-in" style="animation-delay:.1s">
     <div class="panel-head"><div><p class="eyebrow upper">분포</p><h2>소매형 거래가 어디서 오가나</h2></div></div>
     <div class="facts">${facts.map(([k, val]) =>
       `<span class="fact"><span class="k upper">${esc(k)}</span><span class="v tab">${esc(val)}</span></span>`).join('')}</div>
@@ -1102,6 +1289,7 @@ async function render() {
   if (lastAnimated === route) html = html.replaceAll(' fade-in', '');
   lastAnimated = route;
   view.innerHTML = html;
+  mountCharts();   // 컨테이너 폭을 재야 하므로 DOM에 붙은 뒤에
   // 새로 들어온 행의 플래시는 한 번만. 다음 렌더에서 다시 켜지지 않게 지운다.
   for (const p of payments.rows) p.isNew = false;
   for (const e of registry.events) e.isNew = false;
@@ -1124,7 +1312,8 @@ function emit() {
 view.addEventListener('click', (ev) => {
   const seg = ev.target.closest('[data-seg]');
   if (seg) {
-    ui[seg.dataset.seg] = seg.dataset.val;
+    const raw = seg.dataset.val;
+    ui[seg.dataset.seg] = /^\d+$/.test(raw) ? Number(raw) : raw;
     if (seg.dataset.seg === 'payChain') ui.payPage = 0;
     if (seg.dataset.seg === 'regChain') { ui.regPage = 0; ui.regOpen = null; }
     return void render();
@@ -1146,6 +1335,38 @@ view.addEventListener('click', (ev) => {
     ui.regOpen = ui.regOpen === row.dataset.reg ? null : row.dataset.reg;
     return void render();
   }
+});
+
+view.addEventListener('pointermove', (ev) => {
+  const plot = ev.target.closest('.chart-plot');
+  if (!plot || !plot.__geom) return;
+  const { l, iw } = plot.__geom;
+  const spec = chartSpecs.get(plot.dataset.chart);
+  if (!spec) return;
+  const x = ev.clientX - plot.getBoundingClientRect().left;
+  chartFocus(plot, Math.round(((x - l) / iw) * (spec.data.length - 1)));
+});
+view.addEventListener('pointerleave', (ev) => {
+  const plot = ev.target.closest?.('.chart-plot');
+  if (plot) chartBlur(plot);
+}, true);
+
+// 키보드에서도 같은 값이 나와야 한다. 툴팁은 값을 보태지, 값을 가두지 않는다.
+view.addEventListener('keydown', (ev) => {
+  const plot = ev.target.closest?.('.chart-plot');
+  if (!plot) return;
+  const spec = chartSpecs.get(plot.dataset.chart);
+  if (!spec) return;
+  const cur = plot.__i ?? spec.data.length - 1;
+  if (ev.key === 'ArrowLeft') { chartFocus(plot, cur - 1); ev.preventDefault(); }
+  else if (ev.key === 'ArrowRight') { chartFocus(plot, cur + 1); ev.preventDefault(); }
+  else if (ev.key === 'Home') { chartFocus(plot, 0); ev.preventDefault(); }
+  else if (ev.key === 'End') { chartFocus(plot, spec.data.length - 1); ev.preventDefault(); }
+  else if (ev.key === 'Escape') chartBlur(plot);
+});
+view.addEventListener('focusout', (ev) => {
+  const plot = ev.target.closest?.('.chart-plot');
+  if (plot) chartBlur(plot);
 });
 
 document.getElementById('theme-btn').addEventListener('click', () => {

@@ -48,7 +48,7 @@ BAZAARS = {
 ALLIUM_SQL = ("https://app-server-dp-xjpv5b26pq-uw.a.run.app"
               "/api/v1/explorer/results/data?format=json")
 VISA_TABLE = '"share"."JKyWRaJi"."8PB6ygqkEz8EsigX7Dpr"'
-VISA_DAILY_DAYS = 90
+VISA_DAILY_DAYS = 180   # 차트 범위 토글(30/90/180일)이 쓸 만큼
 VISA_MONTHS = 24
 
 
@@ -190,36 +190,50 @@ def fetch_visa() -> dict:
     """Visa 대시보드가 쓰는 것과 같은 테이블에서 필요한 집계만 뽑는다."""
     T = VISA_TABLE
     one = lambda sql: (allium(sql) or [{}])[0]
+    num = lambda v: float(v or 0)
 
-    as_of = one(f"SELECT MAX(day)::DATE AS as_of FROM {T}").get("as_of")
-    if not as_of:
+    raw_as_of = one(f"SELECT MAX(day)::DATE AS as_of FROM {T}").get("as_of")
+    if not raw_as_of:
         raise ValueError("as_of 없음")
-    as_of = str(as_of)[:10]
-
-    # 최신 데이터일 기준 30일. CURRENT_DATE를 쓰면 적재가 하루 밀릴 때 창이 어긋난다.
-    win = f"day::DATE > DATE '{as_of}' - 30 AND day::DATE <= DATE '{as_of}'"
-
-    by_tag = allium(
-        f"SELECT tag, SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
-        f"FROM {T} WHERE {win} GROUP BY tag")
-    tags = {r["tag"]: r for r in by_tag}
-    pick = lambda t: {"vol": float(tags.get(t, {}).get("vol") or 0),
-                      "cnt": int(tags.get(t, {}).get("cnt") or 0)}
+    raw_as_of = str(raw_as_of)[:10]
 
     daily = allium(
         f"SELECT day::DATE AS day, "
         f"SUM(CASE WHEN tag='Retail Sized' THEN usd_amount ELSE 0 END) AS retail_vol, "
         f"SUM(CASE WHEN tag='Retail Sized' THEN txn_count ELSE 0 END) AS retail_cnt, "
         f"SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
-        f"FROM {T} WHERE day::DATE > DATE '{as_of}' - {VISA_DAILY_DAYS} "
+        f"FROM {T} WHERE day::DATE > DATE '{raw_as_of}' - {VISA_DAILY_DAYS + 1} "
         f"GROUP BY 1 ORDER BY 1")
+    if len(daily) < 10:
+        raise ValueError(f"일간 데이터가 너무 적다: {len(daily)}")
+
+    # 적재가 덜 된 마지막 날을 버린다. 그대로 두면 차트에 없는 급락이 생기고 30일
+    # 합계도 하루치만큼 모자라게 나온다. 직전 7일 중앙값의 절반에 못 미치면 미완성으로 본다.
+    dropped = None
+    prior = sorted(num(r["retail_cnt"]) for r in daily[-8:-1])
+    med = prior[len(prior) // 2] if prior else 0
+    if med and num(daily[-1]["retail_cnt"]) < med * 0.5:
+        dropped = str(daily[-1]["day"])[:10]
+        daily = daily[:-1]
+    daily = daily[-VISA_DAILY_DAYS:]
+    as_of = str(daily[-1]["day"])[:10]
+
+    # 완성된 마지막 날 기준 30일. CURRENT_DATE를 쓰면 적재가 밀릴 때 창이 어긋난다.
+    win = f"day::DATE > DATE '{as_of}' - 30 AND day::DATE <= DATE '{as_of}'"
+
+    by_tag = allium(
+        f"SELECT tag, SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
+        f"FROM {T} WHERE {win} GROUP BY tag")
+    tags = {r["tag"]: r for r in by_tag}
+    pick = lambda t: {"vol": num(tags.get(t, {}).get("vol")),
+                      "cnt": int(tags.get(t, {}).get("cnt") or 0)}
 
     monthly = allium(
         f"SELECT strftime(day::DATE, '%Y-%m') AS month, "
         f"SUM(CASE WHEN tag='Retail Sized' THEN usd_amount ELSE 0 END) AS retail_vol, "
         f"SUM(usd_amount) AS vol "
         f"FROM {T} WHERE day::DATE > DATE '{as_of}' - {VISA_MONTHS * 31} "
-        f"GROUP BY 1 ORDER BY 1")
+        f"AND day::DATE <= DATE '{as_of}' GROUP BY 1 ORDER BY 1")
 
     chains = allium(
         f"SELECT chain AS name, SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
@@ -229,10 +243,10 @@ def fetch_visa() -> dict:
         f"SELECT base_asset AS name, SUM(usd_amount) AS vol "
         f"FROM {T} WHERE {win} AND tag='Retail Sized' GROUP BY 1 ORDER BY vol DESC")
 
-    num = lambda v: float(v or 0)
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "asOf": as_of,
+        "partialDayDropped": dropped,
         "source": "Visa Onchain Analytics (Allium)",
         "sourceUrl": "https://visaonchainanalytics.com/transactions",
         "window30": {"retail": pick("Retail Sized"), "nonRetail": pick("Non Retail Sized")},
@@ -277,9 +291,10 @@ def main() -> int:
         (OUT / "visa-stablecoin.json").write_text(
             json.dumps(v, ensure_ascii=False, indent=1), encoding="utf-8")
         r = v["window30"]["retail"]
+        drop = f" · 미완성일 {v['partialDayDropped']} 제외" if v.get("partialDayDropped") else ""
         print(f"  visa-stablecoin: as_of={v['asOf']} 소매 30일 "
               f"${r['vol']:,.0f} / {r['cnt']:,}건 "
-              f"(체인 {len(v['chains'])} · 자산 {len(v['assets'])})")
+              f"(체인 {len(v['chains'])} · 자산 {len(v['assets'])}){drop}")
         ok += 1
     except Exception as e:
         print(f"  visa-stablecoin: 실패 ({e}) — 기존 스냅샷 유지", file=sys.stderr)

@@ -292,3 +292,32 @@ footer.bot a:hover { color: var(--ink-200); }
   .pay-row .c-hide { display: none; }
   .hero h1 { font-size: 21px; }
 }
+
+/* ── 라인 차트 ────────────────────────────────────────────────────── */
+.chart-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.chart { position: relative; margin: 0; padding: 16px 18px 12px; border-left: 1px solid var(--ink-800); min-width: 0; }
+.chart:first-child { border-left: 0; }
+.chart figcaption { margin-bottom: 6px; display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.chart h3 { font-size: 10px; font-weight: 400; letter-spacing: .2em; color: var(--ink-500); }
+.chart .ch-sub { font-size: 9px; color: var(--ink-400); margin-top: 2px; }
+.chart-plot { position: relative; outline: none; cursor: crosshair; }
+.chart-plot svg { display: block; }
+.chart-plot:focus-visible { box-shadow: 0 0 0 1px var(--ink-600); border-radius: 4px; }
+
+/* 마지막 값은 캡션 줄 오른쪽에. 플롯 안에 두면 y축 눈금과 겹친다. */
+.chart .ch-last { font-size: 13px; color: var(--ink-50); flex: none; white-space: nowrap; }
+.chart .ch-tip {
+  position: absolute; bottom: 4px; left: 0; width: 128px; text-align: center;
+  pointer-events: none; display: flex; flex-direction: column; gap: 1px;
+  background: color-mix(in srgb, var(--ink-900) 92%, transparent);
+  border: 1px solid var(--ink-800); border-radius: 6px; padding: 4px 6px;
+}
+/* 값이 앞, 날짜가 뒤 */
+.chart .ch-tip .v { font-size: 12px; color: var(--ink-50); line-height: 1.2; }
+.chart .ch-tip .d { font-size: 9px; color: var(--ink-400); }
+
+@media (max-width: 860px) {
+  .chart-grid { grid-template-columns: 1fr; }
+  .chart { border-left: 0; border-top: 1px solid var(--ink-800); }
+  .chart:first-child { border-top: 0; }
+}
