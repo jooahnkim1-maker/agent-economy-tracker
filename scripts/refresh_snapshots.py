@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""x402 Bazaar(CDP·PayAI) / agentscan 스냅샷 갱신.
+"""x402 Bazaar(CDP·PayAI) / agentscan / Visa Onchain Analytics 스냅샷 갱신.
 
-이 세 곳은 응답에 CORS 헤더가 없어 브라우저가 직접 읽지 못한다. 그래서 여기서 받아
-data/snapshots/*.json에 떨궈 두고, 대시보드는 그 파일을 읽는다.
+이 소스들은 브라우저가 직접 읽지 못한다. Bazaar·agentscan은 CORS 헤더가 없고, Visa가 쓰는
+Allium 엔드포인트는 CORS가 visaonchainanalytics.com으로 잠겨 있다. 서버 사이드에는 그 제약이
+없으므로 여기서 받아 data/snapshots/*.json에 떨궈 두고, 대시보드는 그 파일을 읽는다.
 
     python3 scripts/refresh_snapshots.py            # 전체 갱신
     python3 scripts/refresh_snapshots.py --quick    # bazaar는 앞 5페이지만 (총계는 그대로)
@@ -39,6 +40,16 @@ BAZAARS = {
     "bazaar-cdp": "https://api.cdp.coinbase.com/platform/v2/x402/discovery/resources",
     "bazaar-payai": "https://facilitator.payai.network/discovery/resources",
 }
+
+# ── Visa Onchain Analytics ────────────────────────────────────────────
+# visaonchainanalytics.com은 Allium이 퍼블리시한 공유 테이블에 SQL을 던져 화면을 그린다.
+# 그 테이블을 그대로 읽는다: 일자 × 체인 × 스테이블코인 × 소매여부의 거래액과 건수.
+# 'Retail Sized'는 Visa가 소매 결제 규모로 분류한 버킷으로, 에이전트 소액결제가 사는 구간이다.
+ALLIUM_SQL = ("https://app-server-dp-xjpv5b26pq-uw.a.run.app"
+              "/api/v1/explorer/results/data?format=json")
+VISA_TABLE = '"share"."JKyWRaJi"."8PB6ygqkEz8EsigX7Dpr"'
+VISA_DAILY_DAYS = 90
+VISA_MONTHS = 24
 
 
 def get_json(url: str, timeout: int = 60) -> dict:
@@ -164,6 +175,78 @@ def write(name: str, items: list[dict], total: int, extra: dict) -> None:
     print(f"  {name}: total={total:,} items={len(items):,} {shown} (24h)")
 
 
+def allium(sql: str, timeout: int = 90) -> list[dict]:
+    """Allium 공유 테이블에 SQL을 던진다. 인증이 없고 JSON 배열을 돌려준다."""
+    body = json.dumps({"sql": sql}).encode()
+    req = urllib.request.Request(ALLIUM_SQL, body, {**UA, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        rows = json.load(r)
+    if not isinstance(rows, list):
+        raise ValueError(f"예상치 못한 응답: {str(rows)[:120]}")
+    return rows
+
+
+def fetch_visa() -> dict:
+    """Visa 대시보드가 쓰는 것과 같은 테이블에서 필요한 집계만 뽑는다."""
+    T = VISA_TABLE
+    one = lambda sql: (allium(sql) or [{}])[0]
+
+    as_of = one(f"SELECT MAX(day)::DATE AS as_of FROM {T}").get("as_of")
+    if not as_of:
+        raise ValueError("as_of 없음")
+    as_of = str(as_of)[:10]
+
+    # 최신 데이터일 기준 30일. CURRENT_DATE를 쓰면 적재가 하루 밀릴 때 창이 어긋난다.
+    win = f"day::DATE > DATE '{as_of}' - 30 AND day::DATE <= DATE '{as_of}'"
+
+    by_tag = allium(
+        f"SELECT tag, SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
+        f"FROM {T} WHERE {win} GROUP BY tag")
+    tags = {r["tag"]: r for r in by_tag}
+    pick = lambda t: {"vol": float(tags.get(t, {}).get("vol") or 0),
+                      "cnt": int(tags.get(t, {}).get("cnt") or 0)}
+
+    daily = allium(
+        f"SELECT day::DATE AS day, "
+        f"SUM(CASE WHEN tag='Retail Sized' THEN usd_amount ELSE 0 END) AS retail_vol, "
+        f"SUM(CASE WHEN tag='Retail Sized' THEN txn_count ELSE 0 END) AS retail_cnt, "
+        f"SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
+        f"FROM {T} WHERE day::DATE > DATE '{as_of}' - {VISA_DAILY_DAYS} "
+        f"GROUP BY 1 ORDER BY 1")
+
+    monthly = allium(
+        f"SELECT strftime(day::DATE, '%Y-%m') AS month, "
+        f"SUM(CASE WHEN tag='Retail Sized' THEN usd_amount ELSE 0 END) AS retail_vol, "
+        f"SUM(usd_amount) AS vol "
+        f"FROM {T} WHERE day::DATE > DATE '{as_of}' - {VISA_MONTHS * 31} "
+        f"GROUP BY 1 ORDER BY 1")
+
+    chains = allium(
+        f"SELECT chain AS name, SUM(usd_amount) AS vol, SUM(txn_count) AS cnt "
+        f"FROM {T} WHERE {win} AND tag='Retail Sized' GROUP BY 1 ORDER BY vol DESC")
+
+    assets = allium(
+        f"SELECT base_asset AS name, SUM(usd_amount) AS vol "
+        f"FROM {T} WHERE {win} AND tag='Retail Sized' GROUP BY 1 ORDER BY vol DESC")
+
+    num = lambda v: float(v or 0)
+    return {
+        "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "asOf": as_of,
+        "source": "Visa Onchain Analytics (Allium)",
+        "sourceUrl": "https://visaonchainanalytics.com/transactions",
+        "window30": {"retail": pick("Retail Sized"), "nonRetail": pick("Non Retail Sized")},
+        "daily": [{"day": str(r["day"])[:10], "retailVol": num(r["retail_vol"]),
+                   "retailCnt": int(r["retail_cnt"] or 0), "vol": num(r["vol"]),
+                   "cnt": int(r["cnt"] or 0)} for r in daily],
+        "monthly": [{"month": r["month"], "retailVol": num(r["retail_vol"]),
+                     "vol": num(r["vol"])} for r in monthly][-VISA_MONTHS:],
+        "chains": [{"name": r["name"], "vol": num(r["vol"]), "cnt": int(r["cnt"] or 0)}
+                   for r in chains],
+        "assets": [{"name": r["name"], "vol": num(r["vol"])} for r in assets],
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--quick", action="store_true", help="bazaar는 앞 5페이지만 읽는다")
@@ -188,6 +271,18 @@ def main() -> int:
         ok += 1
     except Exception as e:
         print(f"  agentscan: 실패 ({e}) — 기존 스냅샷 유지", file=sys.stderr)
+
+    try:
+        v = fetch_visa()
+        (OUT / "visa-stablecoin.json").write_text(
+            json.dumps(v, ensure_ascii=False, indent=1), encoding="utf-8")
+        r = v["window30"]["retail"]
+        print(f"  visa-stablecoin: as_of={v['asOf']} 소매 30일 "
+              f"${r['vol']:,.0f} / {r['cnt']:,}건 "
+              f"(체인 {len(v['chains'])} · 자산 {len(v['assets'])})")
+        ok += 1
+    except Exception as e:
+        print(f"  visa-stablecoin: 실패 ({e}) — 기존 스냅샷 유지", file=sys.stderr)
 
     return 0 if ok else 1
 

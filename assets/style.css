@@ -144,7 +144,9 @@ nav.tabs a.on { color: var(--ink-50); border-bottom-color: var(--ink-100); }
 }
 .signal .label { display: flex; align-items: center; gap: 7px; font-size: 9px; letter-spacing: .2em; color: var(--ink-500); }
 .signal .label .live { width: 4px; height: 4px; border-radius: 50%; background: var(--ink-200); animation: pulse 1.8s ease-in-out infinite; }
-.signal .value { display: block; margin: 10px 0 8px; font-size: 28px; font-weight: 300; line-height: 1; color: var(--ink-50); }
+.signal .value { display: block; margin: 10px 0 8px; font-size: 28px; font-weight: 300; line-height: 1; color: var(--ink-50);
+  /* 자릿수가 긴 값이 옆 타일을 침범하지 않도록. 포맷이 접어도 최후 방어선은 둔다. */
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .signal .value.empty { color: var(--ink-600); }
 .signal .foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; min-height: 28px; }
 .signal .delta { font-size: 11px; }

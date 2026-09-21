@@ -19,6 +19,7 @@ AI 에이전트들이 서로에게 지불한 **거래액을 추적하는 대시�
 | **결제** | Base·Polygon에서 facilitator가 제출하는 USDC 정산을 실시간으로. 지불자 → facilitator → 서비스 흐름도 + 최근 목록 |
 | **레지스트리** | Base·BNB의 ERC-8004 등록을 실시간으로. 행을 누르면 등록 파일을 파싱해 카드로 보여준다 |
 | **마켓플레이스** | 에이전트와 유료 서비스가 등록되는 곳 12군데와 각각이 공개하는 수치 |
+| **스테이블코인** | x402가 올라타 있는 레일의 크기. Visa Onchain Analytics가 쓰는 데이터를 그대로 읽는다 |
 
 ## 데이터 출처
 
@@ -46,10 +47,17 @@ USDC는 **성공한** EIP-3009 호출에서만 `AuthorizationUsed`를 낸다. �
 체인별 x402 결제 분포는 원본 쪽에서 별도 주기로 갱신되어 총계보다 며칠 뒤처진다. 카드에 기준
 날짜를 같이 찍어 두는 이유다.
 
-**스냅샷 — CORS가 막힌 곳**
+**스냅샷 — 브라우저가 못 읽는 곳**
 
-x402 Bazaar(Coinbase CDP), PayAI Bazaar, agentscan은 응답에 CORS 헤더가 없어 브라우저가 직접
-읽지 못한다. 스크립트로 받아 `data/snapshots/`에 두고 대시보드는 그 파일을 읽는다.
+x402 Bazaar(Coinbase CDP), PayAI Bazaar, agentscan은 응답에 CORS 헤더가 없다. Visa가 쓰는
+Allium 엔드포인트는 CORS가 `visaonchainanalytics.com`으로 못박혀 있어 다른 오리진에서는 아예
+거절된다. 서버 사이드에는 그 제약이 없으므로 스크립트로 받아 `data/snapshots/`에 두고
+대시보드는 그 파일을 읽는다.
+
+Visa 쪽은 `visaonchainanalytics.com`이 화면을 그릴 때 던지는 것과 **같은 공유 테이블에 같은
+방식으로 SQL을 던진다** — 스크린 스크래핑이 아니라 데이터 원본을 읽는다. 테이블은 일자 ×
+체인(22) × 스테이블코인(13) × 소매여부로 쪼갠 거래액과 건수를 2017년부터 담고 있다.
+`Retail Sized`는 Visa가 소매 결제 규모로 분류한 버킷으로, 에이전트 소액결제가 사는 구간이다.
 
 ```sh
 python3 scripts/refresh_snapshots.py           # 전체 (bazaar 수만 건, 몇 분)
@@ -84,6 +92,12 @@ scripts/refresh_snapshots.py
 - **보관 창은 체인별로 따로** 잡는다(각 200건). 공유하면 정산이 4배 잦은 Polygon이 Base를
   버퍼 밖으로 밀어낸다.
 - 흐름도는 최근 60건만 그린다. 노드가 그 이상이면 O(n²) 반발력 계산이 눈에 띄게 느려진다.
+- **Visa의 "Adjusted"와 이 테이블의 합계는 다르다.** 페이지 상단 `Adjusted Transaction Volume`
+  (30일 $309.8B)은 다른 집계이고, 이 테이블의 `Retail Sized` + `Non Retail Sized` 합은
+  훨씬 크다. 대시보드가 페이지와 맞춰 쓰는 값은 **`Retail Sized`** 쪽이다(검증 시점 기준
+  이 테이블 $7.67B / 169.8M건 대 페이지 $7.9B / 175.6M건). 나머지는 "전체"로만 표기한다.
+- Visa 공유 테이블 ID(`share.JKyWRaJi.8PB6ygqkEz8EsigX7Dpr`)는 상수로 박혀 있다. Allium이
+  데이터셋을 새로 퍼블리시하면 바뀔 수 있고, 그때는 수집이 실패하며 기존 스냅샷이 유지된다.
 
 ## 출처
 

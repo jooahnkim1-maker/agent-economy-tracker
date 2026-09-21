@@ -74,6 +74,19 @@ const usd = (n, digits = 2) =>
   new Intl.NumberFormat(LOCALE, { style: 'currency', currency: 'USD', maximumFractionDigits: digits }).format(n);
 const short = (addr, n = 4) => (addr ? `${addr.slice(0, 2 + n)}…${addr.slice(-n)}` : '');
 
+/**
+ * 조/억 단위로 접은 달러. 스테이블코인 레일은 자릿수가 열 자리를 넘어 타일 폭을 넘치고,
+ * 자릿수를 다 읽는 것보다 규모가 눈에 들어오는 편이 낫다.
+ */
+function usdCompact(n) {
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return `US$${(n / 1e12).toFixed(2)}조`;
+  if (abs >= 1e11) return `US$${num(Math.round(n / 1e8))}억`;
+  if (abs >= 1e8) return `US$${(n / 1e8).toFixed(1)}억`;
+  if (abs >= 1e4) return `US$${num(Math.round(n / 1e4))}만`;
+  return usd(n, 0);
+}
+
 function timeAgo(ts) {
   const s = Math.max(0, (Date.now() - new Date(ts).getTime()) / 1000);
   if (s < 60) return `${Math.floor(s)}초`;
@@ -962,6 +975,94 @@ async function viewMarketplaces() {
   </div>`;
 }
 
+/* ══ 15b. 뷰 : 스테이블코인 (Visa Onchain Analytics) ══════════════ */
+
+/**
+ * Visa가 쓰는 Allium 공유 테이블을 그대로 읽어 온 스냅샷. x402가 올라타 있는 레일이
+ * 얼마나 큰지, 그중 에이전트 소액결제가 사는 'Retail Sized' 구간은 어느 정도인지 보여준다.
+ * CORS가 visaonchainanalytics.com으로 잠겨 있어 브라우저가 직접 못 부른다 — CI가 매일 받는다.
+ */
+
+/** 체인 표기를 대시보드의 나머지와 맞춘다. 모르는 값은 첫 글자만 올린다. */
+const CHAIN_LABEL = {
+  bsc: 'BNB Chain', bnb: 'BNB Chain', tron: 'Tron', solana: 'Solana',
+  ethereum: 'Ethereum', polygon: 'Polygon', base: 'Base', avalanche: 'Avalanche',
+  arbitrum: 'Arbitrum', optimism: 'Optimism', celo: 'Celo', aptos: 'Aptos',
+  ton: 'TON', sui: 'Sui', near: 'NEAR', stellar: 'Stellar', codex: 'Codex',
+};
+const chainLabel = (n) => CHAIN_LABEL[String(n).toLowerCase()] ?? String(n).replace(/^./, (c) => c.toUpperCase());
+
+async function viewStablecoin() {
+  const [v, ae] = await Promise.all([
+    loadJSON('data/snapshots/visa-stablecoin.json').catch(() => null),
+    loadAgentEconomy().catch(() => null),
+  ]);
+  if (!v) {
+    return `<div class="panel fade-in"><p class="empty-note">스냅샷을 불러오지 못했습니다.</p></div>`;
+  }
+
+  const r = v.window30.retail, nr = v.window30.nonRetail;
+  const totalVol = r.vol + nr.vol, totalCnt = r.cnt + nr.cnt;
+
+  const retailMonthly = v.monthly.map((m) => m.retailVol);
+  const allMonthly = v.monthly.map((m) => m.vol);
+  const retailDaily = v.daily.map((d) => d.retailVol);
+  const retailCntDaily = v.daily.map((d) => d.retailCnt);
+  const allDaily = v.daily.map((d) => d.vol);
+  const allCntDaily = v.daily.map((d) => d.cnt);
+
+  const chains = shares(v.chains.map((c) => ({ name: chainLabel(c.name), value: c.vol })));
+  const chainCnt = shares(v.chains.map((c) => ({ name: chainLabel(c.name), value: c.cnt })));
+  const assets = shares(v.assets.map((a) => ({ name: a.name, value: a.vol })));
+
+  // 두 시리즈 모두 진행 중인 달로 끝난다. 마지막에서 두 번째가 완결된 같은 달이다.
+  const lastFull = (arr) => (arr.length >= 2 ? arr[arr.length - 2] : null);
+  const x402Month = ae ? lastFull(ae.x402.monthly.map((m) => m.vol)) : null;
+  const retailMonth = lastFull(retailMonthly);
+  const x402Share = x402Month && retailMonth ? (x402Month / retailMonth) * 100 : null;
+
+  const topChain = chains.find((c) => c.name !== '__others__');
+  const topAsset = assets.find((a) => a.name !== '__others__');
+  const facts = [
+    topChain && ['최다 체인', `${topChain.name} ${topChain.pct.toFixed(1)}%`],
+    topAsset && ['최다 스테이블코인', `${topAsset.name} ${topAsset.pct.toFixed(1)}%`],
+    ['소매형 비중(건수)', `${((r.cnt / (totalCnt || 1)) * 100).toFixed(1)}%`],
+    x402Share != null && ['직전 월 x402 / 소매형', `${x402Share < 0.01 ? '<0.01' : x402Share.toFixed(3)}%`],
+  ].filter(Boolean);
+
+  return `
+  <div class="panel fade-in">
+    <div class="panel-head">
+      <div><p class="eyebrow upper">Visa Onchain Analytics · 30일</p><h2>스테이블코인 결제 레일</h2></div>
+      <span class="meta">${esc(v.asOf)} 기준 · 스냅샷 ${timeAgo(v.generatedAt)} 전</span>
+    </div>
+    <div class="signals">
+      ${signal({ label: '소매형 거래액', value: r.vol, format: usdCompact,
+        tr: periodTrend(retailMonthly), trendLabel: '직전 완결 월 대 그 전월', series: retailDaily })}
+      ${signal({ label: '소매형 거래 건수', value: r.cnt, format: compact,
+        tr: trend(retailCntDaily), series: retailCntDaily,
+        sub: `에이전트 소액결제가 사는 구간` })}
+      ${signal({ label: '전체 거래액', value: totalVol, format: usdCompact,
+        tr: periodTrend(allMonthly), trendLabel: '직전 완결 월 대 그 전월', series: allDaily })}
+      ${signal({ label: '전체 거래 건수', value: totalCnt, format: compact,
+        tr: trend(allCntDaily), series: allCntDaily,
+        sub: `${v.chains.length}개 체인 · ${v.assets.length}종` })}
+      <p class="source-note">출처: <a href="${esc(v.sourceUrl)}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(v.source)}</a> · Visa가 쓰는 공유 테이블을 그대로 읽는다 · 매일 1회 갱신</p>
+    </div>
+  </div>
+
+  <div class="panel fade-in" style="animation-delay:.05s">
+    <div class="panel-head"><div><p class="eyebrow upper">분포</p><h2>소매형 거래가 어디서 오가나</h2></div></div>
+    <div class="facts">${facts.map(([k, val]) =>
+      `<span class="fact"><span class="k upper">${esc(k)}</span><span class="v tab">${esc(val)}</span></span>`).join('')}</div>
+    <div class="bars-grid">
+      ${bars({ title: '체인별 소매형 거래액', rows: chains, unit: 'pct' })}
+      ${bars({ title: '스테이블코인별 소매형 거래액', rows: assets, unit: 'pct' })}
+      ${bars({ title: '체인별 소매형 거래 건수', rows: chainCnt, unit: 'count' })}
+    </div>
+  </div>`;
+}
+
 /* ══ 16. 라우터 ═══════════════════════════════════════════════════ */
 
 const ROUTES = {
@@ -969,6 +1070,7 @@ const ROUTES = {
   payments:     { title: '결제',        lead: 'Base와 Polygon에서 facilitator가 제출하는 USDC 정산을 실시간으로 확인.', render: viewPayments },
   registry:     { title: '레지스트리',  lead: 'Base와 BNB에 등록되는 에이전트를 실시간으로 확인.', render: viewRegistry },
   marketplaces: { title: '마켓플레이스', lead: '에이전트와 유료 서비스가 등록되는 곳, 그리고 각각이 공개하는 데이터.', render: viewMarketplaces },
+  stablecoin:   { title: '스테이블코인', lead: 'x402가 올라타 있는 레일의 크기. Visa Onchain Analytics가 쓰는 데이터를 그대로 읽는다.', render: viewStablecoin },
 };
 
 const view = document.getElementById('view');
