@@ -1,16 +1,17 @@
 {
- "generatedAt": "2026-09-26T23:24:10.464499Z",
- "total": 17545,
- "added24h": 733,
+ "generatedAt": "2026-09-27T23:39:05.654131Z",
+ "total": 17663,
+ "added24h": 823,
  "networks": {
-  "eip155:8453": 16400,
-  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 725,
-  "eip155:84532": 171,
+  "eip155:8453": 16440,
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 731,
+  "eip155:84532": 206,
   "eip155:56": 1,
   "eip155:196": 4,
-  "base": 196,
+  "base": 201,
+  "eip155:137": 10,
   "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1": 35,
-  "eip155:5042": 1,
+  "eip155:5042": 23,
   "eip155:11142220": 1,
   "solana": 1,
   "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=": 1,
@@ -20,58 +21,13 @@
  },
  "items": [
   {
-   "key": "https://api.sirenic.eu/v1/eu/entreprise/NO/:id",
-   "name": "api.sirenic.eu",
-   "url": "https://api.sirenic.eu/v1/eu/entreprise/NO/:id",
+   "key": "https://agents.chain.link/v1/operations/:workflowName",
+   "name": "agents.chain.link",
+   "url": "https://agents.chain.link/v1/operations/:workflowName",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T23:21:37.582Z"
-  },
-  {
-   "key": "https://keyring-agent.blockchhub.link/api/send-native",
-   "name": "keyring-agent.blockchhub.link",
-   "url": "https://keyring-agent.blockchhub.link/api/send-native",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T23:17:34.011Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/hash-integrity",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/hash-integrity",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:17:12.929Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/dockerfile-audit",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/dockerfile-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T23:16:43.49Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/chat/completions",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T23:16:20.779Z"
-  },
-  {
-   "key": "https://svm402.com/wash-delta/:address",
-   "name": "svm402.com",
-   "url": "https://svm402.com/wash-delta/:address",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-26T23:16:08.171Z"
+   "updated": "2026-09-27T23:34:15.705Z"
   },
   {
    "key": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
@@ -80,43 +36,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T23:15:54.088Z"
-  },
-  {
-   "key": "https://keyring-agent.blockchhub.link/api/send-token",
-   "name": "keyring-agent.blockchhub.link",
-   "url": "https://keyring-agent.blockchhub.link/api/send-token",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T23:15:50.495Z"
-  },
-  {
-   "key": "https://crosscheckapi.com/v1/check",
-   "name": "crosscheckapi.com",
-   "url": "https://crosscheckapi.com/v1/check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T23:14:32.816Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/http-header-audit",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/http-header-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:13:15.694Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/environment-contract",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/environment-contract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:12:58.879Z"
+   "updated": "2026-09-27T23:34:09.728Z"
   },
   {
    "key": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_smartmoney",
@@ -125,16 +45,16 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "20000",
-   "updated": "2026-09-26T23:12:52.652Z"
+   "updated": "2026-09-27T23:32:55.923Z"
   },
   {
-   "key": "https://agents.chain.link/v1/operations/:workflowName",
-   "name": "agents.chain.link",
-   "url": "https://agents.chain.link/v1/operations/:workflowName",
+   "key": "https://signal-engine-production-d88d.up.railway.app/v1/arena/vwap_reversion/DOGE",
+   "name": "signal-engine-production-d88d.up.railway.app",
+   "url": "https://signal-engine-production-d88d.up.railway.app/v1/arena/vwap_reversion/DOGE",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T23:12:52.149Z"
+   "price": "1000",
+   "updated": "2026-09-27T23:32:29.651Z"
   },
   {
    "key": "https://agents.chain.link/v1/operations/:operationId/submit",
@@ -143,205 +63,16 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-09-26T23:12:10.353Z"
+   "updated": "2026-09-27T23:32:10.641Z"
   },
   {
-   "key": "https://api.solenrich.com/entrypoints/stonk-alerts/invoke",
-   "name": "api.solenrich.com",
-   "url": "https://api.solenrich.com/entrypoints/stonk-alerts/invoke",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "20000",
-   "updated": "2026-09-26T23:10:36.979Z"
-  },
-  {
-   "key": "https://api.x402node.dev/pool/day-data",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/pool/day-data",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T23:10:18.576Z"
-  },
-  {
-   "key": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_whale",
-   "name": "x402.sniperx.fun",
-   "url": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_whale",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "20000",
-   "updated": "2026-09-26T23:10:14.392Z"
-  },
-  {
-   "key": "https://api.x402node.dev/chain/mempool-gas",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/chain/mempool-gas",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-09-26T23:10:01.066Z"
-  },
-  {
-   "key": "https://smx.space/v1/markets/moon-race-us-china-test-v2/mid",
-   "name": "smx.space",
-   "url": "https://smx.space/v1/markets/moon-race-us-china-test-v2/mid",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:09:00.376Z"
-  },
-  {
-   "key": "https://api.3route.io/v1/:chainId/quote",
-   "name": "api.3route.io",
-   "url": "https://api.3route.io/v1/:chainId/quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:08:56.639Z"
-  },
-  {
-   "key": "https://smx.space/agent/markets/moon-race-us-china-test-v2",
-   "name": "smx.space",
-   "url": "https://smx.space/agent/markets/moon-race-us-china-test-v2",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:08:56.507Z"
-  },
-  {
-   "key": "https://smx.space/v1/markets/starship-f14-splashdown-test/mid",
-   "name": "smx.space",
-   "url": "https://smx.space/v1/markets/starship-f14-splashdown-test/mid",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:08:50.677Z"
-  },
-  {
-   "key": "https://smx.space/agent/markets/starship-f14-splashdown-test",
-   "name": "smx.space",
-   "url": "https://smx.space/agent/markets/starship-f14-splashdown-test",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:08:46.398Z"
-  },
-  {
-   "key": "https://smx.space/agent/markets",
-   "name": "smx.space",
-   "url": "https://smx.space/agent/markets",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:08:40.669Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/bazaar-metadata-check",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/bazaar-metadata-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:08:29.99Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/json-toolbox",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/json-toolbox",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:08:13.805Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/docs/discover",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/docs/discover",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-09-26T23:07:05.611Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/domain/preflight",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/domain/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T23:07:03.618Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/package/preflight",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/package/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T23:07:01.598Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/release/asset-resolve",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/release/asset-resolve",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T23:06:59.624Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/service/status",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/service/status",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T23:06:57.638Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/page/downloads",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/page/downloads",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T23:06:55.965Z"
-  },
-  {
-   "key": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/url/preflight",
-   "name": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run/url/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T23:06:53.675Z"
-  },
-  {
-   "key": "https://predix-agent-api.fly.dev/agent/markets",
-   "name": "predix-agent-api.fly.dev",
-   "url": "https://predix-agent-api.fly.dev/agent/markets",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T23:05:46.486Z"
-  },
-  {
-   "key": "https://svm402.com/wash-trading/:address",
+   "key": "https://svm402.com/wash-delta/:address",
    "name": "svm402.com",
-   "url": "https://svm402.com/wash-trading/:address",
+   "url": "https://svm402.com/wash-delta/:address",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T23:05:45.617Z"
-  },
-  {
-   "key": "https://svm402.com/holdcheck/:address",
-   "name": "svm402.com",
-   "url": "https://svm402.com/holdcheck/:address",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-26T23:05:37.118Z"
+   "updated": "2026-09-27T23:32:05.867Z"
   },
   {
    "key": "https://svm402.com/price/:address",
@@ -350,43 +81,196 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T23:05:21.992Z"
+   "updated": "2026-09-27T23:31:56.741Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/routing-isochrones",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/routing-isochrones",
+   "key": "https://blockrun.ai/api/v1/chat/completions",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/chat/completions",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T23:05:05.842Z"
+   "price": "2000",
+   "updated": "2026-09-27T23:31:35.736Z"
   },
   {
-   "key": "https://x402.orthogonal.com/speixFkLB/api/v1/hourly",
-   "name": "x402.orthogonal.com",
-   "url": "https://x402.orthogonal.com/speixFkLB/api/v1/hourly",
+   "key": "https://api.3route.io/v1/:chainId/quote",
+   "name": "api.3route.io",
+   "url": "https://api.3route.io/v1/:chainId/quote",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:31:24.117Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/python-dependency-risk-scan",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/python-dependency-risk-scan",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T23:05:05.74Z"
+   "updated": "2026-09-27T23:31:09.552Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/robinhood",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/robinhood",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/prompt-injection-red-team",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/prompt-injection-red-team",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T23:05:04.217Z"
+   "price": "10000",
+   "updated": "2026-09-27T23:31:08.269Z"
   },
   {
-   "key": "https://www.cultos.dev/services/crypto-feed",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/crypto-feed",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/production-security-audit",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/production-security-audit",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T23:03:00.356Z"
+   "price": "10000",
+   "updated": "2026-09-27T23:31:06.961Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/page-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/page-pack",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:31:05.861Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/outreach-brief",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/outreach-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:31:04.676Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/model/artifact-order",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/model/artifact-order",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:31:03.409Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/mcp-tool-server-build",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/mcp-tool-server-build",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:31:02.108Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/local-business-demo-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/local-business-demo-pack",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:31:00.865Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/llm-judge",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/llm-judge",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:59.757Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/lead-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/lead-pack",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:58.587Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/code-execution",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/code-execution",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:57.444Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/artifact-receipt-console-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/artifact-receipt-console-pack",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:56.345Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/ai-agent-skill-port",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/ai-agent-skill-port",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:55.074Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/ai-agent-buyer-service-bundle",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/ai-agent-buyer-service-bundle",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:53.881Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-tool-schema-repair",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-tool-schema-repair",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:52.628Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-supply-chain-baseline",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-supply-chain-baseline",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:51.494Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-service-distribution-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-service-distribution-pack",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:50.182Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-registry",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-registry",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:49.091Z"
+  },
+  {
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-readiness-scorecard",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-readiness-scorecard",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:47.936Z"
   },
   {
    "key": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_kol",
@@ -395,187 +279,241 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "20000",
-   "updated": "2026-09-26T23:02:48.055Z"
+   "updated": "2026-09-27T23:30:47.695Z"
   },
   {
-   "key": "https://svm402.com/analyze",
-   "name": "svm402.com",
-   "url": "https://svm402.com/analyze",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "30000",
-   "updated": "2026-09-26T23:02:37.074Z"
-  },
-  {
-   "key": "https://svm402.com/organic/:address",
-   "name": "svm402.com",
-   "url": "https://svm402.com/organic/:address",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-26T23:02:19.627Z"
-  },
-  {
-   "key": "https://svm402.com/discover",
-   "name": "svm402.com",
-   "url": "https://svm402.com/discover",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-26T23:02:18.336Z"
-  },
-  {
-   "key": "https://stableenrich.dev/api/exa/contents",
-   "name": "stableenrich.dev",
-   "url": "https://stableenrich.dev/api/exa/contents",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T23:01:55.491Z"
-  },
-  {
-   "key": "https://stableenrich.dev/api/exa/search",
-   "name": "stableenrich.dev",
-   "url": "https://stableenrich.dev/api/exa/search",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-payment-readiness-audit",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-payment-readiness-audit",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T23:01:44.875Z"
+   "updated": "2026-09-27T23:30:46.786Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/web-read",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/web-read",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T23:00:57.607Z"
-  },
-  {
-   "key": "https://win.oneshotagent.com/v1/tools/enrich/company",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/enrich/company",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T23:00:55.849Z"
-  },
-  {
-   "key": "https://x402.botsmith.dev/x/search",
-   "name": "x402.botsmith.dev",
-   "url": "https://x402.botsmith.dev/x/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T23:00:54.217Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-marketplace-listing-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-marketplace-listing-pack",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T23:00:38.589Z"
+   "updated": "2026-09-27T23:30:45.721Z"
   },
   {
-   "key": "https://a2apay.io/api/agent-service",
-   "name": "a2apay.io",
-   "url": "https://a2apay.io/api/agent-service",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-discovery-pack",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-discovery-pack",
    "type": "http",
    "network": "eip155:8453",
-   "price": "28000",
-   "updated": "2026-09-26T23:00:32.816Z"
+   "price": "10000",
+   "updated": "2026-09-27T23:30:44.209Z"
   },
   {
-   "key": "https://base-gas-x402-production.up.railway.app/gas",
-   "name": "base-gas-x402-production.up.railway.app",
-   "url": "https://base-gas-x402-production.up.railway.app/gas",
+   "key": "https://agents.daedalusdevelopmentgroup.com/v1/agent-checkout-conformance-audit",
+   "name": "agents.daedalusdevelopmentgroup.com",
+   "url": "https://agents.daedalusdevelopmentgroup.com/v1/agent-checkout-conformance-audit",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T23:00:01.804Z"
+   "price": "10000",
+   "updated": "2026-09-27T23:30:42.918Z"
   },
   {
-   "key": "https://www.cultos.dev/api/reviews",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/api/reviews",
+   "key": "https://agentres.dev/api/wait-times",
+   "name": "agentres.dev",
+   "url": "https://agentres.dev/api/wait-times",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:30:41.039Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-brief",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "500000",
+   "updated": "2026-09-27T23:30:11.752Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/council-deep",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/council-deep",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "350000",
+   "updated": "2026-09-27T23:29:57.482Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/thesis-engine",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/thesis-engine",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "300000",
+   "updated": "2026-09-27T23:29:45.996Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/event-playbook",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/event-playbook",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "250000",
+   "updated": "2026-09-27T23:29:31.606Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/equity-dossier",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/equity-dossier",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "250000",
+   "updated": "2026-09-27T23:29:18.571Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/relatorio",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/relatorio",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "250000",
+   "updated": "2026-09-27T23:29:04.327Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/job/token-research",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/job/token-research",
    "type": "http",
    "network": "eip155:8453",
    "price": "200000",
-   "updated": "2026-09-26T23:00:01.671Z"
+   "updated": "2026-09-27T23:28:51.904Z"
   },
   {
-   "key": "https://www.cultos.dev/services/encoding-toolbox",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/encoding-toolbox",
+   "key": "https://api.losbeto.xyz/global-morning-brief",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/global-morning-brief",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:59:25.906Z"
+   "price": "200000",
+   "updated": "2026-09-27T23:28:40.465Z"
   },
   {
-   "key": "https://api.loyalspark.online/x402-gateway/recipient-api/prepare-transfer",
-   "name": "api.loyalspark.online",
-   "url": "https://api.loyalspark.online/x402-gateway/recipient-api/prepare-transfer",
+   "key": "https://api.losbeto.xyz/whale-dossier",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/whale-dossier",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:57:22.784Z"
+   "price": "200000",
+   "updated": "2026-09-27T23:28:27.715Z"
   },
   {
-   "key": "https://blockrun.ai/api/v1/exa/search",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/exa/search",
+   "key": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
+   "name": "api.nansen.ai",
+   "url": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
    "type": "http",
    "network": "eip155:8453",
-   "price": "11000",
-   "updated": "2026-09-26T22:57:21.509Z"
-  },
-  {
-   "key": "https://predix-agent-api.fly.dev/v1/markets/moon-race-us-china-test-v2/mid",
-   "name": "predix-agent-api.fly.dev",
-   "url": "https://predix-agent-api.fly.dev/v1/markets/moon-race-us-china-test-v2/mid",
-   "type": "http",
-   "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-26T22:57:04.325Z"
+   "updated": "2026-09-27T23:28:24.586Z"
   },
   {
-   "key": "https://api.seerium.xyz/v1/pulse/latest",
-   "name": "api.seerium.xyz",
-   "url": "https://api.seerium.xyz/v1/pulse/latest",
+   "key": "https://api.losbeto.xyz/br-revisions",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-revisions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "190000",
+   "updated": "2026-09-27T23:28:16.57Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/correlation-matrix",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/correlation-matrix",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "180000",
+   "updated": "2026-09-27T23:28:04.166Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/job/br-market-brief",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/job/br-market-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-09-27T23:27:49.545Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/job/wallet-audit",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/job/wallet-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-09-27T23:27:11.649Z"
+  },
+  {
+   "key": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_whale",
+   "name": "x402.sniperx.fun",
+   "url": "https://x402.sniperx.fun/api/v1/token/activities/smarttraders_whale",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "20000",
+   "updated": "2026-09-27T23:27:01.448Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sector-rotation",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sector-rotation",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-09-27T23:26:57.488Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/launch-sniper",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/launch-sniper",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-09-27T23:26:46.246Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/council",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/council",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-09-27T23:26:33.946Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/portfolio-copilot",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/portfolio-copilot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "120000",
+   "updated": "2026-09-27T23:26:21.617Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/buy-credits-micro",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/buy-credits-micro",
    "type": "http",
    "network": "eip155:8453",
    "price": "100000",
-   "updated": "2026-09-26T22:57:03.79Z"
+   "updated": "2026-09-27T23:26:09.528Z"
   },
   {
-   "key": "https://predix-agent-api.fly.dev/agent/markets/moon-race-us-china-test-v2",
-   "name": "predix-agent-api.fly.dev",
-   "url": "https://predix-agent-api.fly.dev/agent/markets/moon-race-us-china-test-v2",
+   "key": "https://api.losbeto.xyz/launch-risk",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/launch-risk",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T22:57:00.344Z"
-  },
-  {
-   "key": "https://predix-agent-api.fly.dev/agent/markets/starship-f14-splashdown-test",
-   "name": "predix-agent-api.fly.dev",
-   "url": "https://predix-agent-api.fly.dev/agent/markets/starship-f14-splashdown-test",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T22:56:50.33Z"
-  },
-  {
-   "key": "https://predix-agent-api.fly.dev/v1/markets/starship-f14-splashdown-test/mid",
-   "name": "predix-agent-api.fly.dev",
-   "url": "https://predix-agent-api.fly.dev/v1/markets/starship-f14-splashdown-test/mid",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-26T22:56:38.285Z"
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-09-27T23:25:57.371Z"
   },
   {
    "key": "https://api.solenrich.com/entrypoints/stonk-quote/invoke",
@@ -584,7 +522,16 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "5000",
-   "updated": "2026-09-26T22:55:40.007Z"
+   "updated": "2026-09-27T23:25:45.667Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/wallet-scan",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/wallet-scan",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-09-27T23:25:44.838Z"
   },
   {
    "key": "https://api.solenrich.com/entrypoints/stonk-gems/invoke",
@@ -593,61 +540,88 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "30000",
-   "updated": "2026-09-26T22:55:37.156Z"
+   "updated": "2026-09-27T23:25:38.554Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/research/person",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/research/person",
+   "key": "https://api.solenrich.com/entrypoints/stonk-alerts/invoke",
+   "name": "api.solenrich.com",
+   "url": "https://api.solenrich.com/entrypoints/stonk-alerts/invoke",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "20000",
+   "updated": "2026-09-27T23:25:38.547Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sinais",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sinais",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-09-27T23:25:33.813Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-asof",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-asof",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "90000",
+   "updated": "2026-09-27T23:25:21.762Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-agro",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-agro",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "90000",
+   "updated": "2026-09-27T23:25:07.985Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/forex-arbitrage",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/forex-arbitrage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "80000",
+   "updated": "2026-09-27T23:24:56.718Z"
+  },
+  {
+   "key": "https://agenticfinancegraph.com/check/paygraph",
+   "name": "agenticfinancegraph.com",
+   "url": "https://agenticfinancegraph.com/check/paygraph",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-09-26T22:55:21.39Z"
+   "updated": "2026-09-27T23:24:47.719Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/research",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/research",
+   "key": "https://api.losbeto.xyz/mev-flow",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/mev-flow",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T22:54:33.796Z"
+   "price": "80000",
+   "updated": "2026-09-27T23:24:45.593Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/enrich/email",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/enrich/email",
+   "key": "https://api.losbeto.xyz/insider-track",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/insider-track",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:54:19.864Z"
+   "price": "80000",
+   "updated": "2026-09-27T23:24:33.802Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/enrich/profile",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/enrich/profile",
+   "key": "https://api.losbeto.xyz/alpha-signal",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/alpha-signal",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:53:38.927Z"
-  },
-  {
-   "key": "https://win.oneshotagent.com/v1/tools/verify/email",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/verify/email",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:52:46.087Z"
-  },
-  {
-   "key": "https://stableenrich.dev/api/firecrawl/search",
-   "name": "stableenrich.dev",
-   "url": "https://stableenrich.dev/api/firecrawl/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "25200",
-   "updated": "2026-09-26T22:52:05.902Z"
+   "price": "80000",
+   "updated": "2026-09-27T23:24:22.938Z"
   },
   {
    "key": "https://api.exa.ai/search",
@@ -656,61 +630,196 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "7000",
-   "updated": "2026-09-26T22:50:50.639Z"
+   "updated": "2026-09-27T23:24:21.294Z"
   },
   {
-   "key": "https://win.oneshotagent.com/v1/tools/search",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/search",
+   "key": "https://api.losbeto.xyz/agent-composable",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/agent-composable",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:49:45.674Z"
+   "price": "80000",
+   "updated": "2026-09-27T23:24:10.618Z"
   },
   {
-   "key": "https://api.jarvisclaw.ai/v1/responses",
-   "name": "api.jarvisclaw.ai",
-   "url": "https://api.jarvisclaw.ai/v1/responses",
+   "key": "https://api.losbeto.xyz/token-intel",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/token-intel",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T22:43:32.537Z"
+   "price": "80000",
+   "updated": "2026-09-27T23:23:58.784Z"
   },
   {
-   "key": "https://x402stock.pay.zeroclick.io/api/v1/quote/:ticker",
-   "name": "x402stock.pay.zeroclick.io",
-   "url": "https://x402stock.pay.zeroclick.io/api/v1/quote/:ticker",
+   "key": "https://api.losbeto.xyz/earnings-whisper",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/earnings-whisper",
    "type": "http",
    "network": "eip155:8453",
+   "price": "80000",
+   "updated": "2026-09-27T23:23:47.598Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/macro-calendar",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/macro-calendar",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "70000",
+   "updated": "2026-09-27T23:23:36.453Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/multi-chain-arbitrage",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/multi-chain-arbitrage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:23:25.485Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/market-brief",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/market-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:23:14.462Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/copytrade",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/copytrade",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:23:03.626Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/cross-chain",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/cross-chain",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:22:52.107Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/arbitrage",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/arbitrage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:22:39.846Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/onchain-credit",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/onchain-credit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:22:28.39Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/tg-premium",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/tg-premium",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:22:17.654Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/backtest",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/backtest",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-09-27T23:22:06.42Z"
+  },
+  {
+   "key": "https://svm402.com/organic/:address",
+   "name": "svm402.com",
+   "url": "https://svm402.com/organic/:address",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T22:42:26.741Z"
+   "updated": "2026-09-27T23:21:59.742Z"
   },
   {
-   "key": "https://www.cultos.dev/services/x402-lens",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/x402-lens",
+   "key": "https://api.losbeto.xyz/br-archive",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-archive",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:39:28.765Z"
+   "price": "50000",
+   "updated": "2026-09-27T23:21:54.975Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/event-log-decoding",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/event-log-decoding",
+   "key": "https://api.losbeto.xyz/br-curve",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-curve",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:36:27.095Z"
+   "price": "50000",
+   "updated": "2026-09-27T23:21:42.553Z"
   },
   {
-   "key": "https://readx.sh/api/search/tweets",
-   "name": "readx.sh",
-   "url": "https://readx.sh/api/search/tweets",
+   "key": "https://api.losbeto.xyz/br-macro",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-macro",
    "type": "http",
    "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:21:27.517Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/x402-audit",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/x402-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:21:16.249Z"
+  },
+  {
+   "key": "https://svm402.com/analyze",
+   "name": "svm402.com",
+   "url": "https://svm402.com/analyze",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "30000",
+   "updated": "2026-09-27T23:21:16.245Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sanctions",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sanctions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:21:04.373Z"
+  },
+  {
+   "key": "https://svm402.com/discover",
+   "name": "svm402.com",
+   "url": "https://svm402.com/discover",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T22:31:26.478Z"
+   "updated": "2026-09-27T23:20:54.675Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/smart-money",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/smart-money",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:20:53.082Z"
   },
   {
    "key": "https://blockrun.ai/api/v1/voice/call",
@@ -719,817 +828,1366 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "541000",
-   "updated": "2026-09-26T22:29:38.124Z"
+   "updated": "2026-09-27T23:20:49.743Z"
   },
   {
-   "key": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/docs/discover",
-   "name": "http--forest-gas-station--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/docs/discover",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "4000",
-   "updated": "2026-09-26T22:28:44.252Z"
-  },
-  {
-   "key": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/domain/preflight",
-   "name": "http--forest-gas-station--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/domain/preflight",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "3000",
-   "updated": "2026-09-26T22:28:40.69Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/phone/numbers/list",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/phone/numbers/list",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T22:28:38.172Z"
-  },
-  {
-   "key": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/package/preflight",
-   "name": "http--forest-gas-station--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/package/preflight",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "2000",
-   "updated": "2026-09-26T22:28:36.515Z"
-  },
-  {
-   "key": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/release/asset-resolve",
-   "name": "http--forest-gas-station--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/release/asset-resolve",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "3000",
-   "updated": "2026-09-26T22:28:32.388Z"
-  },
-  {
-   "key": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/service/status",
-   "name": "http--forest-gas-station--lcjl27p8lmjs.code.run",
-   "url": "https://http--forest-gas-station--lcjl27p8lmjs.code.run/service/status",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "2000",
-   "updated": "2026-09-26T22:28:28.581Z"
-  },
-  {
-   "key": "https://api.chit402.com/v1/chat/completions",
-   "name": "api.chit402.com",
-   "url": "https://api.chit402.com/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T22:27:46.874Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/builder-code-validator",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/builder-code-validator",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:27:13.562Z"
-  },
-  {
-   "key": "https://x402-seller-0ay3.onrender.com/api/price/eth-usd",
-   "name": "x402-seller-0ay3.onrender.com",
-   "url": "https://x402-seller-0ay3.onrender.com/api/price/eth-usd",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:26:52.628Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/phone/numbers/buy",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/phone/numbers/buy",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5001000",
-   "updated": "2026-09-26T22:26:21.048Z"
-  },
-  {
-   "key": "https://google-trends.use.x402atlas.com/trend",
-   "name": "google-trends.use.x402atlas.com",
-   "url": "https://google-trends.use.x402atlas.com/trend",
+   "key": "https://api.losbeto.xyz/whale-alert",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/whale-alert",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-09-26T22:23:08.237Z"
+   "updated": "2026-09-27T23:20:40.636Z"
   },
   {
-   "key": "https://agentbit.app/v1/web/search",
-   "name": "agentbit.app",
-   "url": "https://agentbit.app/v1/web/search",
+   "key": "https://api.losbeto.xyz/agent-call",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/agent-call",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:20:29.68Z"
+  },
+  {
+   "key": "https://agentres.dev/api/discover/restaurants",
+   "name": "agentres.dev",
+   "url": "https://agentres.dev/api/discover/restaurants",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:25.699Z"
+  },
+  {
+   "key": "https://agentres.dev/api/book",
+   "name": "agentres.dev",
+   "url": "https://agentres.dev/api/book",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:21.54Z"
+  },
+  {
+   "key": "https://agentreader.dev/read",
+   "name": "agentreader.dev",
+   "url": "https://agentreader.dev/read",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:20.577Z"
+  },
+  {
+   "key": "https://agentkit0.com/api/x402/pulse",
+   "name": "agentkit0.com",
+   "url": "https://agentkit0.com/api/x402/pulse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:17.939Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/deep-think",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/deep-think",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:20:15.08Z"
+  },
+  {
+   "key": "https://agentic-x402.ai/api",
+   "name": "agentic-x402.ai",
+   "url": "https://agentic-x402.ai/api",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:09.848Z"
+  },
+  {
+   "key": "https://agentic-trades.ai/x402/record/uk-cm-kg/LSE/BARC",
+   "name": "agentic-trades.ai",
+   "url": "https://agentic-trades.ai/x402/record/uk-cm-kg/LSE/BARC",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:07.128Z"
+  },
+  {
+   "key": "https://agentic-reservations.vercel.app/api/wait-times",
+   "name": "agentic-reservations.vercel.app",
+   "url": "https://agentic-reservations.vercel.app/api/wait-times",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:05.418Z"
+  },
+  {
+   "key": "https://agentic-reservations.vercel.app/api/book",
+   "name": "agentic-reservations.vercel.app",
+   "url": "https://agentic-reservations.vercel.app/api/book",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:01.047Z"
+  },
+  {
+   "key": "https://agente.revenuerecoveryai.app/v1/x402/evidence-crosscheck",
+   "name": "agente.revenuerecoveryai.app",
+   "url": "https://agente.revenuerecoveryai.app/v1/x402/evidence-crosscheck",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:20:00.036Z"
+  },
+  {
+   "key": "https://agente.revenuerecoveryai.app/v1/resumen",
+   "name": "agente.revenuerecoveryai.app",
+   "url": "https://agente.revenuerecoveryai.app/v1/resumen",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:56.08Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/research-brief",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/research-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:19:54.386Z"
+  },
+  {
+   "key": "https://agentdataapi.onrender.com/launches",
+   "name": "agentdataapi.onrender.com",
+   "url": "https://agentdataapi.onrender.com/launches",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:53.881Z"
+  },
+  {
+   "key": "https://agentdataapi.onrender.com/events",
+   "name": "agentdataapi.onrender.com",
+   "url": "https://agentdataapi.onrender.com/events",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:52.124Z"
+  },
+  {
+   "key": "https://agentdataapi.onrender.com/archive/page",
+   "name": "agentdataapi.onrender.com",
+   "url": "https://agentdataapi.onrender.com/archive/page",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:50.706Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/x402/preflight",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/x402/preflight",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:48.762Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/x402/network-report",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/x402/network-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:47.205Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/web/search",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/web/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:45.83Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/web/places",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/web/places",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:44.1Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sec-filing",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sec-filing",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:19:42.968Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/web/images",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/web/images",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:41.468Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/uk/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/uk/company",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:38.143Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/relay/edgar-filings",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/relay/edgar-filings",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:36.432Z"
+  },
+  {
+   "key": "https://edgar.apitoll.cloud/v1/edgar/filings",
+   "name": "edgar.apitoll.cloud",
+   "url": "https://edgar.apitoll.cloud/v1/edgar/filings",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-09-27T23:19:36.015Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/relay/crypto-news",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/relay/crypto-news",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:33.738Z"
+  },
+  {
+   "key": "https://x402.ottoai.services/crypto-news",
+   "name": "x402.ottoai.services",
+   "url": "https://x402.ottoai.services/crypto-news",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:19:33.174Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/holder-concentration",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/holder-concentration",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:19:31.372Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/no/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/no/company",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:29.291Z"
+  },
+  {
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/news/search",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/news/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:19:27.45Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/analise",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/analise",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:19:06.459Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/win-rate-verified",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/win-rate-verified",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-09-27T23:18:55.379Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/oracle-consensus",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/oracle-consensus",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "30000",
+   "updated": "2026-09-27T23:18:43.675Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sentiment-consensus",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sentiment-consensus",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "30000",
+   "updated": "2026-09-27T23:18:32.101Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/anomalias",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/anomalias",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "30000",
+   "updated": "2026-09-27T23:18:19.567Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/swarm-vote",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/swarm-vote",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "25000",
+   "updated": "2026-09-27T23:18:08.774Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/defi-yield",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/defi-yield",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "25000",
+   "updated": "2026-09-27T23:17:56.759Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/pump-monitor",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/pump-monitor",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "25000",
+   "updated": "2026-09-27T23:17:45.687Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/rugcheck",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/rugcheck",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "25000",
+   "updated": "2026-09-27T23:17:34.015Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-equity",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-equity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-27T23:17:22.155Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/world-quote",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/world-quote",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-27T23:17:11.44Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/jupiter-swap",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/jupiter-swap",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-27T23:16:59.561Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/regime",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/regime",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-27T23:16:48.438Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/stock-quote",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/stock-quote",
    "type": "http",
    "network": "eip155:8453",
    "price": "15000",
-   "updated": "2026-09-26T22:22:24.22Z"
+   "updated": "2026-09-27T23:16:37.016Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/pretty-charts",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/pretty-charts",
+   "key": "https://api.losbeto.xyz/commodity-price",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/commodity-price",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:21:20.936Z"
+   "price": "12000",
+   "updated": "2026-09-27T23:16:25.7Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/wallet-portfolio",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/wallet-portfolio",
+   "key": "https://api.losbeto.xyz/forex-rate",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/forex-rate",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T22:21:18.522Z"
+   "price": "12000",
+   "updated": "2026-09-27T23:16:14.502Z"
   },
   {
-   "key": "https://agent-data-api.agentdata.workers.dev/v1/contracts/opportunities",
-   "name": "agent-data-api.agentdata.workers.dev",
-   "url": "https://agent-data-api.agentdata.workers.dev/v1/contracts/opportunities",
+   "key": "https://api.losbeto.xyz/fetch",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/fetch",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T22:20:35.012Z"
+   "updated": "2026-09-27T23:16:03.473Z"
   },
   {
-   "key": "https://dep.halowerk.com/v1/alternative-packages",
-   "name": "dep.halowerk.com",
-   "url": "https://dep.halowerk.com/v1/alternative-packages",
+   "key": "https://api.losbeto.xyz/dex-screen",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/dex-screen",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:15:51.602Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/sentiment",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/sentiment",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:15:39.833Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/geo-alpha",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/geo-alpha",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:15:28.233Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/build-tx/sell",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/build-tx/sell",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:15:18.671Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/fear-greed",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/fear-greed",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:15:16.444Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/build-tx/buy",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/build-tx/buy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:15:12.684Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/build-tx/create-token",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/build-tx/create-token",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:15:06.733Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/ai-news",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/ai-news",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "8000",
+   "updated": "2026-09-27T23:15:05.112Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/agents/:chain/:agentId",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/agents/:chain/:agentId",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:15:00.517Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/tokens/:contractAddress",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/tokens/:contractAddress",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:14:54.786Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/web-search",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/web-search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "8000",
+   "updated": "2026-09-27T23:14:52.719Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/agents",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/agents",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:14:48.917Z"
+  },
+  {
+   "key": "https://api.dexl.io/api/tokens",
+   "name": "api.dexl.io",
+   "url": "https://api.dexl.io/api/tokens",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:14:42.773Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/mempool",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/mempool",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "8000",
+   "updated": "2026-09-27T23:14:41.34Z"
+  },
+  {
+   "key": "https://scry.solanahub.de/x402/solana/pumpfun-risk-protection",
+   "name": "scry.solanahub.de",
+   "url": "https://scry.solanahub.de/x402/solana/pumpfun-risk-protection",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "50000",
+   "updated": "2026-09-27T23:14:31.857Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/agent-market",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/agent-market",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:14:30.319Z"
+  },
+  {
+   "key": "https://scry.solanahub.de/x402/wallet/:address/pnl",
+   "name": "scry.solanahub.de",
+   "url": "https://scry.solanahub.de/x402/wallet/:address/pnl",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "2000",
+   "updated": "2026-09-27T23:14:21.749Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-doc",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-doc",
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-09-26T22:11:10.62Z"
+   "updated": "2026-09-27T23:14:19.495Z"
   },
   {
-   "key": "https://api.nansen.ai/api/v1/nansen-score/top-tokens",
+   "key": "https://api.strale.io/x402/base64-encode-url",
+   "name": "api.strale.io",
+   "url": "https://api.strale.io/x402/base64-encode-url",
+   "type": "http",
+   "network": "base",
+   "price": "21600",
+   "updated": "2026-09-27T23:14:14.951Z"
+  },
+  {
+   "key": "https://scry.solanahub.de/x402/wallet/:address/quick-flag",
+   "name": "scry.solanahub.de",
+   "url": "https://scry.solanahub.de/x402/wallet/:address/quick-flag",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-09-27T23:14:11.016Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-bizdays",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-bizdays",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "4000",
+   "updated": "2026-09-27T23:14:08.505Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-pix-code",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-pix-code",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "4000",
+   "updated": "2026-09-27T23:13:57.594Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/br-pix-parse",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-pix-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "4000",
+   "updated": "2026-09-27T23:13:46.315Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/trust-hash",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/trust-hash",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-09-27T23:13:35.033Z"
+  },
+  {
+   "key": "https://api.losbeto.xyz/pyth-price",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/pyth-price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-09-27T23:13:23.772Z"
+  },
+  {
+   "key": "https://api.nansen.ai/api/v1/token-screener",
    "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/nansen-score/top-tokens",
+   "url": "https://api.nansen.ai/api/v1/token-screener",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T22:02:17.4Z"
+   "updated": "2026-09-27T23:13:15.927Z"
   },
   {
-   "key": "https://api.myceliasignal.com/oracle/basis/eth/usd",
-   "name": "api.myceliasignal.com",
-   "url": "https://api.myceliasignal.com/oracle/basis/eth/usd",
+   "key": "https://api.losbeto.xyz/br-macro-snapshot",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/br-macro-snapshot",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T22:02:14.608Z"
+   "updated": "2026-09-27T23:13:01.839Z"
   },
   {
-   "key": "https://sandbox.node4all.com/v1/x402-test",
-   "name": "sandbox.node4all.com",
-   "url": "https://sandbox.node4all.com/v1/x402-test",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "2000",
-   "updated": "2026-09-26T22:01:12.585Z"
-  },
-  {
-   "key": "https://api.oblique.markets/api/v1/paid/research-answer",
-   "name": "api.oblique.markets",
-   "url": "https://api.oblique.markets/api/v1/paid/research-answer",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T22:00:50.251Z"
-  },
-  {
-   "key": "https://x402.ottoai.services/token-alpha",
-   "name": "x402.ottoai.services",
-   "url": "https://x402.ottoai.services/token-alpha",
+   "key": "https://api.losbeto.xyz/llm",
+   "name": "api.losbeto.xyz",
+   "url": "https://api.losbeto.xyz/llm",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T22:00:47.77Z"
+   "updated": "2026-09-27T23:12:50.046Z"
   },
   {
-   "key": "https://cheaptokens.ai/api/buy",
-   "name": "cheaptokens.ai",
-   "url": "https://cheaptokens.ai/api/buy",
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:worldcoin-wld,coingecko:bittensor",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:worldcoin-wld,coingecko:bittensor",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:12:01.727Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:uniswap,coingecko:aave",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:uniswap,coingecko:aave",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:59.836Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:staked-ether,coingecko:wrapped-bitcoin",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:staked-ether,coingecko:wrapped-bitcoin",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:58.041Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:solana,coingecko:base",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:solana,coingecko:base",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:56.418Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ronin,coingecko:axie-infinity",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ronin,coingecko:axie-infinity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:54.875Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:mantle,coingecko:scroll",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:mantle,coingecko:scroll",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:53.715Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:illuvium,coingecko:gods-unchained",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:illuvium,coingecko:gods-unchained",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:52.479Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ethereum,coingecko:bitcoin",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ethereum,coingecko:bitcoin",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:51.282Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ethena,coingecko:usual",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:ethena,coingecko:usual",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:49.627Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:coinbase-wrapped-btc,coingecko:weth,coingecko:dai",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:coinbase-wrapped-btc,coingecko:weth,coingecko:dai",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:47.979Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:chainlink,coingecko:the-graph",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:chainlink,coingecko:the-graph",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:46.84Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:brett-based,coingecko:virtual-protocol",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:brett-based,coingecko:virtual-protocol",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:45.294Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin,coingecko:ethereum,coingecko:solana",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin,coingecko:ethereum,coingecko:solana",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:43.709Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin,coingecko:ethereum",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin,coingecko:ethereum",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:42.12Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:bitcoin",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:40.54Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:arbitrum,coingecko:optimism",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:arbitrum,coingecko:optimism",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:39.542Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/prices/coingecko:aerodrome-finance,coingecko:velodrome-finance",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/prices/coingecko:aerodrome-finance,coingecko:velodrome-finance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:11:38.306Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/yields",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/yields",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:34.562Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/protocols",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/protocols",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:30.976Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/protocol/uniswap",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/protocol/uniswap",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:29.662Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/protocol/aerodrome",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/protocol/aerodrome",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:25.775Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/protocol/aave-v4",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/protocol/aave-v4",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:24.099Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/protocol/aave",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/protocol/aave",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:20.763Z"
+  },
+  {
+   "key": "https://blockrun.ai/api/v1/defillama/chains",
+   "name": "blockrun.ai",
+   "url": "https://blockrun.ai/api/v1/defillama/chains",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "6000",
+   "updated": "2026-09-27T23:11:19.556Z"
+  },
+  {
+   "key": "https://x402.ottoai.services/tweet-search",
+   "name": "x402.ottoai.services",
+   "url": "https://x402.ottoai.services/tweet-search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:10:21.066Z"
+  },
+  {
+   "key": "https://api.apify.com/v2/actors/:actorId/run-sync-get-dataset-items",
+   "name": "api.apify.com",
+   "url": "https://api.apify.com/v2/actors/:actorId/run-sync-get-dataset-items",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000000",
-   "updated": "2026-09-26T22:00:43.607Z"
+   "updated": "2026-09-27T23:09:37.808Z"
   },
   {
-   "key": "https://human.twin3.ai/v1/human",
-   "name": "human.twin3.ai",
-   "url": "https://human.twin3.ai/v1/human",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T22:00:18.657Z"
-  },
-  {
-   "key": "https://api.loyalspark.online/x402-gateway/recipient-api/offers",
-   "name": "api.loyalspark.online",
-   "url": "https://api.loyalspark.online/x402-gateway/recipient-api/offers",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:59:39.481Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/branches/summary",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/branches/summary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:56:32.546Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/buybacks/readiness",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/buybacks/readiness",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:56:28.567Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/auctions/sales",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/auctions/sales",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:56:26.076Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/exit/fee-forecast",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/exit/fee-forecast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:56:22.391Z"
-  },
-  {
-   "key": "https://presign-guard.onrender.com/v1/check",
-   "name": "presign-guard.onrender.com",
-   "url": "https://presign-guard.onrender.com/v1/check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T21:56:10.019Z"
-  },
-  {
-   "key": "https://x402-doctor.onrender.com/api/v1/preflight",
-   "name": "x402-doctor.onrender.com",
-   "url": "https://x402-doctor.onrender.com/api/v1/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:56:06.014Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/supply/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/supply/current",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:55:06.47Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/pm/polymarket/markets",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/pm/polymarket/markets",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8500",
-   "updated": "2026-09-26T21:55:02.286Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/decisions/branch",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/decisions/branch",
+   "key": "https://keyring-agent.blockchhub.link/api/send-native",
+   "name": "keyring-agent.blockchhub.link",
+   "url": "https://keyring-agent.blockchhub.link/api/send-native",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-09-26T21:55:01.322Z"
+   "updated": "2026-09-27T23:09:28.035Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/supply/history",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/supply/history",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:54:54.736Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/exit-pressure/history",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/exit-pressure/history",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:54:50.334Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/auctions/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/auctions/current",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:54:45.917Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/branches/license-cost",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/branches/license-cost",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:54:39.878Z"
-  },
-  {
-   "key": "https://vaaya.ai/api/run/firecrawl/scrape",
-   "name": "vaaya.ai",
-   "url": "https://vaaya.ai/api/run/firecrawl/scrape",
+   "key": "https://stableenrich.dev/api/exa/search",
+   "name": "stableenrich.dev",
+   "url": "https://stableenrich.dev/api/exa/search",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T21:54:35.132Z"
+   "updated": "2026-09-27T23:09:27.839Z"
   },
   {
-   "key": "https://api.onesource.io/deepstate/v1/candles/:book",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/deepstate/v1/candles/:book",
+   "key": "https://xhagents.xyz/api/howto/x402-register",
+   "name": "xhagents.xyz",
+   "url": "https://xhagents.xyz/api/howto/x402-register",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "300000",
+   "updated": "2026-09-27T23:07:19.102Z"
+  },
+  {
+   "key": "https://api.x402node.dev/search/github-repos",
+   "name": "api.x402node.dev",
+   "url": "https://api.x402node.dev/search/github-repos",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:53:48.448Z"
+   "updated": "2026-09-27T23:06:29.122Z"
   },
   {
-   "key": "https://api.onesource.io/deepstate/v1/book/:book",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/deepstate/v1/book/:book",
+   "key": "https://api.x402node.dev/forex/rate/gbp/jpy/gbp-jpy",
+   "name": "api.x402node.dev",
+   "url": "https://api.x402node.dev/forex/rate/gbp/jpy/gbp-jpy",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:53:34.753Z"
+   "price": "4000",
+   "updated": "2026-09-27T23:06:19.986Z"
   },
   {
-   "key": "https://api.onesource.io/deepstate/v1/analytics/depth-history",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/deepstate/v1/analytics/depth-history",
+   "key": "https://api.x402node.dev/crypto/namehash",
+   "name": "api.x402node.dev",
+   "url": "https://api.x402node.dev/crypto/namehash",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:53:32.347Z"
+   "price": "10000",
+   "updated": "2026-09-27T23:05:55.813Z"
   },
   {
-   "key": "https://api.onesource.io/deepstate/v1/stats/:book",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/deepstate/v1/stats/:book",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:53:28.348Z"
-  },
-  {
-   "key": "https://api.onesource.io/deepstate/v1/analytics/cost-to-quote",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/deepstate/v1/analytics/cost-to-quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:53:22.151Z"
-  },
-  {
-   "key": "https://www.cultos.dev/services/hacker-feed",
-   "name": "www.cultos.dev",
-   "url": "https://www.cultos.dev/services/hacker-feed",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:51:43.51Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/holders/concentration",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/holders/concentration",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:51:05.621Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/policy/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/policy/current",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:50:59.379Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/branches/doi",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/branches/doi",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:50:55.444Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/issuance/runway",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/issuance/runway",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:50:50.921Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/events",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/events",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:50:45.87Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/dormancy/bounties",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/dormancy/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:50:40.736Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/charters",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/charters",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:50:31.833Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/decisions/plan",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/decisions/plan",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T21:50:25.875Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/exit/fee-curve",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/exit/fee-curve",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:50:17.425Z"
-  },
-  {
-   "key": "https://win.oneshotagent.com/v1/tools/research/people",
+   "key": "https://win.oneshotagent.com/v1/tools/web-read",
    "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/research/people",
+   "url": "https://win.oneshotagent.com/v1/tools/web-read",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T23:05:32.442Z"
+  },
+  {
+   "key": "https://win.oneshotagent.com/v1/tools/enrich/company",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/enrich/company",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:05:30.431Z"
+  },
+  {
+   "key": "https://keyring-agent.blockchhub.link/api/send-token",
+   "name": "keyring-agent.blockchhub.link",
+   "url": "https://keyring-agent.blockchhub.link/api/send-token",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T23:05:26.657Z"
+  },
+  {
+   "key": "https://x402.orthogonal.com/speixFkLB/api/v1/hourly",
+   "name": "x402.orthogonal.com",
+   "url": "https://x402.orthogonal.com/speixFkLB/api/v1/hourly",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T21:48:51.557Z"
+   "updated": "2026-09-27T23:05:05.98Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/policy/outlook",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/policy/outlook",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:48:17.845Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/auctions/days",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/auctions/days",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:48:07.454Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/vaults/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/vaults/current",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T21:47:57.901Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/decisions/exit",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/decisions/exit",
+   "key": "https://win.oneshotagent.com/v1/tools/research/person",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/research/person",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-09-26T21:47:55.388Z"
+   "updated": "2026-09-27T23:02:21.545Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/governance/changes",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/governance/changes",
+   "key": "https://x402.botsmith.dev/x/search",
+   "name": "x402.botsmith.dev",
+   "url": "https://x402.botsmith.dev/x/search",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T21:47:46.013Z"
+   "updated": "2026-09-27T23:02:12.552Z"
   },
   {
-   "key": "https://demo-house-two.vercel.app/api/x402/unlock",
-   "name": "demo-house-two.vercel.app",
-   "url": "https://demo-house-two.vercel.app/api/x402/unlock",
+   "key": "https://win.oneshotagent.com/v1/tools/research",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/research",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "5000000",
-   "updated": "2026-09-26T21:47:44.384Z"
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:01:46.032Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/backing/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/backing/current",
+   "key": "https://win.oneshotagent.com/v1/tools/enrich/profile",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/enrich/profile",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:00:55.982Z"
+  },
+  {
+   "key": "https://win.oneshotagent.com/v1/tools/verify/email",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/verify/email",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T23:00:48.732Z"
+  },
+  {
+   "key": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+   "name": "api.nansen.ai",
+   "url": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T23:00:33.833Z"
+  },
+  {
+   "key": "https://win.oneshotagent.com/v1/tools/enrich/email",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/enrich/email",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:00:30.898Z"
+  },
+  {
+   "key": "https://base-gas-x402-production.up.railway.app/gas",
+   "name": "base-gas-x402-production.up.railway.app",
+   "url": "https://base-gas-x402-production.up.railway.app/gas",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T23:00:01.633Z"
+  },
+  {
+   "key": "https://win.oneshotagent.com/v1/tools/search",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-27T22:56:59.43Z"
+  },
+  {
+   "key": "https://api.oblique.markets/api/v1/paid/base-block-number",
+   "name": "api.oblique.markets",
+   "url": "https://api.oblique.markets/api/v1/paid/base-block-number",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-27T22:56:27.644Z"
+  },
+  {
+   "key": "https://api.kadec0.xyz/v1/smart-search",
+   "name": "api.kadec0.xyz",
+   "url": "https://api.kadec0.xyz/v1/smart-search",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T21:47:39.41Z"
+   "updated": "2026-09-27T22:52:22.799Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/network-info",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/network-info",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/fr/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/fr/company",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:47:00.584Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:43.663Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/contract/:address",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/contract/:address",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/fi/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/fi/company",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:46:57.925Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:42.071Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/nonce/:address",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/nonce/:address",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/eu/token-registry",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/eu/token-registry",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:46:51.594Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:40.261Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/erc20-balance",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/erc20-balance",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/cz/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/cz/company",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:46:48.502Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:37.36Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/tx/:hash",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/tx/:hash",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/crypto/track-record",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/crypto/track-record",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-09-26T21:45:06.211Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:34.49Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/erc721-tokens",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/erc721-tokens",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/crypto/scan",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/crypto/scan",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-09-26T21:44:55.722Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:33.447Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/nft-metadata",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/nft-metadata",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/ch/company",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/ch/company",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-09-26T21:44:52.502Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:32.087Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/allowance",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/allowance",
+   "key": "https://agentdata-api.sander-van-aard.workers.dev/agent/want",
+   "name": "agentdata-api.sander-van-aard.workers.dev",
+   "url": "https://agentdata-api.sander-van-aard.workers.dev/agent/want",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:44:47.764Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:29.398Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/live-balance",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/live-balance",
+   "key": "https://agentbit.app/v1/wallet/profile",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/wallet/profile",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:44:40.529Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:27.878Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/nft-owner",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/nft-owner",
+   "key": "https://agentbit.app/v1/wallet/counterparties",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/wallet/counterparties",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:44:35.876Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:25.838Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/block-number",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/block-number",
+   "key": "https://agentbit.app/v1/security/url-threat",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/security/url-threat",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:44:33.45Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:24.198Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/erc1155-balance",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/erc1155-balance",
+   "key": "https://agentbit.app/v1/kits/crypto-trader",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/kits/crypto-trader",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:44:30.353Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:21.978Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/block/:number",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/block/:number",
+   "key": "https://agentbit.app/v1/ip/intel",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/ip/intel",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T21:44:24.745Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:19.299Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/ens/:input",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/ens/:input",
+   "key": "https://agentbit.app/v1/dns/inspect",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/dns/inspect",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:44:18.879Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:16.997Z"
   },
   {
-   "key": "https://tick.hugen.tokyo/tick/latest",
-   "name": "tick.hugen.tokyo",
-   "url": "https://tick.hugen.tokyo/tick/latest",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:36:25.829Z"
-  },
-  {
-   "key": "https://agent402.tools/api/perp-basis",
+   "key": "https://agent402.tools/v1/auto/responses",
    "name": "agent402.tools",
-   "url": "https://agent402.tools/api/perp-basis",
+   "url": "https://agent402.tools/v1/auto/responses",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T21:35:12.732Z"
+   "price": "10000",
+   "updated": "2026-09-27T22:49:14.175Z"
   },
   {
-   "key": "https://agent402.tools/api/perp-funding",
+   "key": "https://agent402.tools/v1/auto/messages",
    "name": "agent402.tools",
-   "url": "https://agent402.tools/api/perp-funding",
+   "url": "https://agent402.tools/v1/auto/messages",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:11.708Z"
+  },
+  {
+   "key": "https://agent402.tools/v1/auto/gemini",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/v1/auto/gemini",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:08.221Z"
+  },
+  {
+   "key": "https://agent402.tools/v1/auto/chat/completions",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/v1/auto/chat/completions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:05.448Z"
+  },
+  {
+   "key": "https://agent402.tools/api/x402-audit",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/x402-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:02.836Z"
+  },
+  {
+   "key": "https://agent402.tools/api/solidity-scan",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/solidity-scan",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:01.512Z"
+  },
+  {
+   "key": "https://agent402.tools/api/sol-token-report",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/sol-token-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:49:00.249Z"
+  },
+  {
+   "key": "https://agent402.tools/api/skill/insider-alert",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/skill/insider-alert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:48:57.544Z"
+  },
+  {
+   "key": "https://agent402.tools/api/search-news",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/search-news",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:48:50.223Z"
+  },
+  {
+   "key": "https://agent402.tools/api/search",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:48:48.727Z"
+  },
+  {
+   "key": "https://agent402.tools/api/image-ocr",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/image-ocr",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T22:48:46.957Z"
+  },
+  {
+   "key": "https://api.jarvisclaw.ai/v1/responses",
+   "name": "api.jarvisclaw.ai",
+   "url": "https://api.jarvisclaw.ai/v1/responses",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-09-27T22:46:07.469Z"
+  },
+  {
+   "key": "https://api.vaults.fyi/v2/assets",
+   "name": "api.vaults.fyi",
+   "url": "https://api.vaults.fyi/v2/assets",
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-09-26T21:35:10.905Z"
+   "updated": "2026-09-27T22:43:15.988Z"
   },
   {
-   "key": "https://blockrun.ai/api/v1/pm/kalshi/markets",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/pm/kalshi/markets",
+   "key": "https://mcp.blocksize.info/v1/bidask/BTC-USD",
+   "name": "mcp.blocksize.info",
+   "url": "https://mcp.blocksize.info/v1/bidask/BTC-USD",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "8500",
-   "updated": "2026-09-26T21:34:24.891Z"
-  },
-  {
-   "key": "https://settled.justinedwardvolmer.workers.dev/v1/pass",
-   "name": "settled.justinedwardvolmer.workers.dev",
-   "url": "https://settled.justinedwardvolmer.workers.dev/v1/pass",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T21:34:20.701Z"
-  },
-  {
-   "key": "https://settled.justinedwardvolmer.workers.dev/v1/payto/:address",
-   "name": "settled.justinedwardvolmer.workers.dev",
-   "url": "https://settled.justinedwardvolmer.workers.dev/v1/payto/:address",
-   "type": "http",
-   "network": "eip155:8453",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "2000",
-   "updated": "2026-09-26T21:34:18.604Z"
-  },
-  {
-   "key": "https://settled.justinedwardvolmer.workers.dev/v1/endpoints",
-   "name": "settled.justinedwardvolmer.workers.dev",
-   "url": "https://settled.justinedwardvolmer.workers.dev/v1/endpoints",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:34:15.979Z"
-  },
-  {
-   "key": "https://settled.justinedwardvolmer.workers.dev/v1/check",
-   "name": "settled.justinedwardvolmer.workers.dev",
-   "url": "https://settled.justinedwardvolmer.workers.dev/v1/check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T21:32:42.816Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/literature-search",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/literature-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:29:04.37Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/payment",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/payment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:27:07.796Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/ping",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/ping",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:27:00.588Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/network",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/network",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:26:52.713Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/ip",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/ip",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:26:45.603Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/random",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/random",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:26:38.785Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/uuid",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/uuid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:26:32.05Z"
+   "updated": "2026-09-27T22:43:12.7Z"
   },
   {
    "key": "https://www.api-xpay.com/x402/time",
@@ -1538,16 +2196,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:26:25.059Z"
-  },
-  {
-   "key": "https://www.api-xpay.com/x402/quote",
-   "name": "www.api-xpay.com",
-   "url": "https://www.api-xpay.com/x402/quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T21:26:11.975Z"
+   "updated": "2026-09-27T22:42:37.718Z"
   },
   {
    "key": "https://www.api-xpay.com/x402/status",
@@ -1556,403 +2205,97 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:25:18.834Z"
+   "updated": "2026-09-27T22:42:31.874Z"
   },
   {
-   "key": "https://apexrunner.ai/signals/market-tick",
-   "name": "apexrunner.ai",
-   "url": "https://apexrunner.ai/signals/market-tick",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "7000",
-   "updated": "2026-09-26T21:25:05.973Z"
-  },
-  {
-   "key": "https://x402.twit.sh/tweets/search",
-   "name": "x402.twit.sh",
-   "url": "https://x402.twit.sh/tweets/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "6000",
-   "updated": "2026-09-26T21:23:15.353Z"
-  },
-  {
-   "key": "https://x402.twit.sh/tweets/user",
-   "name": "x402.twit.sh",
-   "url": "https://x402.twit.sh/tweets/user",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T21:22:53.645Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/gnosis",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/gnosis",
+   "key": "https://www.api-xpay.com/x402/quote",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/quote",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:15:00.708Z"
+   "updated": "2026-09-27T22:42:26.363Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/juno",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/juno",
+   "key": "https://www.api-xpay.com/x402/payment",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/payment",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:14:59.559Z"
+   "updated": "2026-09-27T22:42:20.07Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/fund-etf-holdings",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/fund-etf-holdings",
+   "key": "https://www.api-xpay.com/x402/ping",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/ping",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:14:57.758Z"
+   "updated": "2026-09-27T22:42:13.672Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/sentiment-classification",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/sentiment-classification",
+   "key": "https://www.api-xpay.com/x402/network",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/network",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:14:55.068Z"
+   "updated": "2026-09-27T22:42:07.857Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/sei",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/sei",
+   "key": "https://www.api-xpay.com/x402/ip",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/ip",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:14:53.457Z"
+   "updated": "2026-09-27T22:42:01.471Z"
   },
   {
-   "key": "https://blockrun.ai/api/v1/pm/polymarket/events",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/pm/polymarket/events",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8500",
-   "updated": "2026-09-26T21:10:02.466Z"
-  },
-  {
-   "key": "https://laso.finance/order-gift-card",
-   "name": "laso.finance",
-   "url": "https://laso.finance/order-gift-card",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5240000",
-   "updated": "2026-09-26T21:09:48.174Z"
-  },
-  {
-   "key": "https://ichimoku-signal.onrender.com/setups",
-   "name": "ichimoku-signal.onrender.com",
-   "url": "https://ichimoku-signal.onrender.com/setups",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500000",
-   "updated": "2026-09-26T21:07:42.2Z"
-  },
-  {
-   "key": "https://agents.dubbleblack.com/api/agent/evidence",
-   "name": "agents.dubbleblack.com",
-   "url": "https://agents.dubbleblack.com/api/agent/evidence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-09-26T21:02:20.617Z"
-  },
-  {
-   "key": "https://agentbit.app/v1/finance/stock-price",
-   "name": "agentbit.app",
-   "url": "https://agentbit.app/v1/finance/stock-price",
+   "key": "https://www.api-xpay.com/x402/random",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/random",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T21:02:10.15Z"
+   "updated": "2026-09-27T22:41:55.102Z"
   },
   {
-   "key": "https://api.tickersfeed.net/crypto/market",
-   "name": "api.tickersfeed.net",
-   "url": "https://api.tickersfeed.net/crypto/market",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:00:52.235Z"
-  },
-  {
-   "key": "https://api.tickersfeed.net/crypto/stablecoins",
-   "name": "api.tickersfeed.net",
-   "url": "https://api.tickersfeed.net/crypto/stablecoins",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:00:52.139Z"
-  },
-  {
-   "key": "https://x402.ottoai.services/twitter-summary",
-   "name": "x402.ottoai.services",
-   "url": "https://x402.ottoai.services/twitter-summary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T21:00:40.492Z"
-  },
-  {
-   "key": "https://api.loopholetape.com/v1/base/keys/trial",
-   "name": "api.loopholetape.com",
-   "url": "https://api.loopholetape.com/v1/base/keys/trial",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-09-26T20:56:19.591Z"
-  },
-  {
-   "key": "https://api.loopholetape.com/v1/base/outcome/batch",
-   "name": "api.loopholetape.com",
-   "url": "https://api.loopholetape.com/v1/base/outcome/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:56:17.764Z"
-  },
-  {
-   "key": "https://api.loopholetape.com/v1/base/rhc/launches/recent",
-   "name": "api.loopholetape.com",
-   "url": "https://api.loopholetape.com/v1/base/rhc/launches/recent",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:56:15.791Z"
-  },
-  {
-   "key": "https://api.loopholetape.com/v1/base/launches/recent",
-   "name": "api.loopholetape.com",
-   "url": "https://api.loopholetape.com/v1/base/launches/recent",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:56:13.866Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/exa/contents",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/exa/contents",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T20:53:38.65Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/site-selection",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/site-selection",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:50:44.553Z"
-  },
-  {
-   "key": "https://api.kadec0.xyz/v1/trend",
-   "name": "api.kadec0.xyz",
-   "url": "https://api.kadec0.xyz/v1/trend",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:47:48.592Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/supplier-risk",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/supplier-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:45:40.057Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/industrial-energy",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/industrial-energy",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T20:44:44.005Z"
-  },
-  {
-   "key": "https://aspern.org/api/v1/agents/:address/history",
-   "name": "aspern.org",
-   "url": "https://aspern.org/api/v1/agents/:address/history",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:32:14.229Z"
-  },
-  {
-   "key": "https://api.tickersfeed.net/calendar/earnings",
-   "name": "api.tickersfeed.net",
-   "url": "https://api.tickersfeed.net/calendar/earnings",
+   "key": "https://www.api-xpay.com/x402/uuid",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/uuid",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T20:31:38.784Z"
+   "updated": "2026-09-27T22:41:49.108Z"
   },
   {
-   "key": "https://email.intel.rallylive.ca/email/hosted-by/tencent-exmail",
-   "name": "email.intel.rallylive.ca",
-   "url": "https://email.intel.rallylive.ca/email/hosted-by/tencent-exmail",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:31:30.693Z"
-  },
-  {
-   "key": "https://email.intel.rallylive.ca/bulk/email/webmail/gmx",
-   "name": "email.intel.rallylive.ca",
-   "url": "https://email.intel.rallylive.ca/bulk/email/webmail/gmx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-09-26T20:31:30.262Z"
-  },
-  {
-   "key": "https://api.tickersfeed.net/crypto/sentiment",
-   "name": "api.tickersfeed.net",
-   "url": "https://api.tickersfeed.net/crypto/sentiment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T20:31:22.527Z"
-  },
-  {
-   "key": "https://agent-reader.gm-tools.workers.dev/v1/meta",
-   "name": "agent-reader.gm-tools.workers.dev",
-   "url": "https://agent-reader.gm-tools.workers.dev/v1/meta",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T20:29:48.262Z"
-  },
-  {
-   "key": "https://agent-deals.gm-tools.workers.dev/v1/best",
-   "name": "agent-deals.gm-tools.workers.dev",
-   "url": "https://agent-deals.gm-tools.workers.dev/v1/best",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T20:29:24.885Z"
-  },
-  {
-   "key": "https://trust-check.gm-tools.workers.dev/v1/token",
-   "name": "trust-check.gm-tools.workers.dev",
-   "url": "https://trust-check.gm-tools.workers.dev/v1/token",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T20:28:30.757Z"
-  },
-  {
-   "key": "https://sol.mapleai.shop/v1/chat/completions",
-   "name": "sol.mapleai.shop",
-   "url": "https://sol.mapleai.shop/v1/chat/completions",
+   "key": "https://svm402.com/wash-trading/:address",
+   "name": "svm402.com",
+   "url": "https://svm402.com/wash-trading/:address",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1623",
-   "updated": "2026-09-26T20:24:02.511Z"
-  },
-  {
-   "key": "https://agentpaystore.com/agentic-arena/psychoduel/api/entry",
-   "name": "agentpaystore.com",
-   "url": "https://agentpaystore.com/agentic-arena/psychoduel/api/entry",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500000",
-   "updated": "2026-09-26T20:23:43.718Z"
-  },
-  {
-   "key": "https://agentpaystore.com/agentic-arena/bladepit/api/entry",
-   "name": "agentpaystore.com",
-   "url": "https://agentpaystore.com/agentic-arena/bladepit/api/entry",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500000",
-   "updated": "2026-09-26T20:23:37.063Z"
-  },
-  {
-   "key": "https://thumbnailcreator.ai/api/x402/generations",
-   "name": "thumbnailcreator.ai",
-   "url": "https://thumbnailcreator.ai/api/x402/generations",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "167000",
-   "updated": "2026-09-26T20:21:41.944Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/insurance-claim",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/insurance-claim",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:18:21.53Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/property-rent",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/property-rent",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T20:18:20.196Z"
-  },
-  {
-   "key": "https://win.oneshotagent.com/v1/tools/research/company",
-   "name": "win.oneshotagent.com",
-   "url": "https://win.oneshotagent.com/v1/tools/research/company",
-   "type": "http",
-   "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T20:14:49.795Z"
+   "updated": "2026-09-27T22:39:22.397Z"
   },
   {
-   "key": "https://api.insumermodel.com/v1/attest",
-   "name": "api.insumermodel.com",
-   "url": "https://api.insumermodel.com/v1/attest",
+   "key": "https://svm402.com/holdcheck/:address",
+   "name": "svm402.com",
+   "url": "https://svm402.com/holdcheck/:address",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:14:09.439Z"
-  },
-  {
-   "key": "https://stableenrich.dev/api/pdl/people-enrich",
-   "name": "stableenrich.dev",
-   "url": "https://stableenrich.dev/api/pdl/people-enrich",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "280000",
-   "updated": "2026-09-26T20:11:41.36Z"
-  },
-  {
-   "key": "https://x402.twit.sh/lists/tweets",
-   "name": "x402.twit.sh",
-   "url": "https://x402.twit.sh/lists/tweets",
-   "type": "http",
-   "network": "eip155:8453",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T20:07:38Z"
+   "updated": "2026-09-27T22:39:16.329Z"
   },
   {
-   "key": "https://x402-tollbooth.onrender.com/api/verify",
-   "name": "x402-tollbooth.onrender.com",
-   "url": "https://x402-tollbooth.onrender.com/api/verify",
+   "key": "https://auto411-x402-prod.simonwakelin.workers.dev/v1/vehicle_fitment",
+   "name": "auto411-x402-prod.simonwakelin.workers.dev",
+   "url": "https://auto411-x402-prod.simonwakelin.workers.dev/v1/vehicle_fitment",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T20:02:11.724Z"
+   "price": "100000",
+   "updated": "2026-09-27T22:38:53.805Z"
   },
   {
    "key": "https://api.solenrich.com/entrypoints/stonk-yield/invoke",
@@ -1961,7 +2304,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "5000",
-   "updated": "2026-09-26T20:01:15.545Z"
+   "updated": "2026-09-27T22:35:40.533Z"
   },
   {
    "key": "https://api.solenrich.com/entrypoints/stonk-screener/invoke",
@@ -1970,754 +2313,412 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-26T20:01:10.613Z"
+   "updated": "2026-09-27T22:35:36.277Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/kaia",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/kaia",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T20:00:48.446Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/contract-abi",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/contract-abi",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T20:00:47.094Z"
-  },
-  {
-   "key": "https://api.myceliasignal.com/oracle/volatility/eth/usd",
-   "name": "api.myceliasignal.com",
-   "url": "https://api.myceliasignal.com/oracle/volatility/eth/usd",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:00:16.144Z"
-  },
-  {
-   "key": "https://api.myceliasignal.com/oracle/volatility/btc/usd",
-   "name": "api.myceliasignal.com",
-   "url": "https://api.myceliasignal.com/oracle/volatility/btc/usd",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T20:00:10.44Z"
-  },
-  {
-   "key": "https://api.myceliasignal.com/oracle/price/eth/usd",
-   "name": "api.myceliasignal.com",
-   "url": "https://api.myceliasignal.com/oracle/price/eth/usd",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T20:00:05.676Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-swap-status",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-swap-status",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T19:54:04.48Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-lending-health",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-lending-health",
+   "key": "https://www.securaw.com/cryptovar/x402/proof_verify",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/proof_verify",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T19:54:02.028Z"
+   "updated": "2026-09-27T22:31:41.466Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/near-staking-yields",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-staking-yields",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:53:59.857Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-swap",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-swap",
+   "key": "https://readx.sh/api/search/tweets",
+   "name": "readx.sh",
+   "url": "https://readx.sh/api/search/tweets",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T19:53:53.931Z"
+   "updated": "2026-09-27T22:31:37.705Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/base-swap",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/base-swap",
+   "key": "https://www.securaw.com/cryptovar/x402/delivery_proof",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/delivery_proof",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:53:47.849Z"
+   "price": "50000",
+   "updated": "2026-09-27T22:31:21.874Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/secure-token",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/secure-token",
+   "key": "https://www.securaw.com/cryptovar/x402/risk_verify",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/risk_verify",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:53:37.284Z"
+   "price": "100000",
+   "updated": "2026-09-27T22:31:10.391Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/ai-summarize",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/ai-summarize",
+   "key": "https://www.securaw.com/cryptovar/x402/execution_stress",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/execution_stress",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-27T22:30:59.058Z"
+  },
+  {
+   "key": "https://www.securaw.com/cryptovar/x402/risk_compare",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/risk_compare",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "500000",
+   "updated": "2026-09-27T22:30:46.132Z"
+  },
+  {
+   "key": "https://www.securaw.com/cryptovar/x402/risk_snapshot",
+   "name": "www.securaw.com",
+   "url": "https://www.securaw.com/cryptovar/x402/risk_snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "250000",
+   "updated": "2026-09-27T22:30:31.745Z"
+  },
+  {
+   "key": "https://agentbit.app/v1/web/search",
+   "name": "agentbit.app",
+   "url": "https://agentbit.app/v1/web/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "15000",
+   "updated": "2026-09-27T22:25:46.483Z"
+  },
+  {
+   "key": "https://relay.straelo.com/search-evidence",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/search-evidence",
    "type": "http",
    "network": "eip155:8453",
    "price": "30000",
-   "updated": "2026-09-26T19:53:35.294Z"
+   "updated": "2026-09-27T22:22:25.43Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/near-token-holders",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-token-holders",
+   "key": "https://www.api-xpay.com/x402/rewrite",
+   "name": "www.api-xpay.com",
+   "url": "https://www.api-xpay.com/x402/rewrite",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:53:32.068Z"
+   "price": "10000000",
+   "updated": "2026-09-27T22:22:11.788Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/near-wallet-activity",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-wallet-activity",
+   "key": "https://relay.straelo.com/search-extract",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/search-extract",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:53:21.829Z"
+   "price": "25000",
+   "updated": "2026-09-27T22:22:01.522Z"
   },
   {
-   "key": "https://402.com.tr/api/x402/near-portfolio",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:53:19.053Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-pre-trade-gate",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-pre-trade-gate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T19:53:16.438Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-swap-quote",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-swap-quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:53:04.672Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-transfer-preflight",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-transfer-preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:52:58.716Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-account",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-account",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:52:56.514Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/near-token-safety",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/near-token-safety",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:52:54.004Z"
-  },
-  {
-   "key": "https://402.com.tr/api/x402/b20-portfolio",
-   "name": "402.com.tr",
-   "url": "https://402.com.tr/api/x402/b20-portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "60000",
-   "updated": "2026-09-26T19:52:51.47Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/fda",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/fda",
+   "key": "https://relay.straelo.com/domain-health",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/domain-health",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T19:50:44.311Z"
+   "updated": "2026-09-27T22:21:40.045Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/chain-simulation",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/chain-simulation",
+   "key": "https://relay.straelo.com/transaction-intelligence",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/transaction-intelligence",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T19:50:41.597Z"
+   "updated": "2026-09-27T22:21:06.875Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/tx-explain",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/tx-explain",
+   "key": "https://relay.straelo.com/chain-contract-call",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/chain-contract-call",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T19:50:40.359Z"
+   "updated": "2026-09-27T22:20:36.165Z"
   },
   {
-   "key": "https://agent.pocket.network/v1/near",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/near",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:50:38.586Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/dns-whois-rdap",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/dns-whois-rdap",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:50:37.045Z"
-  },
-  {
-   "key": "https://api.munition.io/v1/flights/search",
-   "name": "api.munition.io",
-   "url": "https://api.munition.io/v1/flights/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-26T19:45:25.349Z"
-  },
-  {
-   "key": "https://stabletravel.dev/api/seats-aero/search",
-   "name": "stabletravel.dev",
-   "url": "https://stabletravel.dev/api/seats-aero/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T19:45:21.701Z"
-  },
-  {
-   "key": "https://blockrun.ai/api/v1/pm/polymarket/markets/keyset",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/pm/polymarket/markets/keyset",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8500",
-   "updated": "2026-09-26T19:39:02.632Z"
-  },
-  {
-   "key": "https://quotient-api-gateway.onrender.com/api/v1/signals",
-   "name": "quotient-api-gateway.onrender.com",
-   "url": "https://quotient-api-gateway.onrender.com/api/v1/signals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T19:35:10.254Z"
-  },
-  {
-   "key": "https://the-stall.intuitek.ai/cap/balance-sheet",
-   "name": "the-stall.intuitek.ai",
-   "url": "https://the-stall.intuitek.ai/cap/balance-sheet",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "21000",
-   "updated": "2026-09-26T19:33:13.198Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/rate-benchmarks",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/rate-benchmarks",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:21:27.067Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/entity-registration",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/entity-registration",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:21:25.513Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/patents-trademarks",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/patents-trademarks",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:21:22.715Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/sec-edgar-xbrl",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/sec-edgar-xbrl",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:21:20.525Z"
-  },
-  {
-   "key": "https://api.nohumans.directory/v1/listings/:id/verdict",
-   "name": "api.nohumans.directory",
-   "url": "https://api.nohumans.directory/v1/listings/:id/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:16:20.441Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/scroll",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/scroll",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:12:22.195Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/crypto-fx-market-data",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/crypto-fx-market-data",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:12:21.248Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/structured-extraction",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/structured-extraction",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T19:12:19.856Z"
-  },
-  {
-   "key": "https://laso.finance/fund-card-balance",
+   "key": "https://laso.finance/send-bank-payment",
    "name": "laso.finance",
-   "url": "https://laso.finance/fund-card-balance",
+   "url": "https://laso.finance/send-bank-payment",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000000",
-   "updated": "2026-09-26T19:05:13.501Z"
+   "price": "11500000",
+   "updated": "2026-09-27T22:18:26.252Z"
   },
   {
-   "key": "https://api.x402node.dev/search/academic",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/search/academic",
+   "key": "https://klima.halowerk.com/v1/cbam-factor",
+   "name": "klima.halowerk.com",
+   "url": "https://klima.halowerk.com/v1/cbam-factor",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-09-26T18:59:05.72Z"
+   "price": "4000",
+   "updated": "2026-09-27T22:11:09.414Z"
   },
   {
-   "key": "https://api.x402node.dev/chain/contract-verify",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/chain/contract-verify",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:58:53.967Z"
-  },
-  {
-   "key": "https://api.x402node.dev/forum/hn",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/forum/hn",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:58:40.42Z"
-  },
-  {
-   "key": "https://myc-staging.crescadia.com/v1/paid/opportunities/:notice_id/delta",
-   "name": "myc-staging.crescadia.com",
-   "url": "https://myc-staging.crescadia.com/v1/paid/opportunities/:notice_id/delta",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:54:50.089Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/insurance-profile",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/insurance-profile",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-09-26T18:52:48.156Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/insurance-premium",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/insurance-premium",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:52:47.269Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/insurance-search",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/insurance-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:52:44.771Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/neighborhood-intelligence",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/neighborhood-intelligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:52:28.923Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/demographic-similarity",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/demographic-similarity",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:52:19.551Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/location-compare",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/location-compare",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:52:10.218Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/market-size",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/market-size",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:52:02.8Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/us-demographics",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/us-demographics",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:51:52.853Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/domain-intelligence",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/domain-intelligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-26T18:51:45.692Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/email-risk",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/email-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-26T18:51:38.227Z"
-  },
-  {
-   "key": "https://agent-vending-production.up.railway.app/v1/read-url",
-   "name": "agent-vending-production.up.railway.app",
-   "url": "https://agent-vending-production.up.railway.app/v1/read-url",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-26T18:51:30.25Z"
-  },
-  {
-   "key": "https://api.onesource.io/api/chain/proxy/:address",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/proxy/:address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:50:29.446Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/pool",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/pool",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:48:26.955Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/exit-pressure/current",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/exit-pressure/current",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:48:16.206Z"
-  },
-  {
-   "key": "https://x402.glassnode.com/v1/metrics/indicators/accumulation_trend_score",
-   "name": "x402.glassnode.com",
-   "url": "https://x402.glassnode.com/v1/metrics/indicators/accumulation_trend_score",
+   "key": "https://x402.spendthebits.com/@stbclaudeprod/reputation/",
+   "name": "x402.spendthebits.com",
+   "url": "https://x402.spendthebits.com/@stbclaudeprod/reputation/",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-09-26T18:47:27.848Z"
+   "updated": "2026-09-27T22:07:24.516Z"
   },
   {
-   "key": "https://base.mapleai.shop/v1/chat/completions",
-   "name": "base.mapleai.shop",
-   "url": "https://base.mapleai.shop/v1/chat/completions",
+   "key": "https://relay.straelo.com/web-intelligence",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/web-intelligence",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1623",
-   "updated": "2026-09-26T18:47:23.178Z"
+   "price": "30000",
+   "updated": "2026-09-27T22:04:33.261Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/branches/auction/live",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/branches/auction/live",
+   "key": "https://relay.straelo.com/research-answer",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/research-answer",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:45:25.996Z"
+   "price": "25000",
+   "updated": "2026-09-27T22:04:29.554Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/tax/schedule",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/tax/schedule",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:45:19.756Z"
-  },
-  {
-   "key": "https://api.onesource.io/standard/v1/flow/hourly",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/flow/hourly",
+   "key": "https://relay.straelo.com/search-read",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/search-read",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-09-26T18:45:10.886Z"
+   "updated": "2026-09-27T22:04:26.807Z"
   },
   {
-   "key": "https://api.onesource.io/standard/v1/candles",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/standard/v1/candles",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:44:38.056Z"
-  },
-  {
-   "key": "https://api.onesource.io/api/chain/total-supply",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/total-supply",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-26T18:41:51.32Z"
-  },
-  {
-   "key": "https://agent.pocket.network/v1/structured-web-extraction",
-   "name": "agent.pocket.network",
-   "url": "https://agent.pocket.network/v1/structured-web-extraction",
+   "key": "https://relay.straelo.com/email-validator/basic",
+   "name": "relay.straelo.com",
+   "url": "https://relay.straelo.com/email-validator/basic",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-26T18:41:32.113Z"
+   "updated": "2026-09-27T22:01:47.814Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/events",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/events",
+   "key": "https://a2apay.io/api/agent-service",
+   "name": "a2apay.io",
+   "url": "https://a2apay.io/api/agent-service",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:40:12.312Z"
+   "price": "28000",
+   "updated": "2026-09-27T22:00:24.909Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/chain-id",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/chain-id",
+   "key": "https://api.loyalspark.online/x402-gateway/recipient-api/rewards",
+   "name": "api.loyalspark.online",
+   "url": "https://api.loyalspark.online/x402-gateway/recipient-api/rewards",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-09-26T18:39:59.454Z"
+   "updated": "2026-09-27T21:57:17.67Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/call",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/call",
+   "key": "https://www.pennypress.org/essays/contradictions-of-the-archipelago",
+   "name": "www.pennypress.org",
+   "url": "https://www.pennypress.org/essays/contradictions-of-the-archipelago",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:39:04.739Z"
+   "price": "20000",
+   "updated": "2026-09-27T21:55:26.446Z"
   },
   {
-   "key": "https://api.onesource.io/api/chain/receipt/:hash",
-   "name": "api.onesource.io",
-   "url": "https://api.onesource.io/api/chain/receipt/:hash",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:38:52.718Z"
-  },
-  {
-   "key": "https://api.geoprimitives.dev/v1/marine/depth",
-   "name": "api.geoprimitives.dev",
-   "url": "https://api.geoprimitives.dev/v1/marine/depth",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-26T18:35:30.888Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/industrial-news",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/industrial-news",
+   "key": "https://win.oneshotagent.com/v1/tools/research/people",
+   "name": "win.oneshotagent.com",
+   "url": "https://win.oneshotagent.com/v1/tools/research/people",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T18:35:23.261Z"
+   "updated": "2026-09-27T21:51:58.354Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/industrial-supply",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/industrial-supply",
+   "key": "https://tick.hugen.tokyo/tick/all",
+   "name": "tick.hugen.tokyo",
+   "url": "https://tick.hugen.tokyo/tick/all",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:21.615Z"
+   "price": "5000",
+   "updated": "2026-09-27T21:47:14.298Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/logistics-risk",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/logistics-risk",
+   "key": "https://mcp.dropenginehq.com/api/invoice-preflight",
+   "name": "mcp.dropenginehq.com",
+   "url": "https://mcp.dropenginehq.com/api/invoice-preflight",
    "type": "http",
    "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-09-26T18:35:18.525Z"
+   "price": "65000",
+   "updated": "2026-09-27T21:41:29.593Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/factory-status",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/factory-status",
+   "key": "https://fileshareforagents.online/v1/items",
+   "name": "fileshareforagents.online",
+   "url": "https://fileshareforagents.online/v1/items",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:15.836Z"
+   "price": "10000",
+   "updated": "2026-09-27T21:41:18.412Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/supplier-search",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/supplier-search",
+   "key": "https://smx.space/v1/markets/moon-race-us-china-test-v2/mid",
+   "name": "smx.space",
+   "url": "https://smx.space/v1/markets/moon-race-us-china-test-v2/mid",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-27T21:38:04.491Z"
+  },
+  {
+   "key": "https://smx.space/agent/markets",
+   "name": "smx.space",
+   "url": "https://smx.space/agent/markets",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-27T21:38:00.666Z"
+  },
+  {
+   "key": "https://agent402.tools/api/perp-basis",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/perp-basis",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:11.581Z"
+   "price": "2000",
+   "updated": "2026-09-27T21:35:12.769Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/industrial-market",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/industrial-market",
+   "key": "https://agent402.tools/api/perp-funding",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/perp-funding",
    "type": "http",
    "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-09-26T18:35:09.063Z"
+   "price": "2000",
+   "updated": "2026-09-27T21:35:11.138Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/industrial-price",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/industrial-price",
+   "key": "https://api.x402lint.dev/v1/scan",
+   "name": "api.x402lint.dev",
+   "url": "https://api.x402lint.dev/v1/scan",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:07.474Z"
+   "price": "50000",
+   "updated": "2026-09-27T21:31:56.509Z"
   },
   {
-   "key": "https://api.xynaptic.io/v1/raw-materials",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/raw-materials",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:05.523Z"
-  },
-  {
-   "key": "https://api.xynaptic.io/v1/commodity-price",
-   "name": "api.xynaptic.io",
-   "url": "https://api.xynaptic.io/v1/commodity-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-26T18:35:03.662Z"
-  },
-  {
-   "key": "https://agent-business-lab-composition.dfly90724.workers.dev/api/composition",
-   "name": "agent-business-lab-composition.dfly90724.workers.dev",
-   "url": "https://agent-business-lab-composition.dfly90724.workers.dev/api/composition",
+   "key": "https://tollbooth-hello-testnet.sjwilliams8.workers.dev/hello",
+   "name": "tollbooth-hello-testnet.sjwilliams8.workers.dev",
+   "url": "https://tollbooth-hello-testnet.sjwilliams8.workers.dev/hello",
    "type": "http",
    "network": "eip155:84532",
    "price": "1000",
-   "updated": "2026-09-26T18:33:20.958Z"
+   "updated": "2026-09-27T21:26:32.416Z"
   },
   {
-   "key": "https://blockrun.ai/api/v1/messages",
-   "name": "blockrun.ai",
-   "url": "https://blockrun.ai/api/v1/messages",
+   "key": "https://x402.twit.sh/tweets/search",
+   "name": "x402.twit.sh",
+   "url": "https://x402.twit.sh/tweets/search",
    "type": "http",
    "network": "eip155:8453",
-   "price": "11000",
-   "updated": "2026-09-26T18:31:36.422Z"
+   "price": "6000",
+   "updated": "2026-09-27T21:26:11.351Z"
   },
   {
-   "key": "https://api.nansen.ai/api/v1/tgm/flow-intelligence",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/tgm/flow-intelligence",
+   "key": "https://vaaya.ai/api/run/icypeas/result",
+   "name": "vaaya.ai",
+   "url": "https://vaaya.ai/api/run/icypeas/result",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-26T18:30:07.978Z"
+   "updated": "2026-09-27T21:25:33.649Z"
+  },
+  {
+   "key": "https://vaaya.ai/api/run/icypeas/email-search",
+   "name": "vaaya.ai",
+   "url": "https://vaaya.ai/api/run/icypeas/email-search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-09-27T21:25:14.044Z"
+  },
+  {
+   "key": "https://apexrunner.ai/signals/market-tick",
+   "name": "apexrunner.ai",
+   "url": "https://apexrunner.ai/signals/market-tick",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "7000",
+   "updated": "2026-09-27T21:25:06.329Z"
+  },
+  {
+   "key": "https://vaaya.ai/api/run/linkup/search",
+   "name": "vaaya.ai",
+   "url": "https://vaaya.ai/api/run/linkup/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T21:24:57.431Z"
+  },
+  {
+   "key": "https://vaaya.ai/api/run/crw/scrape",
+   "name": "vaaya.ai",
+   "url": "https://vaaya.ai/api/run/crw/scrape",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T21:24:34.74Z"
+  },
+  {
+   "key": "https://api.kadec0.xyz/v1/hackernews",
+   "name": "api.kadec0.xyz",
+   "url": "https://api.kadec0.xyz/v1/hackernews",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-27T21:23:23.451Z"
+  },
+  {
+   "key": "https://api.onesource.io/deepstate/v1/analytics/cost-to-quote",
+   "name": "api.onesource.io",
+   "url": "https://api.onesource.io/deepstate/v1/analytics/cost-to-quote",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-27T21:22:30.872Z"
+  },
+  {
+   "key": "https://api.onesource.io/deepstate/v1/markets",
+   "name": "api.onesource.io",
+   "url": "https://api.onesource.io/deepstate/v1/markets",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T21:22:26.693Z"
+  },
+  {
+   "key": "https://api.onesource.io/deepstate/v1/stats/:book",
+   "name": "api.onesource.io",
+   "url": "https://api.onesource.io/deepstate/v1/stats/:book",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T21:22:16.24Z"
+  },
+  {
+   "key": "https://api.onesource.io/deepstate/v1/book/:book",
+   "name": "api.onesource.io",
+   "url": "https://api.onesource.io/deepstate/v1/book/:book",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-27T21:22:04.551Z"
   }
  ]
 }
