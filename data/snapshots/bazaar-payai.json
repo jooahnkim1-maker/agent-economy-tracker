@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-09-30T00:06:45.503536Z",
- "total": 9970,
- "added24h": 1146,
+ "generatedAt": "2026-10-01T00:23:54.535081Z",
+ "total": 11022,
+ "added24h": 1174,
  "networks": {
-  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 1838,
-  "eip155:8453": 4577,
+  "eip155:8453": 4630,
   "solana": 283,
-  "base": 1047,
-  "eip155:84532": 2139,
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 1840,
+  "base": 1043,
   "eip155:1329": 2,
+  "eip155:84532": 3139,
+  "eip155:42161": 4,
   "eip155:137": 26,
   "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1": 5,
   "eip155:196": 7,
   "eip155:43114": 1,
-  "eip155:42161": 3,
   "eip155:1187947933": 2,
   "eip155:80002": 2,
   "eip155:1952": 2,
@@ -27,13 +27,49 @@
  },
  "items": [
   {
-   "key": "https://api.nansen.ai/api/v1/profiler/address/related-wallets",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/profiler/address/related-wallets",
+   "key": "https://apiv2.laevitas.ch/api/v1/options/:var1",
+   "name": "apiv2.laevitas.ch",
+   "url": "https://apiv2.laevitas.ch/api/v1/options/:var1",
    "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-30T00:04:18.195Z"
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-10-01T00:18:53.205Z"
+  },
+  {
+   "key": "https://get402.ai/v1/fetch",
+   "name": "get402.ai",
+   "url": "https://get402.ai/v1/fetch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-10-01T00:15:58.104Z"
+  },
+  {
+   "key": "https://base.mapleai.shop/jev",
+   "name": "base.mapleai.shop",
+   "url": "https://base.mapleai.shop/jev",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2502",
+   "updated": "2026-10-01T00:14:49.302Z"
+  },
+  {
+   "key": "https://base.mapleai.shop/prepaid/codes/auto",
+   "name": "base.mapleai.shop",
+   "url": "https://base.mapleai.shop/prepaid/codes/auto",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "9500",
+   "updated": "2026-10-01T00:14:44.461Z"
+  },
+  {
+   "key": "https://base.mapleai.shop/prepaid/codes",
+   "name": "base.mapleai.shop",
+   "url": "https://base.mapleai.shop/prepaid/codes",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "9500",
+   "updated": "2026-10-01T00:14:43.417Z"
   },
   {
    "key": "https://lumierepaycheck.org/v1/report",
@@ -42,16 +78,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-30T00:02:51.268Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/profiler/address/counterparties",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/profiler/address/counterparties",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-09-29T23:54:18.871Z"
+   "updated": "2026-10-01T00:14:31.545Z"
   },
   {
    "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
@@ -60,133 +87,151 @@
    "type": "http",
    "network": "solana",
    "price": "80000",
-   "updated": "2026-09-29T23:41:45.986Z"
+   "updated": "2026-10-01T00:11:41.637Z"
   },
   {
-   "key": "https://apiv2.laevitas.ch/api/v1/options/:var1",
-   "name": "apiv2.laevitas.ch",
-   "url": "https://apiv2.laevitas.ch/api/v1/options/:var1",
+   "key": "https://sol.blockrun.ai/api/v1/pm/markets/search",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/markets/search",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-10-01T00:00:35.576Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/llm",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/llm",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-09-29T23:30:05.299Z"
+   "price": "0",
+   "updated": "2026-09-30T23:38:28.604Z"
   },
   {
-   "key": "https://insidercable.com/paid/feed/etf_flows",
-   "name": "insidercable.com",
-   "url": "https://insidercable.com/paid/feed/etf_flows",
+   "key": "http://sableforge.servehttp.com/api/urlcheck",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/urlcheck",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:38.021Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/addr",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/addr",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:34.591Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/tx",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/tx",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:31.147Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/block",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/block",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:27.759Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/fx",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/fx",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:24.400Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/text",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/text",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:21.049Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/time",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/time",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:17.534Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/hash",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/hash",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:13.897Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/dns",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/dns",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:10.474Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/geo",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/geo",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:36:07.091Z"
+  },
+  {
+   "key": "http://sableforge.servehttp.com/api/price",
+   "name": "sableforge.servehttp.com",
+   "url": "http://sableforge.servehttp.com/api/price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-09-30T23:31:16.724Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/mermaid",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/mermaid",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-09-29T23:21:07.537Z"
+   "updated": "2026-09-30T23:14:29.418Z"
   },
   {
-   "key": "https://business.agentum.lat/preflight",
-   "name": "business.agentum.lat",
-   "url": "https://business.agentum.lat/preflight",
+   "key": "https://x402.valintix.com/v1/transform",
+   "name": "x402.valintix.com",
+   "url": "https://x402.valintix.com/v1/transform",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "150000",
-   "updated": "2026-09-29T22:27:29.744Z"
-  },
-  {
-   "key": "https://business.agentum.lat/company-intelligence",
-   "name": "business.agentum.lat",
-   "url": "https://business.agentum.lat/company-intelligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-29T22:27:21.864Z"
-  },
-  {
-   "key": "https://agentum.lat/company-enrich",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/company-enrich",
-   "type": "http",
-   "network": "eip155:8453",
+   "network": "base",
    "price": "10000",
-   "updated": "2026-09-29T22:27:03.759Z"
+   "updated": "2026-09-30T22:22:44.416Z"
   },
   {
-   "key": "https://agentum.lat/vat-validate",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/vat-validate",
+   "key": "https://x402.valintix.com/v1/summarize",
+   "name": "x402.valintix.com",
+   "url": "https://x402.valintix.com/v1/summarize",
    "type": "http",
-   "network": "eip155:8453",
+   "network": "base",
    "price": "10000",
-   "updated": "2026-09-29T22:27:01.195Z"
-  },
-  {
-   "key": "https://agentum.lat/economic-data",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/economic-data",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T22:26:58.602Z"
-  },
-  {
-   "key": "https://agentum.lat/fx-rates",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/fx-rates",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T22:26:56.202Z"
-  },
-  {
-   "key": "https://agentum.lat/business-intelligence",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/business-intelligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-29T22:26:54.033Z"
-  },
-  {
-   "key": "https://agentum.lat/validar-cpf",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/validar-cpf",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T22:26:41.965Z"
-  },
-  {
-   "key": "https://agentum.lat/verificar-cep",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/verificar-cep",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T22:26:39.868Z"
-  },
-  {
-   "key": "https://agentum.lat/taxas-brasil",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/taxas-brasil",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T22:26:37.873Z"
-  },
-  {
-   "key": "https://agentum.lat/verificar-cnpj",
-   "name": "agentum.lat",
-   "url": "https://agentum.lat/verificar-cnpj",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-29T22:26:35.192Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/stocks/quote/:symbol",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/stocks/quote/:symbol",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-29T22:21:01.673Z"
+   "updated": "2026-09-30T22:22:44.105Z"
   },
   {
    "key": "https://api.dev.hypercli.com/agents/x402/solo",
@@ -195,16 +240,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T21:32:56.702Z"
-  },
-  {
-   "key": "https://x402.miroshark.xyz/run",
-   "name": "x402.miroshark.xyz",
-   "url": "https://x402.miroshark.xyz/run",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000000",
-   "updated": "2026-09-29T21:26:59.245Z"
+   "updated": "2026-09-30T22:20:20.559Z"
   },
   {
    "key": "https://apiv2.laevitas.ch/api/v1/perpetuals/:var1",
@@ -213,7 +249,295 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "100000",
-   "updated": "2026-09-29T21:05:05.774Z"
+   "updated": "2026-09-30T22:05:05.232Z"
+  },
+  {
+   "key": "https://tripadvisor.x402.paysponge.com/api/v1/location/search",
+   "name": "tripadvisor.x402.paysponge.com",
+   "url": "https://tripadvisor.x402.paysponge.com/api/v1/location/search",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T21:30:22.560Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/webhook_catch",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/webhook_catch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-09-30T21:18:07.423Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/document_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/document_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T21:18:02.752Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/epub_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/epub_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:18:01.090Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/xlsx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/xlsx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:59.526Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/pptx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/pptx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:57.978Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/docx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/docx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:56.462Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/pdf_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/pdf_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T21:17:54.974Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/llm_chat",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/llm_chat",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:53.438Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_checksum",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_checksum",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:51.873Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_solana",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_solana",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:50.190Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_nostr",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_nostr",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:48.696Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_siwe",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_siwe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:47.197Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_stablecoin",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_stablecoin",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:45.650Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_batch",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_batch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:44.160Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_worldid",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_worldid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:42.669Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_semaphore",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_semaphore",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:41.154Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/jobs",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/jobs",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:39.660Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/og_image_generator",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/og_image_generator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:38.173Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/qr_generator",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/qr_generator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:36.630Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/html_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/html_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:35.098Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/changelog_git",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/changelog_git",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:32.102Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/changelog_openapi",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/changelog_openapi",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:30.607Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/cross_chain_balance",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/cross_chain_balance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:29.107Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/whale_alerts",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/whale_alerts",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:27.555Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_portfolio",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_portfolio",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:25.890Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/token_price",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/token_price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:24.376Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:22.861Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/shortlink_stats",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/shortlink_stats",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-09-30T21:17:21.351Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/shortlink_create",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/shortlink_create",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-09-30T21:17:19.858Z"
+  },
+  {
+   "key": "https://x402.freeq.one/mcp",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/mcp",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T21:17:18.320Z"
+  },
+  {
+   "key": "https://api.growvib.com/v1/agent/orders",
+   "name": "api.growvib.com",
+   "url": "https://api.growvib.com/v1/agent/orders",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000000",
+   "updated": "2026-09-30T20:52:47.486Z"
   },
   {
    "key": "https://api.aurelianflo.com/api/ofac-wallet-screen/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
@@ -222,88 +546,34 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T20:05:49.646Z"
+   "updated": "2026-09-30T20:05:34.073Z"
   },
   {
-   "key": "https://recallguard-api.vercel.app/api/v1/match",
-   "name": "recallguard-api.vercel.app",
-   "url": "https://recallguard-api.vercel.app/api/v1/match",
-   "type": "http",
-   "network": "base",
-   "price": "100000",
-   "updated": "2026-09-29T19:55:33.246Z"
-  },
-  {
-   "key": "https://api.sitecheck-api.workers.dev/api/audit",
-   "name": "api.sitecheck-api.workers.dev",
-   "url": "https://api.sitecheck-api.workers.dev/api/audit",
+   "key": "https://base.mapleai.shop/v1/agents/execute",
+   "name": "base.mapleai.shop",
+   "url": "https://base.mapleai.shop/v1/agents/execute",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-29T19:51:58.531Z"
+   "price": "8500",
+   "updated": "2026-09-30T19:54:40.119Z"
   },
   {
-   "key": "https://library.intel.rallylive.ca/library/author/fergus-hume",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/author/fergus-hume",
+   "key": "https://api.avedaris.com/v1/paid/vendor-intelligence",
+   "name": "api.avedaris.com",
+   "url": "https://api.avedaris.com/v1/paid/vendor-intelligence",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T19:48:59.229Z"
+   "price": "23000",
+   "updated": "2026-09-30T19:48:15.463Z"
   },
   {
-   "key": "https://library.intel.rallylive.ca/library/author/dante-alighieri",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/author/dante-alighieri",
+   "key": "https://api.paysponge.com/v0/inboxes",
+   "name": "api.paysponge.com",
+   "url": "https://api.paysponge.com/v0/inboxes",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T19:48:58.300Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/audiobooks/subject/americans",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/audiobooks/subject/americans",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T19:48:54.686Z"
-  },
-  {
-   "key": "https://genesis.palsus2023.workers.dev/v1/genesis",
-   "name": "genesis.palsus2023.workers.dev",
-   "url": "https://genesis.palsus2023.workers.dev/v1/genesis",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-29T19:43:36.085Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/aircraft/track/:id",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/aircraft/track/:id",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-09-29T19:33:54.192Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/aviation/airport-status",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/aviation/airport-status",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-29T19:33:02.534Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/lottery/results",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/lottery/results",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-29T19:33:01.252Z"
+   "price": "2000000",
+   "updated": "2026-09-30T19:27:38.173Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYPTBYH0G9DVQH0PWPFR",
@@ -312,7 +582,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "40000",
-   "updated": "2026-09-29T19:13:58.981Z"
+   "updated": "2026-09-30T19:18:13.110Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYR764J9WVA48ETX6DA3",
@@ -321,16 +591,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "40000",
-   "updated": "2026-09-29T19:13:58.594Z"
+   "updated": "2026-09-30T19:18:12.510Z"
   },
   {
-   "key": "https://api.bilbop.org/v1/sol-token-brief",
-   "name": "api.bilbop.org",
-   "url": "https://api.bilbop.org/v1/sol-token-brief",
+   "key": "https://sol.mapleai.shop/v1/chat/completions",
+   "name": "sol.mapleai.shop",
+   "url": "https://sol.mapleai.shop/v1/chat/completions",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-29T18:57:35.146Z"
+   "price": "1006",
+   "updated": "2026-09-30T19:04:54.127Z"
+  },
+  {
+   "key": "https://base.mapleai.shop/v1/chat/completions",
+   "name": "base.mapleai.shop",
+   "url": "https://base.mapleai.shop/v1/chat/completions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1006",
+   "updated": "2026-09-30T19:04:35.865Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYN9SGHWYGE92CGXMA74",
@@ -339,7 +618,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "30000",
-   "updated": "2026-09-29T18:48:25.553Z"
+   "updated": "2026-09-30T18:53:59.944Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYQJ02BVD0N6H73A6RCM",
@@ -348,7 +627,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "30000",
-   "updated": "2026-09-29T18:48:25.147Z"
+   "updated": "2026-09-30T18:53:59.537Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M2NXY883W33X7KJCZMJ811A0",
@@ -357,7 +636,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:24.762Z"
+   "updated": "2026-09-30T18:53:59.139Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3M9411Q18YT0MDB3V6S",
@@ -366,7 +645,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:24.363Z"
+   "updated": "2026-09-30T18:53:58.747Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M2N6GWB06867BFMSKJATK2QC",
@@ -375,7 +654,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:23.960Z"
+   "updated": "2026-09-30T18:53:58.338Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M2ND5C6502HRV8VA9PMG40W6",
@@ -384,7 +663,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:23.565Z"
+   "updated": "2026-09-30T18:53:57.930Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M2ER4Q7KTYH6WYWWXRT0XT0X",
@@ -393,7 +672,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:23.159Z"
+   "updated": "2026-09-30T18:53:57.457Z"
   },
   {
    "key": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3W5ZY5DSQETSK7G2ZG6",
@@ -402,502 +681,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T18:48:22.521Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/email/verify",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/email/verify",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2400",
-   "updated": "2026-09-29T18:43:15.284Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/uuid/generate",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/uuid/generate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "900",
-   "updated": "2026-09-29T18:41:09.172Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/text/clean",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/text/clean",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1100",
-   "updated": "2026-09-29T18:41:06.522Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/base64/encode",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/base64/encode",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "900",
-   "updated": "2026-09-29T18:41:04.306Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/url/normalize",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/url/normalize",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1200",
-   "updated": "2026-09-29T18:41:01.867Z"
-  },
-  {
-   "key": "https://one-search.one-engine.workers.dev/v1/json/validate",
-   "name": "one-search.one-engine.workers.dev",
-   "url": "https://one-search.one-engine.workers.dev/v1/json/validate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1100",
-   "updated": "2026-09-29T18:40:59.594Z"
-  },
-  {
-   "key": "https://agents.getardaro.com/v1/agent-utilities/context-compression/analyze",
-   "name": "agents.getardaro.com",
-   "url": "https://agents.getardaro.com/v1/agent-utilities/context-compression/analyze",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-09-29T18:40:07.714Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/x402/test",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/x402/test",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-09-29T18:39:53.511Z"
-  },
-  {
-   "key": "https://x402.onchainexpat.com/api/x402-tools/shipping/track",
-   "name": "x402.onchainexpat.com",
-   "url": "https://x402.onchainexpat.com/api/x402-tools/shipping/track",
-   "type": "http",
-   "network": "base",
-   "price": "20000",
-   "updated": "2026-09-29T18:10:55.264Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/texts/1860s",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/texts/1860s",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:48.190Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/books/1620s",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/books/1620s",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:45.199Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/author/ruben-dario",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/author/ruben-dario",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:44.032Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/author/hablot-knight-browne",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/author/hablot-knight-browne",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:41.675Z"
-  },
-  {
-   "key": "https://library.intel.rallylive.ca/library/audiobooks/subject/india",
-   "name": "library.intel.rallylive.ca",
-   "url": "https://library.intel.rallylive.ca/library/audiobooks/subject/india",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:37.361Z"
-  },
-  {
-   "key": "https://intel.rallylive.ca/domain-score",
-   "name": "intel.rallylive.ca",
-   "url": "https://intel.rallylive.ca/domain-score",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:27.793Z"
-  },
-  {
-   "key": "https://intel.rallylive.ca/dns/caa",
-   "name": "intel.rallylive.ca",
-   "url": "https://intel.rallylive.ca/dns/caa",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:03:26.497Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/news/fear-greed",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/news/fear-greed",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-09-29T18:02:47.309Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/evm/base/network",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/evm/base/network",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-09-29T18:02:43.082Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-09-29T18:01:11.421Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-29T18:01:10.570Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-29T18:01:09.604Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T18:01:08.643Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-09-29T18:01:07.664Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-09-29T18:01:06.584Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-29T18:01:05.793Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-09-29T18:01:04.854Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-09-29T18:01:04.040Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-09-29T18:01:03.607Z"
-  },
-  {
-   "key": "https://saylorinnovations.com/api/base/token/:address",
-   "name": "saylorinnovations.com",
-   "url": "https://saylorinnovations.com/api/base/token/:address",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-29T17:59:39.767Z"
-  },
-  {
-   "key": "https://fal.x402.paysponge.com/fal-ai/flux/schnell",
-   "name": "fal.x402.paysponge.com",
-   "url": "https://fal.x402.paysponge.com/fal-ai/flux/schnell",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-29T17:40:12.277Z"
-  },
-  {
-   "key": "https://dev.intel.rallylive.ca/dev/convert/acres-to-hectares",
-   "name": "dev.intel.rallylive.ca",
-   "url": "https://dev.intel.rallylive.ca/dev/convert/acres-to-hectares",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:36:46.717Z"
-  },
-  {
-   "key": "https://data.intel.rallylive.ca/data/sun/halifax",
-   "name": "data.intel.rallylive.ca",
-   "url": "https://data.intel.rallylive.ca/data/sun/halifax",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:36:26.955Z"
-  },
-  {
-   "key": "https://data.intel.rallylive.ca/data/air-quality/victoria",
-   "name": "data.intel.rallylive.ca",
-   "url": "https://data.intel.rallylive.ca/data/air-quality/victoria",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:36:25.725Z"
-  },
-  {
-   "key": "https://data.intel.rallylive.ca/data/air-quality/chicago",
-   "name": "data.intel.rallylive.ca",
-   "url": "https://data.intel.rallylive.ca/data/air-quality/chicago",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:36:24.566Z"
-  },
-  {
-   "key": "https://dznviqumoishbyp7dtbwld5444.srv.us/preflight",
-   "name": "dznviqumoishbyp7dtbwld5444.srv.us",
-   "url": "https://dznviqumoishbyp7dtbwld5444.srv.us/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-09-29T17:28:56.451Z"
-  },
-  {
-   "key": "https://loop2-quickstart.manhliemcn4euwlu.workers.dev/mkt/funded",
-   "name": "loop2-quickstart.manhliemcn4euwlu.workers.dev",
-   "url": "https://loop2-quickstart.manhliemcn4euwlu.workers.dev/mkt/funded",
-   "type": "http",
-   "network": "base",
-   "price": "1000",
-   "updated": "2026-09-29T17:19:14.261Z"
-  },
-  {
-   "key": "https://loop2-quickstart.manhliemcn4euwlu.workers.dev/mkt/x402",
-   "name": "loop2-quickstart.manhliemcn4euwlu.workers.dev",
-   "url": "https://loop2-quickstart.manhliemcn4euwlu.workers.dev/mkt/x402",
-   "type": "http",
-   "network": "base",
-   "price": "1000",
-   "updated": "2026-09-29T17:18:58.082Z"
-  },
-  {
-   "key": "https://web-production-220a3.up.railway.app/agentic/call/token_verdict",
-   "name": "web-production-220a3.up.railway.app",
-   "url": "https://web-production-220a3.up.railway.app/agentic/call/token_verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:08:24.535Z"
-  },
-  {
-   "key": "https://web-production-220a3.up.railway.app/agentic/call/osint_lookup",
-   "name": "web-production-220a3.up.railway.app",
-   "url": "https://web-production-220a3.up.railway.app/agentic/call/osint_lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:08:22.020Z"
-  },
-  {
-   "key": "https://intel.rallylive.ca/data/timestamp",
-   "name": "intel.rallylive.ca",
-   "url": "https://intel.rallylive.ca/data/timestamp",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:07:51.346Z"
-  },
-  {
-   "key": "https://intel.rallylive.ca/data/postal-format",
-   "name": "intel.rallylive.ca",
-   "url": "https://intel.rallylive.ca/data/postal-format",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:07:50.554Z"
-  },
-  {
-   "key": "https://tripadvisor.x402.paysponge.com/api/v1/location/nearby_search",
-   "name": "tripadvisor.x402.paysponge.com",
-   "url": "https://tripadvisor.x402.paysponge.com/api/v1/location/nearby_search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-09-29T17:02:31.811Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/us/contracts",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/us/contracts",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "50000",
-   "updated": "2026-09-29T17:01:47.713Z"
-  },
-  {
-   "key": "https://api.bentlawgic.com/v1/token/basic",
-   "name": "api.bentlawgic.com",
-   "url": "https://api.bentlawgic.com/v1/token/basic",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "2000",
-   "updated": "2026-09-29T16:53:59.590Z"
-  },
-  {
-   "key": "https://api.bilbop.org/v1/sol-mint-info",
-   "name": "api.bilbop.org",
-   "url": "https://api.bilbop.org/v1/sol-mint-info",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-29T16:53:58.034Z"
-  },
-  {
-   "key": "https://api.bilbop.org/v1/summarize",
-   "name": "api.bilbop.org",
-   "url": "https://api.bilbop.org/v1/summarize",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-09-29T16:53:54.551Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/eu/ted",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/eu/ted",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T16:50:57.000Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/sam/opportunities",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/sam/opportunities",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "20000",
-   "updated": "2026-09-29T16:50:54.468Z"
-  },
-  {
-   "key": "https://werner.ddns.net/weather",
-   "name": "werner.ddns.net",
-   "url": "https://werner.ddns.net/weather",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-09-29T16:43:30.209Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/uk/companies/daily",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/uk/companies/daily",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "200000",
-   "updated": "2026-09-29T16:40:50.731Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/sec/insiders",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/sec/insiders",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "100000",
-   "updated": "2026-09-29T16:40:45.608Z"
-  },
-  {
-   "key": "https://www.studio-x.cc/api/generate/video-fast",
-   "name": "www.studio-x.cc",
-   "url": "https://www.studio-x.cc/api/generate/video-fast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "330000",
-   "updated": "2026-09-29T16:32:50.247Z"
-  },
-  {
-   "key": "https://www.studio-x.cc/api/generate/video-pro",
-   "name": "www.studio-x.cc",
-   "url": "https://www.studio-x.cc/api/generate/video-pro",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "539000",
-   "updated": "2026-09-29T16:27:07.420Z"
-  },
-  {
-   "key": "https://www.studio-x.cc/api/generate/video-ultra",
-   "name": "www.studio-x.cc",
-   "url": "https://www.studio-x.cc/api/generate/video-ultra",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1100000",
-   "updated": "2026-09-29T16:23:16.647Z"
-  },
-  {
-   "key": "https://x402.dmodifydata.com/x402/v1/sec/financials",
-   "name": "x402.dmodifydata.com",
-   "url": "https://x402.dmodifydata.com/x402/v1/sec/financials",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "100000",
-   "updated": "2026-09-29T16:13:00.305Z"
+   "updated": "2026-09-30T18:53:56.783Z"
   },
   {
    "key": "https://api.sitecheck-api.workers.dev/api/transcribe",
@@ -906,1825 +690,2041 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T15:50:49.237Z"
+   "updated": "2026-09-30T18:29:26.297Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/usa-gov",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/usa-gov",
+   "key": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:54.962Z"
+   "network": "eip155:8453",
+   "price": "30000",
+   "updated": "2026-09-30T18:01:41.656Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ontario-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ontario-ca",
+   "key": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:52.116Z"
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T18:01:30.938Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gc-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gc-ca",
+   "key": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:41.187Z"
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T18:01:30.076Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canada-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canada-ca",
+   "key": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
    "type": "http",
-   "network": "eip155:84532",
+   "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-09-29T15:49:30.728Z"
+   "updated": "2026-09-30T18:01:29.348Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/workopolis-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/workopolis-com",
+   "key": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:28.068Z"
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-09-30T18:01:28.428Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ziprecruiter-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ziprecruiter-com",
+   "key": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:17.501Z"
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-09-30T18:01:27.646Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/monster-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/monster-com",
+   "key": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:14.812Z"
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-30T18:01:27.037Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/glassdoor-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/glassdoor-com",
+   "key": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:49:04.124Z"
+   "network": "eip155:8453",
+   "price": "15000",
+   "updated": "2026-09-30T18:01:26.243Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/indeed-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/indeed-com",
+   "key": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:53.285Z"
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-09-30T18:01:25.558Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/redfin-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/redfin-com",
+   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:50.456Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/realtor-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/realtor-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:39.724Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/realtor-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/realtor-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:28.755Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zillow-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zillow-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:18.145Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/craigslist-org",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/craigslist-org",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:14.839Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kijiji-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kijiji-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:48:04.178Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/autotrader-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/autotrader-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:53.642Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bmw-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bmw-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:50.313Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/honda-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/honda-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:39.652Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/toyota-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/toyota-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:28.816Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gm-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gm-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:18.325Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ford-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ford-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:15.232Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/tesla-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/tesla-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:47:04.640Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kfc-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kfc-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:54.133Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chipotle-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chipotle-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:50.703Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wendys-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wendys-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:40.088Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/subway-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/subway-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:29.254Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/pizzahut-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/pizzahut-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:26.155Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dominos-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dominos-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:15.347Z"
-  },
-  {
-   "key": "https://drkdm4jd-8767.uks1.devtunnels.ms/mcp",
-   "name": "drkdm4jd-8767.uks1.devtunnels.ms",
-   "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/mcp",
-   "type": "mcp",
-   "network": "eip155:84532",
+   "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-09-29T15:46:05.131Z"
+   "updated": "2026-09-30T18:01:25.177Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mcdonalds-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mcdonalds-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:46:04.788Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/starbucks-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/starbucks-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:54.211Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/timhortons-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/timhortons-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:50.289Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lcbo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lcbo-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:39.710Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/metro-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/metro-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:27.006Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sobeys-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sobeys-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:16.292Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/loblaws-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/loblaws-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:13.664Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canadiantire-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canadiantire-ca",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:45:03.024Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lowes-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lowes-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:52.171Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wayfair-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wayfair-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:41.141Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ikea-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ikea-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:38.134Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wish-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wish-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:26.819Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shein-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shein-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:16.182Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/temu-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/temu-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:05.367Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/alibaba-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/alibaba-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:44:02.059Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aliexpress-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aliexpress-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:51.578Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shop-app",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shop-app",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:40.936Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sezzle-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sezzle-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:38.154Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/afterpay-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/afterpay-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:27.176Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/affirm-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/affirm-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:15.724Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/klarna-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/klarna-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:04.918Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/squareup-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/squareup-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:43:01.448Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/magento-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/magento-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:42:50.819Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/woocommerce-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/woocommerce-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:42:40.246Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bigcommerce-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bigcommerce-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:42:29.631Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wave-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wave-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:42:18.957Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/freshbooks-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/freshbooks-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:42:08.275Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/xero-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/xero-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:57.575Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/quickbooks-intuit-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/quickbooks-intuit-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:47.005Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/workday-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/workday-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:36.267Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/servicenow-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/servicenow-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:25.530Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sap-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sap-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:14.839Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ibm-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ibm-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:41:04.082Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/oracle-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/oracle-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:40:53.300Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/vultr-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/vultr-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:40:42.679Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/linode-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/linode-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:40:32.064Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hetzner-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hetzner-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:40:21.181Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ovh-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ovh-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:40:10.271Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kinsta-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kinsta-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:59.665Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wpengine-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wpengine-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:49.009Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/siteground-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/siteground-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:38.325Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bluehost-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bluehost-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:27.680Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hostinger-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hostinger-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:17.015Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zoho-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zoho-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:39:06.275Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fastmail-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fastmail-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:55.531Z"
-  },
-  {
-   "key": "https://werner.ddns.net/price",
-   "name": "werner.ddns.net",
-   "url": "https://werner.ddns.net/price",
+   "key": "https://payai.agentstools.dev/model/lookup",
+   "name": "payai.agentstools.dev",
+   "url": "https://payai.agentstools.dev/model/lookup",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-09-29T15:38:54.968Z"
+   "price": "8000",
+   "updated": "2026-09-30T17:57:50.862Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aol-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aol-com",
+   "key": "https://dznviqumoishbyp7dtbwld5444.srv.us/preflight",
+   "name": "dznviqumoishbyp7dtbwld5444.srv.us",
+   "url": "https://dznviqumoishbyp7dtbwld5444.srv.us/preflight",
    "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:44.798Z"
+   "network": "eip155:8453",
+   "price": "4000",
+   "updated": "2026-09-30T17:21:25.325Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mail-yahoo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mail-yahoo-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:34.141Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/yahoo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/yahoo-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:22.817Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mail-google-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mail-google-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:12.181Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gmail-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/gmail-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:38:01.418Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/protonmail-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/protonmail-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:37:50.806Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/proton-me",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/proton-me",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:37:40.138Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/expressvpn-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/expressvpn-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:37:29.012Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nordvpn-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nordvpn-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:37:18.147Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bitwarden-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bitwarden-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:37:07.588Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lastpass-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lastpass-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:56.852Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/1password-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/1password-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:46.160Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/auth0-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/auth0-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:35.303Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/okta-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/okta-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:24.687Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/twilio-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/twilio-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:14.126Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sendgrid-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/sendgrid-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:36:03.172Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mailchimp-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mailchimp-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:35:52.648Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/freshdesk-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/freshdesk-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:35:42.063Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/intercom-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/intercom-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:35:31.449Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zendesk-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zendesk-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:35:20.244Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/salesforce-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/salesforce-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:35:09.620Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hubspot-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/hubspot-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:58.804Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/airtable-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/airtable-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:48.181Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/miro-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/miro-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:40.102Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/adobe-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/adobe-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:35.671Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canva-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canva-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:29.079Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/figma-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/figma-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:26.391Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/confluence-atlassian-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/confluence-atlassian-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:23.426Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/jira-atlassian-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/jira-atlassian-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:20.732Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/clickup-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/clickup-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:34:10.140Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/monday-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/monday-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:59.417Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/asana-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/asana-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:48.851Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/notion-so",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/notion-so",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:42.175Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/onedrive-live-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/onedrive-live-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:31.496Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/drive-google-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/drive-google-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:20.744Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/box-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/box-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:33:10.135Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dropbox-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dropbox-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:59.309Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zoom-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/zoom-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:48.634Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/moodle-org",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/moodle-org",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:45.669Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/blackboard-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/blackboard-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:34.937Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canvas-instructure-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canvas-instructure-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:24.218Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/edx-org",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/edx-org",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:13.698Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/khanacademy-org",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/khanacademy-org",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:32:02.856Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/udemy-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/udemy-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:31:52.068Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/coursera-org",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/coursera-org",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:31:41.240Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/duolingo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/duolingo-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:31:30.531Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chess-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chess-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:31:17.631Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fortnite-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fortnite-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:31:07.020Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/riotgames-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/riotgames-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:30:56.263Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/battle-net",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/battle-net",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:30:45.673Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ea-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ea-com",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:30:35.101Z"
-  },
-  {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/minecraft-net",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/minecraft-net",
-   "type": "http",
-   "network": "eip155:84532",
-   "price": "10000",
-   "updated": "2026-09-29T15:30:32.133Z"
-  },
-  {
-   "key": "http://werner.ddns.net:5001/price",
-   "name": "werner.ddns.net:5001",
-   "url": "http://werner.ddns.net:5001/price",
+   "key": "https://aws-bedrock.grok.me/api/v1/search",
+   "name": "aws-bedrock.grok.me",
+   "url": "https://aws-bedrock.grok.me/api/v1/search",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "5000",
+   "updated": "2026-09-30T16:21:55.615Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/openai",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/openai",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:12.278Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/clerk",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/clerk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:10.762Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/langchain",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/langchain",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:09.318Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/supabase",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/supabase",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:07.333Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/typescript",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/typescript",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:05.270Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/prisma",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/prisma",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:03.303Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/auth0",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/auth0",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-09-30T15:32:01.335Z"
+  },
+  {
+   "key": "https://agent402.tools/api/hash",
+   "name": "agent402.tools",
+   "url": "https://agent402.tools/api/hash",
+   "type": "http",
+   "network": "eip155:1329",
    "price": "1000",
-   "updated": "2026-09-29T15:30:29.622Z"
+   "updated": "2026-09-30T15:23:44.819Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/roblox-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/roblox-com",
+   "key": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
+   "name": "api.nansen.ai",
+   "url": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
    "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-09-30T15:18:52.001Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns2/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns2/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:42.170Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns2/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns2/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:39.620Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns1/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns1/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:37.439Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns1/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns1/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:35.351Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns1/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns1/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:33.105Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ns1/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ns1/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:30.949Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/owa/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/owa/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:28.847Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/owa/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/owa/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:26.667Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/owa/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/owa/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:24.439Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/owa/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/owa/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:22.348Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/webmail/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/webmail/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:20.105Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/webmail/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/webmail/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:17.696Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/webmail/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/webmail/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:15.591Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/webmail/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/webmail/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:13.461Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autoconfig/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autoconfig/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:11.291Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autoconfig/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autoconfig/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:09.186Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autoconfig/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autoconfig/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:07.061Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autoconfig/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autoconfig/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:04.937Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autodiscover/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autodiscover/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:02.818Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autodiscover/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autodiscover/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:17:00.647Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/autodiscover/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/autodiscover/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:58.465Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/portal/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/portal/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:56.343Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/portal/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/portal/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:54.252Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/portal/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/portal/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:52.058Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/portal/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/portal/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:49.695Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/remote/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/remote/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:47.337Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/remote/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/remote/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:45.114Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/remote/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/remote/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:43.019Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/vpn/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/vpn/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:40.925Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/vpn/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/vpn/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:38.861Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/vpn/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/vpn/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:36.669Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/vpn/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/vpn/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:34.333Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mobile/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mobile/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:32.223Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mobile/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mobile/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:30.092Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mobile/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mobile/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:27.497Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mobile/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mobile/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:25.300Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/m/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/m/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:23.179Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/m/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/m/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:20.949Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/m/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/m/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:18.860Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/m/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/m/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:16.756Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/img/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/img/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:14.668Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/img/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/img/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:12.574Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/img/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/img/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:10.431Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/img/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/img/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:08.321Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/assets/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/assets/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:06.139Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/assets/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/assets/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:03.702Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/assets/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/assets/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:16:01.447Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/assets/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/assets/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:59.296Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/static/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/static/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:57.097Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/static/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/static/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:55.033Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/static/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/static/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:52.772Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/static/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/static/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:50.591Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/cdn/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/cdn/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:48.432Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/cdn/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/cdn/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:46.283Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/cdn/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/cdn/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:44.088Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/cdn/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/cdn/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:41.776Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/store/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/store/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:39.508Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/store/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/store/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:37.326Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/store/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/store/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:35.076Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/store/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/store/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:32.820Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/shop/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/shop/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:20.513Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/shop/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/shop/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:18.384Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/shop/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/shop/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:16.347Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/shop/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/shop/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:14.168Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/blog/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/blog/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:12.050Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/blog/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/blog/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:10.083Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/blog/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/blog/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:07.705Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/blog/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/blog/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:05.450Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/admin/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/admin/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:03.282Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/admin/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/admin/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:15:01.183Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/admin/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/admin/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:59.015Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/admin/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/admin/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:56.898Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/beta/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/beta/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:54.713Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/beta/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/beta/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:52.499Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/beta/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/beta/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:50.272Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/beta/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/beta/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:48.143Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/test/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/test/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:45.616Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/test/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/test/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:43.456Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/test/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/test/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:41.294Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/test/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/test/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:39.240Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/staging/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/staging/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:37.161Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/staging/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/staging/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:35.007Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/staging/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/staging/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:32.906Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/staging/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/staging/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:30.810Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/dev/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/dev/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:28.657Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/dev/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/dev/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:26.579Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/dev/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/dev/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:24.526Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/dev/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/dev/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:22.272Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/app/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/app/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:20.186Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/app/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/app/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:17.651Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/app/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/app/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:15.521Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/app/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/app/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:13.278Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/api/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/api/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:11.116Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/api/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/api/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:08.977Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/api/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/api/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:06.852Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/api/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/api/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:04.678Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/sftp/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/sftp/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:02.601Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/sftp/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/sftp/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:14:00.423Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/sftp/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/sftp/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:58.254Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/sftp/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/sftp/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:56.166Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ftp/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ftp/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:53.599Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ftp/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ftp/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:51.518Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ftp/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ftp/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:49.449Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/ftp/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/ftp/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:47.347Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop3/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop3/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:45.235Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop3/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop3/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:43.072Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop3/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop3/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:40.893Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop3/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop3/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:38.790Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:36.652Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:34.501Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:32.237Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/pop/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/pop/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:30.136Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/imap/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/imap/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:27.615Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/imap/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/imap/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:25.454Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/imap/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/imap/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:23.321Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/smtp/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/smtp/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:21.173Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/smtp/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/smtp/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:18.944Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/smtp/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/smtp/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:16.771Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/smtp/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/smtp/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:14.650Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mail/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mail/txt",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:12.427Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mail/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mail/cname",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:10.326Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mail/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mail/aaaa",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:08.113Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/mail/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/mail/a",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:13:05.711Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/host/www/txt",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/www/txt",
+   "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:30:21.480Z"
+   "updated": "2026-09-30T15:13:03.413Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nintendo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nintendo-com",
+   "key": "https://dns.intel.rallylive.ca/dns/host/www/cname",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/www/cname",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:30:10.854Z"
+   "updated": "2026-09-30T15:13:01.265Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/playstation-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/playstation-com",
+   "key": "https://dns.intel.rallylive.ca/dns/host/www/aaaa",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/www/aaaa",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:30:00.125Z"
+   "updated": "2026-09-30T15:12:59.158Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/xbox-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/xbox-com",
+   "key": "https://dns.intel.rallylive.ca/dns/host/www/a",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/host/www/a",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:56.160Z"
+   "updated": "2026-09-30T15:12:57.012Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/epicgames-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/epicgames-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:45.246Z"
+   "updated": "2026-09-30T15:12:54.920Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/store-steampowered-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/store-steampowered-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:34.770Z"
+   "updated": "2026-09-30T15:12:52.808Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/steampowered-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/steampowered-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:24.092Z"
+   "updated": "2026-09-30T15:12:50.684Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/rottentomatoes-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/rottentomatoes-com",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:20.783Z"
+   "updated": "2026-09-30T15:12:48.576Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/imdb-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/imdb-com",
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:29:10.172Z"
+   "updated": "2026-09-30T15:12:46.461Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fifa-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fifa-com",
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:59.472Z"
+   "updated": "2026-09-30T15:12:36.764Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mlb-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/mlb-com",
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:56.235Z"
+   "updated": "2026-09-30T15:12:34.610Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nfl-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nfl-com",
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:45.592Z"
+   "updated": "2026-09-30T15:12:25.100Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nhl-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nhl-com",
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:34.973Z"
+   "updated": "2026-09-30T15:12:22.967Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nba-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nba-com",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:32.298Z"
+   "updated": "2026-09-30T15:12:20.842Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/espn-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/espn-com",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/cleanbrowsing",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/cleanbrowsing",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:21.533Z"
+   "updated": "2026-09-30T15:12:18.731Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/theglobeandmail-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/theglobeandmail-com",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:10.857Z"
+   "updated": "2026-09-30T15:11:54.678Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/thestar-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/thestar-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:28:07.507Z"
+   "updated": "2026-09-30T15:11:52.504Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/globalnews-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/globalnews-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:56.168Z"
+   "updated": "2026-09-30T15:11:50.342Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ctvnews-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ctvnews-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:45.271Z"
+   "updated": "2026-09-30T15:11:48.173Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cbc-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cbc-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:34.142Z"
+   "updated": "2026-09-30T15:11:45.589Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wsj-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wsj-com",
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:23.198Z"
+   "updated": "2026-09-30T15:11:43.338Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bloomberg-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bloomberg-com",
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:20.226Z"
+   "updated": "2026-09-30T15:11:41.152Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/apnews-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/apnews-com",
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:27:09.553Z"
+   "updated": "2026-09-30T15:11:38.994Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/reuters-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/reuters-com",
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:58.820Z"
+   "updated": "2026-09-30T15:11:36.837Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/theguardian-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/theguardian-com",
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:55.636Z"
+   "updated": "2026-09-30T15:11:34.595Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/washingtonpost-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/washingtonpost-com",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:44.937Z"
+   "updated": "2026-09-30T15:11:32.404Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nytimes-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/nytimes-com",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/dnssb",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/dnssb",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:34.409Z"
+   "updated": "2026-09-30T15:11:30.284Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bbc-co-uk",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bbc-co-uk",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:31.590Z"
+   "updated": "2026-09-30T15:11:28.096Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bbc-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bbc-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:20.809Z"
+   "updated": "2026-09-30T15:11:25.613Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cnn-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cnn-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:10.296Z"
+   "updated": "2026-09-30T15:11:23.404Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/opentable-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/opentable-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:26:07.508Z"
+   "updated": "2026-09-30T15:11:21.260Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/yelp-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/yelp-com",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:56.822Z"
+   "updated": "2026-09-30T15:11:19.073Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/grubhub-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/grubhub-com",
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:46.263Z"
+   "updated": "2026-09-30T15:11:16.929Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/instacart-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/instacart-com",
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:43.197Z"
+   "updated": "2026-09-30T15:11:14.817Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/skipthedishes-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/skipthedishes-com",
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:32.652Z"
+   "updated": "2026-09-30T15:11:12.556Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ubereats-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ubereats-com",
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:22.174Z"
+   "updated": "2026-09-30T15:11:10.391Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/doordash-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/doordash-com",
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:18.922Z"
+   "updated": "2026-09-30T15:11:08.193Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lyft-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/lyft-com",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:25:08.130Z"
+   "updated": "2026-09-30T15:11:06.069Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/uber-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/uber-com",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/mullvad",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/mullvad",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:57.339Z"
+   "updated": "2026-09-30T15:11:03.625Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/southwest-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/southwest-com",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:54.601Z"
+   "updated": "2026-09-30T15:11:01.335Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aa-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aa-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:44.056Z"
+   "updated": "2026-09-30T15:10:59.157Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/delta-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/delta-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:33.466Z"
+   "updated": "2026-09-30T15:10:57.026Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/united-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/united-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:30.725Z"
+   "updated": "2026-09-30T15:10:54.777Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/westjet-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/westjet-com",
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:20.068Z"
+   "updated": "2026-09-30T15:10:52.671Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aircanada-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/aircanada-com",
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:09.180Z"
+   "updated": "2026-09-30T15:10:50.599Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kayak-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kayak-com",
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:24:06.390Z"
+   "updated": "2026-09-30T15:10:48.445Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/tripadvisor-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/tripadvisor-com",
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:55.455Z"
+   "updated": "2026-09-30T15:10:46.333Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/airbnb-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/airbnb-com",
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:44.795Z"
+   "updated": "2026-09-30T15:10:44.052Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/booking-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/booking-com",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:34.199Z"
+   "updated": "2026-09-30T15:10:41.665Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/expedia-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/expedia-com",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/nextdns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/nextdns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:30.818Z"
+   "updated": "2026-09-30T15:10:39.510Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/purolator-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/purolator-com",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:20.172Z"
+   "updated": "2026-09-30T15:10:37.358Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/usps-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/usps-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:23:08.818Z"
+   "updated": "2026-09-30T15:10:34.143Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dhl-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/dhl-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:22:58.089Z"
+   "updated": "2026-09-30T15:10:30.924Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fedex-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/fedex-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:22:47.115Z"
+   "updated": "2026-09-30T15:10:28.666Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ups-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/ups-com",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:18.997Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/dnspod",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:16.837Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/dnspod",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:07.089Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/dnspod",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:04.843Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/dnspod",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:02.506Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/dnspod",
+   "type": "http",
+   "network": "eip155:84532",
+   "price": "10000",
+   "updated": "2026-09-30T15:10:00.297Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/litellm/changes",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/litellm/changes",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-09-30T15:09:55.484Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/litellm",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/litellm",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-09-29T15:22:34.091Z"
+   "updated": "2026-09-30T15:09:52.770Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canadapost-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/canadapost-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:22:30.122Z"
+   "updated": "2026-09-30T15:09:50.743Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shopify-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/shopify-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/dnspod",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/dnspod",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:22:19.294Z"
+   "updated": "2026-09-30T15:09:41.170Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/interac-ca",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/interac-ca",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:22:08.664Z"
+   "updated": "2026-09-30T15:09:38.342Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cibc-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/cibc-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:58.104Z"
+   "updated": "2026-09-30T15:09:36.075Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bmo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bmo-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:54.681Z"
+   "updated": "2026-09-30T15:09:33.629Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/scotiabank-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/scotiabank-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:43.595Z"
+   "updated": "2026-09-30T15:09:31.572Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/rbcroyalbank-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/rbcroyalbank-com",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:33.139Z"
+   "updated": "2026-09-30T15:09:29.454Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/td-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/td-com",
+   "key": "https://dns.intel.rallylive.ca/dns/dnskey/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dnskey/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:30.471Z"
+   "updated": "2026-09-30T15:09:27.359Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/americanexpress-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/americanexpress-com",
+   "key": "https://dns.intel.rallylive.ca/dns/ds/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/ds/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:19.646Z"
+   "updated": "2026-09-30T15:09:25.261Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/capitalone-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/capitalone-com",
+   "key": "https://dns.intel.rallylive.ca/dns/svcb/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/svcb/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:09.028Z"
+   "updated": "2026-09-30T15:09:23.147Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wellsfargo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wellsfargo-com",
+   "key": "https://dns.intel.rallylive.ca/dns/https/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/https/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:21:06.072Z"
+   "updated": "2026-09-30T15:09:21.017Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bankofamerica-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/bankofamerica-com",
+   "key": "https://dns.intel.rallylive.ca/dns/caa/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/caa/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:55.068Z"
+   "updated": "2026-09-30T15:09:18.907Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chase-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/chase-com",
+   "key": "https://dns.intel.rallylive.ca/dns/srv/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/srv/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:44.176Z"
+   "updated": "2026-09-30T15:09:16.724Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/robinhood-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/robinhood-com",
+   "key": "https://dns.intel.rallylive.ca/dns/soa/via/adguard",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/soa/via/adguard",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:32.683Z"
+   "updated": "2026-09-30T15:09:14.772Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kraken-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/kraken-com",
+   "key": "https://dns.intel.rallylive.ca/dns/hinfo/via/opendns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/hinfo/via/opendns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:29.707Z"
+   "updated": "2026-09-30T15:09:12.644Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/binance-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/binance-com",
+   "key": "https://dns.intel.rallylive.ca/dns/loc/via/opendns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/loc/via/opendns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:18.922Z"
+   "updated": "2026-09-30T15:09:10.490Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/coinbase-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/coinbase-com",
+   "key": "https://dns.intel.rallylive.ca/dns/sshfp/via/opendns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/sshfp/via/opendns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:20:08.312Z"
+   "updated": "2026-09-30T15:09:08.321Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wise-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/wise-com",
+   "key": "https://dns.intel.rallylive.ca/dns/naptr/via/opendns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/naptr/via/opendns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:19:57.713Z"
+   "updated": "2026-09-30T15:09:06.244Z"
   },
   {
-   "key": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/venmo-com",
-   "name": "monitor.intel.rallylive.ca",
-   "url": "https://monitor.intel.rallylive.ca/watch/monitor/is-down/venmo-com",
+   "key": "https://dns.intel.rallylive.ca/dns/tlsa/via/opendns",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/tlsa/via/opendns",
    "type": "http",
    "network": "eip155:84532",
    "price": "10000",
-   "updated": "2026-09-29T15:19:54.133Z"
+   "updated": "2026-09-30T15:09:04.100Z"
   }
  ]
 }
