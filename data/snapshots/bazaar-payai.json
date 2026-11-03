@@ -1,18 +1,19 @@
 {
- "generatedAt": "2026-11-02T00:18:58.772915Z",
- "total": 14698,
- "added24h": 146,
+ "generatedAt": "2026-11-03T02:50:23.319717Z",
+ "total": 15038,
+ "added24h": 497,
  "networks": {
-  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4272,
-  "solana": 356,
-  "eip155:8453": 8770,
-  "base": 1221,
-  "eip155:1329": 3,
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4279,
+  "eip155:8453": 9194,
+  "solana": 357,
+  "eip155:1329": 4,
+  "base": 1129,
+  "arbitrum": 1,
+  "eip155:196": 7,
   "eip155:43114": 3,
-  "eip155:42161": 5,
   "eip155:56": 2,
   "eip155:137": 48,
-  "eip155:196": 7,
+  "eip155:42161": 4,
   "eip155:1187947933": 1,
   "polygon": 7,
   "xlayer": 1,
@@ -25,467 +26,8 @@
    "url": "https://sol.blockrun.ai/api/v1/chat/completions",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-02T00:16:25.442Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-02T00:15:11.967Z"
-  },
-  {
-   "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "name": "mpp.hyreagent.fun",
-   "url": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "type": "http",
-   "network": "solana",
-   "price": "80000",
-   "updated": "2026-11-02T00:11:38.802Z"
-  },
-  {
-   "key": "https://apiv2.laevitas.ch/api/v1/perpetuals/:var1",
-   "name": "apiv2.laevitas.ch",
-   "url": "https://apiv2.laevitas.ch/api/v1/perpetuals/:var1",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-02T00:08:05.876Z"
-  },
-  {
-   "key": "https://api.paysponge.com/v0/inboxes",
-   "name": "api.paysponge.com",
-   "url": "https://api.paysponge.com/v0/inboxes",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "2000000",
-   "updated": "2026-11-02T00:04:39.289Z"
-  },
-  {
-   "key": "https://apiv2.laevitas.ch/api/v1/options/:var1",
-   "name": "apiv2.laevitas.ch",
-   "url": "https://apiv2.laevitas.ch/api/v1/options/:var1",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "100000",
-   "updated": "2026-11-01T23:52:17.832Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000000",
-   "updated": "2026-11-01T23:47:43.519Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T23:47:41.071Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-01T23:47:37.345Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-01T23:47:35.496Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-01T23:47:33.089Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T23:47:29.615Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T23:47:26.401Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T23:47:24.252Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T23:47:20.474Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T23:47:17.875Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T23:47:15.574Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T23:47:13.559Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:47:11.400Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:47:07.515Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T23:47:05.989Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:47:03.331Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T23:47:01.598Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:46:59.744Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:46:57.923Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:46:55.853Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T23:46:53.951Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T23:46:51.361Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/social-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/social-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T23:46:48.969Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/ping",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/ping",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T23:46:47.570Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYPTBYH0G9DVQH0PWPFR",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYPTBYH0G9DVQH0PWPFR",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-01T22:48:16.066Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYR764J9WVA48ETX6DA3",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYR764J9WVA48ETX6DA3",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-01T22:48:15.599Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T22:31:42.265Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/token-screener",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/token-screener",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T22:31:35.128Z"
-  },
-  {
-   "key": "https://agentsmap.io/semilla/x402/pricing",
-   "name": "agentsmap.io",
-   "url": "https://agentsmap.io/semilla/x402/pricing",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T22:26:10.516Z"
-  },
-  {
-   "key": "https://agentsmap.io/semilla/x402/seller",
-   "name": "agentsmap.io",
-   "url": "https://agentsmap.io/semilla/x402/seller",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T22:26:08.243Z"
-  },
-  {
-   "key": "https://agentsmap.io/semilla/x402/market/top",
-   "name": "agentsmap.io",
-   "url": "https://agentsmap.io/semilla/x402/market/top",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T22:26:06.685Z"
-  },
-  {
-   "key": "https://agentsmap.io/semilla/x402/usdc-payment",
-   "name": "agentsmap.io",
-   "url": "https://agentsmap.io/semilla/x402/usdc-payment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T22:26:04.367Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYN9SGHWYGE92CGXMA74",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYN9SGHWYGE92CGXMA74",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T22:18:17.608Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYQJ02BVD0N6H73A6RCM",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1YBDYQJ02BVD0N6H73A6RCM",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T22:18:17.230Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M2NXY883W33X7KJCZMJ811A0",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M2NXY883W33X7KJCZMJ811A0",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:18:16.876Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3M9411Q18YT0MDB3V6S",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3M9411Q18YT0MDB3V6S",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:18:16.451Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M2N6GWB06867BFMSKJATK2QC",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M2N6GWB06867BFMSKJATK2QC",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:18:16.068Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M2ND5C6502HRV8VA9PMG40W6",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M2ND5C6502HRV8VA9PMG40W6",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:18:15.619Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M2ER4Q7KTYH6WYWWXRT0XT0X",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M2ER4Q7KTYH6WYWWXRT0XT0X",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:18:15.182Z"
-  },
-  {
-   "key": "https://api.losbeto.xyz/onchain-credit",
-   "name": "api.losbeto.xyz",
-   "url": "https://api.losbeto.xyz/onchain-credit",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "60000",
-   "updated": "2026-11-01T22:14:56.035Z"
-  },
-  {
-   "key": "https://api.losbeto.xyz/agent-reputation",
-   "name": "api.losbeto.xyz",
-   "url": "https://api.losbeto.xyz/agent-reputation",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T22:14:51.643Z"
-  },
-  {
-   "key": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3W5ZY5DSQETSK7G2ZG6",
-   "name": "api.agentsouk.dev",
-   "url": "https://api.agentsouk.dev/v1/x402/lst_01M1XYP3W5ZY5DSQETSK7G2ZG6",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:08:14.837Z"
-  },
-  {
-   "key": "https://gethirepulse.xyz/v1/clean-markdown",
-   "name": "gethirepulse.xyz",
-   "url": "https://gethirepulse.xyz/v1/clean-markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T22:07:45.990Z"
-  },
-  {
-   "key": "https://rentcast.x402.paysponge.com/properties",
-   "name": "rentcast.x402.paysponge.com",
-   "url": "https://rentcast.x402.paysponge.com/properties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T22:06:40.762Z"
-  },
-  {
-   "key": "https://gethirepulse.xyz/v1/verify-merchant",
-   "name": "gethirepulse.xyz",
-   "url": "https://gethirepulse.xyz/v1/verify-merchant",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T22:03:55.653Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/seller-health",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/seller-health",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T21:58:35.595Z"
+   "price": "1914",
+   "updated": "2026-11-03T02:49:14.759Z"
   },
   {
    "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/urlwatch-402",
@@ -494,1357 +36,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "940",
-   "updated": "2026-11-01T21:44:07.522Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/chat-metered-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/chat-metered-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "58",
-   "updated": "2026-11-01T21:42:57.921Z"
-  },
-  {
-   "key": "https://agentsmap.io/semilla/x402/search",
-   "name": "agentsmap.io",
-   "url": "https://agentsmap.io/semilla/x402/search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T21:42:49.499Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/smart-money/dex-trades",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/smart-money/dex-trades",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-01T21:29:36.346Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/tgm/flow-intelligence",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/tgm/flow-intelligence",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T21:20:29.629Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/perp-leaderboard",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/perp-leaderboard",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-01T21:20:27.768Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/smart-money/historical-holdings",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/smart-money/historical-holdings",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T21:20:24.180Z"
-  },
-  {
-   "key": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/base-wallet",
-   "name": "agent-utils-x402.fishbowlinc.workers.dev",
-   "url": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/base-wallet",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T21:18:01.782Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/smart-money/perp-trades",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/smart-money/perp-trades",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-01T21:14:23.333Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/smart-money/netflow",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/smart-money/netflow",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-01T21:14:20.317Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/unit-convert-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/unit-convert-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "259",
-   "updated": "2026-11-01T21:12:08.365Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/uuid-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/uuid-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "259",
-   "updated": "2026-11-01T21:12:02.669Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/hash-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/hash-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "259",
-   "updated": "2026-11-01T20:29:23.685Z"
-  },
-  {
-   "key": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/base-tx",
-   "name": "agent-utils-x402.fishbowlinc.workers.dev",
-   "url": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/base-tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T20:18:18.586Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/exa/answer",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/exa/answer",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T20:17:05.100Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/txsummary",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/txsummary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:42.812Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/usdcamount",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/usdcamount",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:39.651Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/risk",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:36.658Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/portfolio",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:34.162Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/addrprofile",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/addrprofile",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:30.507Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/ens",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/ens",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:27.823Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/gasfee",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/gasfee",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:24.462Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/tokenprice",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/tokenprice",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:21.712Z"
-  },
-  {
-   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/tokeninfo",
-   "name": "beggar-bot-demand.beggarbot.workers.dev",
-   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/tokeninfo",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T20:13:15.615Z"
-  },
-  {
-   "key": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "name": "aijobsboom-x402.sonofgus.workers.dev",
-   "url": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "type": "http",
-   "network": "solana",
-   "price": "10000",
-   "updated": "2026-11-01T20:03:14.417Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/perp-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/perp-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "486",
-   "updated": "2026-11-01T19:24:12.344Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/llm-70b-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/llm-70b-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "973",
-   "updated": "2026-11-01T19:22:25.618Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/text-embedding-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/text-embedding-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "973",
-   "updated": "2026-11-01T19:22:12.603Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/weather-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/weather-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1459",
-   "updated": "2026-11-01T19:22:00.051Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/images/image2image",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/images/image2image",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "63000",
-   "updated": "2026-11-01T19:20:45.555Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/image-generation-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/image-generation-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4866",
-   "updated": "2026-11-01T19:20:41.648Z"
-  },
-  {
-   "key": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/markdown",
-   "name": "agent-utils-x402.fishbowlinc.workers.dev",
-   "url": "https://agent-utils-x402.fishbowlinc.workers.dev/v1/markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-01T19:19:28.110Z"
-  },
-  {
-   "key": "https://agentreferee.ai/join/judge-3x3",
-   "name": "agentreferee.ai",
-   "url": "https://agentreferee.ai/join/judge-3x3",
-   "type": "http",
-   "network": "base",
-   "price": "600000",
-   "updated": "2026-11-01T19:16:11.450Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/exa/contents",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/exa/contents",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "2000",
-   "updated": "2026-11-01T18:59:12.272Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/exa/search",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/exa/search",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T18:54:07.654Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/webhook_catch",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/webhook_catch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:50:11.873Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/giftcard/api/buy",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/giftcard/api/buy",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:50:09.285Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/swap_create",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/swap_create",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:50:06.372Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/page_screenshot",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/page_screenshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:50:01.441Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/package_supply_chain_risk",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/package_supply_chain_risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T18:50:00.100Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cert_transparency_bundle",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cert_transparency_bundle",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:58.747Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_reputation",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_reputation",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:57.345Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/seo_audit",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/seo_audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:55.995Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/document_extract",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/document_extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:54.644Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/photo_to_3d_hq",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/photo_to_3d_hq",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500000",
-   "updated": "2026-11-01T18:49:53.296Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/photo_to_3d_fast",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/photo_to_3d_fast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "150000",
-   "updated": "2026-11-01T18:49:51.945Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/image_generate_quality",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/image_generate_quality",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "90000",
-   "updated": "2026-11-01T18:49:50.574Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/image_generate",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/image_generate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:49.227Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/document_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/document_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T18:49:47.871Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/epub_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/epub_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:46.510Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/xlsx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/xlsx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:45.141Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/pptx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/pptx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:43.758Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/docx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/docx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:42.369Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/pdf_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/pdf_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T18:49:41.021Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/llm_chat",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/llm_chat",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:39.649Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_checksum",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_checksum",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:38.292Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_solana",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_solana",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:36.935Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_nostr",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_nostr",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:35.578Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_siwe",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_siwe",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:34.220Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_stablecoin",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_stablecoin",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:32.874Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_batch",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:31.501Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_worldid",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_worldid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:30.147Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_semaphore",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_semaphore",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:28.771Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/search_intent",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/search_intent",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:27.425Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/company_signals",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/company_signals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:26.049Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/enrich_company",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/enrich_company",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-01T18:49:24.701Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/enrich_person",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/enrich_person",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "60000",
-   "updated": "2026-11-01T18:49:23.318Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/find_email",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/find_email",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "25000",
-   "updated": "2026-11-01T18:49:21.970Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/backlinks_overview",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/backlinks_overview",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:20.588Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_keywords",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_keywords",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:19.229Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_competitors",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_competitors",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:17.871Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/keyword_ideas",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/keyword_ideas",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:16.519Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/keyword_volume",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/keyword_volume",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T18:49:15.161Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/google_serp",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/google_serp",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:49:13.781Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/jobs",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/jobs",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:12.407Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/og_image_generator",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/og_image_generator",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:11.011Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/qr_generator",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/qr_generator",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:09.666Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/html_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/html_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:08.306Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/mermaid",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/mermaid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:06.916Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/changelog_git",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/changelog_git",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:05.567Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/changelog_openapi",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/changelog_openapi",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:49:04.203Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_token_risk",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_token_risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:49:02.812Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cross_chain_balance",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cross_chain_balance",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:01.417Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/whale_alerts",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/whale_alerts",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:49:00.024Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_portfolio",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:48:58.669Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/token_price",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/token_price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:48:57.303Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:48:55.938Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/shortlink_stats",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/shortlink_stats",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T18:48:54.583Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/shortlink_create",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/shortlink_create",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T18:48:53.216Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/raas_project_provision",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/raas_project_provision",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T18:48:51.841Z"
-  },
-  {
-   "key": "https://x402.freeq.one/mcp",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/mcp",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:48:50.480Z"
-  },
-  {
-   "key": "https://www.voxight.online/api/coin-attention/deep",
-   "name": "www.voxight.online",
-   "url": "https://www.voxight.online/api/coin-attention/deep",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "310000",
-   "updated": "2026-11-01T18:43:15.857Z"
-  },
-  {
-   "key": "https://www.voxight.online/api/coin-attention/",
-   "name": "www.voxight.online",
-   "url": "https://www.voxight.online/api/coin-attention/",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "160000",
-   "updated": "2026-11-01T18:43:08.319Z"
-  },
-  {
-   "key": "https://api.apibooth.com/v1/ip/:ip",
-   "name": "api.apibooth.com",
-   "url": "https://api.apibooth.com/v1/ip/:ip",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:18:34.252Z"
-  },
-  {
-   "key": "https://business.agentum.lat/company-intelligence",
-   "name": "business.agentum.lat",
-   "url": "https://business.agentum.lat/company-intelligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:17:54.807Z"
-  },
-  {
-   "key": "https://verified-catalog-lookup.withgrokbot.workers.dev/v1/lookup/paid",
-   "name": "verified-catalog-lookup.withgrokbot.workers.dev",
-   "url": "https://verified-catalog-lookup.withgrokbot.workers.dev/v1/lookup/paid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:17:53.691Z"
-  },
-  {
-   "key": "https://textforagents.com/products/error-actionability-translation/verdict-check",
-   "name": "textforagents.com",
-   "url": "https://textforagents.com/products/error-actionability-translation/verdict-check",
-   "type": "http",
-   "network": "base",
-   "price": "2000",
-   "updated": "2026-11-01T18:14:13.641Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-01T18:00:29.842Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:00:28.467Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:00:26.805Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-domain-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T18:00:25.867Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-dns-lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-01T18:00:24.834Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-dmarc-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T18:00:23.806Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-secrets-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:00:22.599Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-pypi-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-01T18:00:21.181Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-prompt-injection-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T18:00:20.065Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T18:00:19.647Z"
-  },
-  {
-   "key": "https://agent402.tools/api/hash",
-   "name": "agent402.tools",
-   "url": "https://agent402.tools/api/hash",
-   "type": "http",
-   "network": "eip155:1329",
-   "price": "1000",
-   "updated": "2026-11-01T17:44:13.236Z"
-  },
-  {
-   "key": "https://textforagents.com/products/refusal-dialect-meter-truth-probe/card",
-   "name": "textforagents.com",
-   "url": "https://textforagents.com/products/refusal-dialect-meter-truth-probe/card",
-   "type": "http",
-   "network": "base",
-   "price": "50000",
-   "updated": "2026-11-01T17:36:35.495Z"
-  },
-  {
-   "key": "https://textforagents.com/products/tool-result-context-binding/verdict-check",
-   "name": "textforagents.com",
-   "url": "https://textforagents.com/products/tool-result-context-binding/verdict-check",
-   "type": "http",
-   "network": "base",
-   "price": "1000",
-   "updated": "2026-11-01T17:05:39.523Z"
-  },
-  {
-   "key": "https://textforagents.com/products/paper-rails-payment-rehearsal/verify",
-   "name": "textforagents.com",
-   "url": "https://textforagents.com/products/paper-rails-payment-rehearsal/verify",
-   "type": "http",
-   "network": "base",
-   "price": "100000",
-   "updated": "2026-11-01T16:54:18.101Z"
-  },
-  {
-   "key": "https://apiv2.laevitas.ch/api/v1/vol-surface/:var1",
-   "name": "apiv2.laevitas.ch",
-   "url": "https://apiv2.laevitas.ch/api/v1/vol-surface/:var1",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T16:53:06.258Z"
-  },
-  {
-   "key": "https://textforagents.com/products/futility-breaker-evidence-bound-stopping/judge",
-   "name": "textforagents.com",
-   "url": "https://textforagents.com/products/futility-breaker-evidence-bound-stopping/judge",
-   "type": "http",
-   "network": "base",
-   "price": "2000",
-   "updated": "2026-11-01T16:38:08.306Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/chat",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/chat",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T16:33:04.046Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/v1/chat/nano",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/v1/chat/nano",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T16:33:01.687Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/v1/chat/completions",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T16:32:59.462Z"
-  },
-  {
-   "key": "https://seo-mcp-x402.abacusai.app/verdict",
-   "name": "seo-mcp-x402.abacusai.app",
-   "url": "https://seo-mcp-x402.abacusai.app/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T16:18:06.436Z"
-  },
-  {
-   "key": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/feed-diff",
-   "name": "pal-nano-catalog-audit.onrender.com",
-   "url": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/feed-diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T16:18:04.312Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/canary",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/canary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100",
-   "updated": "2026-11-01T16:17:17.679Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/spl-mint-audit",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/spl-mint-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T15:52:47.863Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/x402-seller-reputation",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/x402-seller-reputation",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-01T15:45:30.093Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/erc20-transfers-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/erc20-transfers-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "973",
-   "updated": "2026-11-01T15:37:20.643Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/nft-metadata-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/nft-metadata-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "648",
-   "updated": "2026-11-01T15:37:07.609Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/event-logs-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/event-logs-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "973",
-   "updated": "2026-11-01T15:36:53.425Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/transaction-receipt-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/transaction-receipt-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "648",
-   "updated": "2026-11-01T15:36:44.625Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/nft-owner-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/nft-owner-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "648",
-   "updated": "2026-11-01T15:36:34.447Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/ethereum-transaction-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/ethereum-transaction-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "973",
-   "updated": "2026-11-01T15:36:25.723Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/ethereum-contract-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/ethereum-contract-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "648",
-   "updated": "2026-11-01T15:35:41.527Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/x402-benchmark-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/x402-benchmark-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "9732",
-   "updated": "2026-11-01T15:35:32.315Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/audit-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/audit-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "48660",
-   "updated": "2026-11-01T15:35:24.593Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "48660",
-   "updated": "2026-11-01T15:35:16.516Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3244",
-   "updated": "2026-11-01T15:35:06.644Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/readclean-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/readclean-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "940",
-   "updated": "2026-11-01T15:34:55.748Z"
-  },
-  {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/llm-security-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/llm-security-402",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "875",
-   "updated": "2026-11-01T15:32:38.469Z"
-  },
-  {
-   "key": "https://x402.api.agentmail.to/v0/pods/:pod_id",
-   "name": "x402.api.agentmail.to",
-   "url": "https://x402.api.agentmail.to/v0/pods/:pod_id",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "0",
-   "updated": "2026-11-01T15:32:04.428Z"
-  },
-  {
-   "key": "https://x402.api.agentmail.to/v0/pods/:pod_id/lists/:direction/:type",
-   "name": "x402.api.agentmail.to",
-   "url": "https://x402.api.agentmail.to/v0/pods/:pod_id/lists/:direction/:type",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T15:31:51.249Z"
-  },
-  {
-   "key": "https://x402.api.agentmail.to/v0/pods",
-   "name": "x402.api.agentmail.to",
-   "url": "https://x402.api.agentmail.to/v0/pods",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T15:31:42.279Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/bin-lookup",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/bin-lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T15:31:21.647Z"
-  },
-  {
-   "key": "https://api.paysponge.com/v0/pods/:pod_id/lists/:direction/:type",
-   "name": "api.paysponge.com",
-   "url": "https://api.paysponge.com/v0/pods/:pod_id/lists/:direction/:type",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T15:18:27.701Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/base-gas-history",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/base-gas-history",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T15:16:05.441Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/sec-filings-search",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/sec-filings-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T14:56:12.688Z"
-  },
-  {
-   "key": "https://agents.crowdspark.me/v1/web/safe-read",
-   "name": "agents.crowdspark.me",
-   "url": "https://agents.crowdspark.me/v1/web/safe-read",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T14:54:46.090Z"
-  },
-  {
-   "key": "https://14ae9e246c.na113.preview.abacusai.app/verdict",
-   "name": "14ae9e246c.na113.preview.abacusai.app",
-   "url": "https://14ae9e246c.na113.preview.abacusai.app/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T14:50:27.934Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/stablecoin-peg-monitor",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/stablecoin-peg-monitor",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:41:41.830Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/base-block-explorer-search",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/base-block-explorer-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T14:32:20.651Z"
-  },
-  {
-   "key": "https://mr-river9.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river9.makar52nn2016.workers.dev",
-   "url": "https://mr-river9.makar52nn2016.workers.dev/api/crypto-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:25:23.897Z"
-  },
-  {
-   "key": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river9.makar52nn2016.workers.dev",
-   "url": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:24:22.894Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/crypto-news",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/crypto-news",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T14:20:22.853Z"
-  },
-  {
-   "key": "https://mr-river8.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river8.makar52nn2016.workers.dev",
-   "url": "https://mr-river8.makar52nn2016.workers.dev/api/crypto-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:15:10.072Z"
-  },
-  {
-   "key": "https://mr-river8.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river8.makar52nn2016.workers.dev",
-   "url": "https://mr-river8.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:14:08.698Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/ens",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/ens",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T14:13:15.883Z"
+   "updated": "2026-11-03T02:48:59.325Z"
   },
   {
    "key": "https://business.agentum.lat/preflight",
@@ -1853,7 +45,16 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "150000",
-   "updated": "2026-11-01T14:07:44.818Z"
+   "updated": "2026-11-03T02:32:57.284Z"
+  },
+  {
+   "key": "https://business.agentum.lat/company-intelligence",
+   "name": "business.agentum.lat",
+   "url": "https://business.agentum.lat/company-intelligence",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T02:32:51.425Z"
   },
   {
    "key": "https://agentum.lat/company-enrich",
@@ -1862,16 +63,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:07:30.853Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/urlwatch",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/urlwatch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T14:06:26.631Z"
+   "updated": "2026-11-03T02:32:41.263Z"
   },
   {
    "key": "https://agentum.lat/vat-validate",
@@ -1880,16 +72,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:25.586Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/x402-check",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/x402-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T14:06:25.415Z"
+   "updated": "2026-11-03T02:31:17.289Z"
   },
   {
    "key": "https://agentum.lat/economic-data",
@@ -1898,7 +81,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:23.477Z"
+   "updated": "2026-11-03T02:31:15.625Z"
   },
   {
    "key": "https://agentum.lat/fx-rates",
@@ -1907,7 +90,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:15.879Z"
+   "updated": "2026-11-03T02:31:13.445Z"
   },
   {
    "key": "https://agentum.lat/business-intelligence",
@@ -1916,7 +99,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-11-01T14:06:13.848Z"
+   "updated": "2026-11-03T02:31:11.179Z"
   },
   {
    "key": "https://agentum.lat/validar-cpf",
@@ -1925,7 +108,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:09.856Z"
+   "updated": "2026-11-03T02:31:06.472Z"
   },
   {
    "key": "https://agentum.lat/verificar-cep",
@@ -1934,7 +117,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:07.454Z"
+   "updated": "2026-11-03T02:31:04.492Z"
   },
   {
    "key": "https://agentum.lat/taxas-brasil",
@@ -1943,7 +126,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T14:06:05.478Z"
+   "updated": "2026-11-03T02:31:02.528Z"
   },
   {
    "key": "https://agentum.lat/verificar-cnpj",
@@ -1952,115 +135,160 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-11-01T14:06:02.699Z"
+   "updated": "2026-11-03T02:31:00.156Z"
   },
   {
-   "key": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river10.makar52nn2016.workers.dev",
-   "url": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
+   "key": "https://dub.town/api/billboard",
+   "name": "dub.town",
+   "url": "https://dub.town/api/billboard",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:04:55.624Z"
+   "price": "500000",
+   "updated": "2026-11-03T02:27:07.967Z"
   },
   {
-   "key": "https://mr-river10.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river10.makar52nn2016.workers.dev",
-   "url": "https://mr-river10.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T14:03:54.522Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/solana-token-metadata",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/solana-token-metadata",
+   "key": "https://agentsvc.io/api/v1/proxy/dns-lookup",
+   "name": "agentsvc.io",
+   "url": "https://agentsvc.io/api/v1/proxy/dns-lookup",
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-01T13:55:36.836Z"
+   "updated": "2026-11-03T02:20:45.142Z"
   },
   {
-   "key": "https://mr-river7.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river7.makar52nn2016.workers.dev",
-   "url": "https://mr-river7.makar52nn2016.workers.dev/api/crypto-price",
+   "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
+   "name": "mpp.hyreagent.fun",
+   "url": "https://mpp.hyreagent.fun/trenches/new-tokens",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:54:41.903Z"
+   "network": "solana",
+   "price": "80000",
+   "updated": "2026-11-03T02:11:41.290Z"
   },
   {
-   "key": "https://mr-river7.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river7.makar52nn2016.workers.dev",
-   "url": "https://mr-river7.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:53:40.646Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/solana-token-holders",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/solana-token-holders",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-01T13:49:50.503Z"
-  },
-  {
-   "key": "https://2captcha.x402.paysponge.com/getTaskResult",
-   "name": "2captcha.x402.paysponge.com",
-   "url": "https://2captcha.x402.paysponge.com/getTaskResult",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-01T13:46:23.862Z"
-  },
-  {
-   "key": "https://2captcha.x402.paysponge.com/createTask",
-   "name": "2captcha.x402.paysponge.com",
-   "url": "https://2captcha.x402.paysponge.com/createTask",
+   "key": "https://relay402.georgespring.workers.dev/api/npm-package-check",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/npm-package-check",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T13:46:00.680Z"
+   "updated": "2026-11-03T02:01:12.071Z"
   },
   {
-   "key": "https://mr-river6.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river6.makar52nn2016.workers.dev",
-   "url": "https://mr-river6.makar52nn2016.workers.dev/api/crypto-price",
+   "key": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-11-03T02:01:09.305Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "30000",
+   "updated": "2026-11-03T02:01:06.720Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-11-03T02:01:03.862Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-11-03T02:01:01.737Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/company-jobs",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/company-jobs",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "15000",
+   "updated": "2026-11-03T02:00:58.781Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T02:00:56.620Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T02:00:54.381Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T02:00:51.855Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T02:00:49.487Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-11-01T13:44:28.317Z"
+   "updated": "2026-11-03T02:00:45.956Z"
   },
   {
-   "key": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river6.makar52nn2016.workers.dev",
-   "url": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+   "key": "https://apiv2.laevitas.ch/api/v1/perpetuals/:var1",
+   "name": "apiv2.laevitas.ch",
+   "url": "https://apiv2.laevitas.ch/api/v1/perpetuals/:var1",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:43:26.842Z"
+   "price": "100000",
+   "updated": "2026-11-03T02:00:05.264Z"
   },
   {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/perp-funding",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/perp-funding",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:39:54.553Z"
-  },
-  {
-   "key": "https://werner.ddns.net/price",
-   "name": "werner.ddns.net",
-   "url": "https://werner.ddns.net/price",
+   "key": "https://apiv2.laevitas.ch/api/v1/options/:var1",
+   "name": "apiv2.laevitas.ch",
+   "url": "https://apiv2.laevitas.ch/api/v1/options/:var1",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-01T13:34:50.041Z"
+   "price": "100000",
+   "updated": "2026-11-03T01:51:04.527Z"
+  },
+  {
+   "key": "https://api.paysponge.com/v0/inboxes",
+   "name": "api.paysponge.com",
+   "url": "https://api.paysponge.com/v0/inboxes",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "0",
+   "updated": "2026-11-03T01:40:56.525Z"
   },
   {
    "key": "https://api.groundtruths.xyz/x402/v1/flag",
@@ -2069,7 +297,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:34:39.737Z"
+   "updated": "2026-11-03T01:36:02.641Z"
   },
   {
    "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
@@ -2078,25 +306,16 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "7500",
-   "updated": "2026-11-01T13:34:33.279Z"
+   "updated": "2026-11-03T01:35:42.149Z"
   },
   {
-   "key": "https://mr-river5.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river5.makar52nn2016.workers.dev",
-   "url": "https://mr-river5.makar52nn2016.workers.dev/api/crypto-price",
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/leaderboard",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/leaderboard",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:33:58.773Z"
-  },
-  {
-   "key": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river5.makar52nn2016.workers.dev",
-   "url": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:32:54.929Z"
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T01:35:19.482Z"
   },
   {
    "key": "https://loki.freedomlab.space/x402/rail",
@@ -2105,7 +324,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "1000",
-   "updated": "2026-11-01T13:32:39.084Z"
+   "updated": "2026-11-03T01:33:35.443Z"
   },
   {
    "key": "https://madeonsol.com/api/x402/kol/feed",
@@ -2114,7 +333,25 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "5000",
-   "updated": "2026-11-01T13:32:25.517Z"
+   "updated": "2026-11-03T01:33:20.348Z"
+  },
+  {
+   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/402",
+   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
+   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/402",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "48660",
+   "updated": "2026-11-03T01:31:37.528Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/kalshi/markets",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/kalshi/markets",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T01:29:55.761Z"
   },
   {
    "key": "https://terminal.themonexus.com/api/v1/capex/summary",
@@ -2123,7 +360,25 @@
    "type": "http",
    "network": "solana",
    "price": "1000",
-   "updated": "2026-11-01T13:29:27.649Z"
+   "updated": "2026-11-03T01:29:00.157Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/events",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/events",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T01:28:51.868Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/markets",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/markets",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T01:28:46.753Z"
   },
   {
    "key": "https://lazareus.xyz/get_network_health/base",
@@ -2132,7 +387,16 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "2000",
-   "updated": "2026-11-01T13:29:15.401Z"
+   "updated": "2026-11-03T01:28:41.883Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/markets/search",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/markets/search",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T01:28:35.299Z"
   },
   {
    "key": "https://payai.agentstools.dev/quant/kelly",
@@ -2141,7 +405,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "1000",
-   "updated": "2026-11-01T13:29:04.398Z"
+   "updated": "2026-11-03T01:28:34.445Z"
   },
   {
    "key": "https://earlythunder.com/api/x402/v1/scores",
@@ -2150,7 +414,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:28:49.161Z"
+   "updated": "2026-11-03T01:28:25.155Z"
   },
   {
    "key": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
@@ -2159,7 +423,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:28:30.826Z"
+   "updated": "2026-11-03T01:27:59.987Z"
   },
   {
    "key": "https://aws-bedrock.grok.me/api/v1/search",
@@ -2168,7 +432,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "5000",
-   "updated": "2026-11-01T13:28:26.389Z"
+   "updated": "2026-11-03T01:27:56.232Z"
   },
   {
    "key": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
@@ -2177,7 +441,34 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "5000",
-   "updated": "2026-11-01T13:28:22.802Z"
+   "updated": "2026-11-03T01:27:53.568Z"
+  },
+  {
+   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
+   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
+   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3244",
+   "updated": "2026-11-03T01:27:17.295Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/exa/search",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/exa/search",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-03T01:27:09.576Z"
+  },
+  {
+   "key": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
+   "name": "aijobsboom-x402.sonofgus.workers.dev",
+   "url": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
+   "type": "http",
+   "network": "solana",
+   "price": "10000",
+   "updated": "2026-11-03T01:26:09.894Z"
   },
   {
    "key": "https://mpp.hyreagent.fun/defi/tvl",
@@ -2186,7 +477,7 @@
    "type": "http",
    "network": "solana",
    "price": "10000",
-   "updated": "2026-11-01T13:26:19.228Z"
+   "updated": "2026-11-03T01:25:46.086Z"
   },
   {
    "key": "https://citable.run/v1/serp",
@@ -2195,7 +486,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "8000",
-   "updated": "2026-11-01T13:23:47.080Z"
+   "updated": "2026-11-03T01:25:03.653Z"
   },
   {
    "key": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
@@ -2204,16 +495,25 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:23:32.405Z"
+   "updated": "2026-11-03T01:24:46.942Z"
   },
   {
-   "key": "https://bentcrypto-x402-production.up.railway.app/v1/token/risk",
-   "name": "bentcrypto-x402-production.up.railway.app",
-   "url": "https://bentcrypto-x402-production.up.railway.app/v1/token/risk",
+   "key": "https://api.bentcrypto.com/v1/token/risk",
+   "name": "api.bentcrypto.com",
+   "url": "https://api.bentcrypto.com/v1/token/risk",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:23:28.386Z"
+   "updated": "2026-11-03T01:24:42.634Z"
+  },
+  {
+   "key": "https://api.aurelianflo.com/api/ofac-wallet-screen/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+   "name": "api.aurelianflo.com",
+   "url": "https://api.aurelianflo.com/api/ofac-wallet-screen/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-03T01:24:40.526Z"
   },
   {
    "key": "https://underground.substratesymposium.com/buy/echeveria",
@@ -2222,16 +522,7 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:23:23.120Z"
-  },
-  {
-   "key": "https://mr-river4.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river4.makar52nn2016.workers.dev",
-   "url": "https://mr-river4.makar52nn2016.workers.dev/api/crypto-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:23:18.148Z"
+   "updated": "2026-11-03T01:24:37.251Z"
   },
   {
    "key": "https://blocksearch.dev/api/insights/trending",
@@ -2240,7 +531,7 @@
    "type": "http",
    "network": "solana",
    "price": "10000",
-   "updated": "2026-11-01T13:23:15.134Z"
+   "updated": "2026-11-03T01:24:23.209Z"
   },
   {
    "key": "https://api.syraa.fun/assets",
@@ -2249,475 +540,2185 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "1000",
-   "updated": "2026-11-01T13:23:11.717Z"
+   "updated": "2026-11-03T01:24:16.791Z"
   },
   {
-   "key": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river4.makar52nn2016.workers.dev",
-   "url": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
+   "key": "https://api.aiphabrainlab.com/v1/pretrade-check",
+   "name": "api.aiphabrainlab.com",
+   "url": "https://api.aiphabrainlab.com/v1/pretrade-check",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:22:16.678Z"
+   "price": "5000",
+   "updated": "2026-11-03T01:18:32.651Z"
   },
   {
-   "key": "https://seeker.4itools.store/paid/chain.health",
-   "name": "seeker.4itools.store",
-   "url": "https://seeker.4itools.store/paid/chain.health",
+   "key": "https://sol.blockrun.ai/api/v1/exa/answer",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/exa/answer",
    "type": "http",
-   "network": "eip155:8453",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-01T13:18:38.102Z"
+   "updated": "2026-11-03T01:15:40.106Z"
   },
   {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/token-price-by-contract",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/token-price-by-contract",
+   "key": "https://sol.blockrun.ai/api/v1/exa/contents",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/exa/contents",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "2000",
+   "updated": "2026-11-03T01:03:51.356Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/webhook_catch",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/webhook_catch",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:14:05.881Z"
+   "price": "50000",
+   "updated": "2026-11-03T00:52:47.189Z"
   },
   {
-   "key": "https://mr-river3.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river3.makar52nn2016.workers.dev",
-   "url": "https://mr-river3.makar52nn2016.workers.dev/api/crypto-price",
+   "key": "https://x402.freeq.one/tools/giftcard/api/buy",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/giftcard/api/buy",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:13:05.074Z"
+   "price": "50000",
+   "updated": "2026-11-03T00:52:44.430Z"
   },
   {
-   "key": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river3.makar52nn2016.workers.dev",
-   "url": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
+   "key": "https://x402.freeq.one/tools/cargo_run",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/cargo_run",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:12:03.883Z"
+   "price": "9802",
+   "updated": "2026-11-03T00:52:43.002Z"
   },
   {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/receipt-verify",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/receipt-verify",
+   "key": "https://x402.freeq.one/tools/swap_create",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/swap_create",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100",
-   "updated": "2026-11-01T13:09:50.566Z"
+   "price": "5000",
+   "updated": "2026-11-03T00:52:39.794Z"
   },
   {
-   "key": "https://mr-river2.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river2.makar52nn2016.workers.dev",
-   "url": "https://mr-river2.makar52nn2016.workers.dev/api/crypto-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:02:51.585Z"
-  },
-  {
-   "key": "https://mr-river2.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river2.makar52nn2016.workers.dev",
-   "url": "https://mr-river2.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T13:01:50.159Z"
-  },
-  {
-   "key": "https://kr-x402-mvp.kgy5612.workers.dev/crypto/gas-compare",
-   "name": "kr-x402-mvp.kgy5612.workers.dev",
-   "url": "https://kr-x402-mvp.kgy5612.workers.dev/crypto/gas-compare",
+   "key": "https://x402.freeq.one/tools/page_screenshot",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/page_screenshot",
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-01T12:52:59.540Z"
+   "updated": "2026-11-03T00:52:34.584Z"
   },
   {
-   "key": "https://clawhunter.fun/api/v1/videos/generations",
-   "name": "clawhunter.fun",
-   "url": "https://clawhunter.fun/api/v1/videos/generations",
+   "key": "https://x402.freeq.one/tools/cert_transparency_bundle",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/cert_transparency_bundle",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1936000",
-   "updated": "2026-11-01T12:36:35.097Z"
+   "price": "20000",
+   "updated": "2026-11-03T00:52:16.678Z"
   },
   {
-   "key": "https://sol.blockrun.ai/api/v1/search",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/search",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "80000",
-   "updated": "2026-11-01T12:36:29.621Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/crypto-price",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/crypto-price",
+   "key": "https://x402.freeq.one/tools/domain_reputation",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/domain_reputation",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100",
-   "updated": "2026-11-01T12:29:29.799Z"
+   "price": "20000",
+   "updated": "2026-11-03T00:52:15.277Z"
   },
   {
-   "key": "https://www.trezalabs.com/api/x402/video",
-   "name": "www.trezalabs.com",
-   "url": "https://www.trezalabs.com/api/x402/video",
+   "key": "https://x402.freeq.one/tools/seo_audit",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/seo_audit",
    "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "680000",
-   "updated": "2026-11-01T12:23:09.157Z"
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T00:52:13.815Z"
   },
   {
-   "key": "https://exchangerebel.com/toll/book/post",
-   "name": "exchangerebel.com",
-   "url": "https://exchangerebel.com/toll/book/post",
+   "key": "https://x402.freeq.one/tools/document_extract",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/document_extract",
    "type": "http",
-   "network": "solana",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T00:52:12.392Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/photo_to_3d_hq",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/photo_to_3d_hq",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "500000",
+   "updated": "2026-11-03T00:52:10.988Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/photo_to_3d_fast",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/photo_to_3d_fast",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "150000",
+   "updated": "2026-11-03T00:52:09.558Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/image_generate_quality",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/image_generate_quality",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "90000",
+   "updated": "2026-11-03T00:52:08.157Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/image_generate",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/image_generate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T00:52:06.707Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/document_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/document_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T12:20:55.908Z"
+   "updated": "2026-11-03T00:52:05.275Z"
   },
   {
-   "key": "https://d1ithbpxjsnhrn.cloudfront.net/extract",
-   "name": "d1ithbpxjsnhrn.cloudfront.net",
-   "url": "https://d1ithbpxjsnhrn.cloudfront.net/extract",
+   "key": "https://x402.freeq.one/tools/epub_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/epub_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:52:03.829Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/xlsx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/xlsx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:52:02.429Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/pptx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/pptx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:52:01.032Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/docx_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/docx_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:51:59.628Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/pdf_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/pdf_to_markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-03T00:51:58.191Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/llm_chat",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/llm_chat",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:56.756Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_checksum",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_checksum",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:55.312Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_solana",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_solana",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:53.877Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_nostr",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_nostr",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:52.451Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_verify_siwe",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_verify_siwe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:51.026Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_stablecoin",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_stablecoin",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:51:49.611Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_batch",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_batch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:51:48.211Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_worldid",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_worldid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:51:46.793Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/verify_semaphore",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/verify_semaphore",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:45.361Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/search_intent",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/search_intent",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-03T00:51:43.951Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/company_signals",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/company_signals",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:42.545Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/enrich_company",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/enrich_company",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-11-03T00:51:41.139Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/enrich_person",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/enrich_person",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-11-03T00:51:39.707Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/find_email",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/find_email",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "25000",
+   "updated": "2026-11-03T00:51:38.310Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/binance/candles/ETHUSDT",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/binance/candles/ETHUSDT",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:51:37.459Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/backlinks_overview",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/backlinks_overview",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:36.867Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/domain_keywords",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/domain_keywords",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:35.471Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/domain_competitors",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/domain_competitors",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:34.066Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/keyword_ideas",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/keyword_ideas",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:32.617Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/keyword_volume",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/keyword_volume",
    "type": "http",
    "network": "eip155:8453",
    "price": "30000",
-   "updated": "2026-11-01T12:18:17.406Z"
+   "updated": "2026-11-03T00:51:31.190Z"
   },
   {
-   "key": "https://wriggly-singer-earpiece.ngrok-free.dev/api/fi/road-weather",
-   "name": "wriggly-singer-earpiece.ngrok-free.dev",
-   "url": "https://wriggly-singer-earpiece.ngrok-free.dev/api/fi/road-weather",
+   "key": "https://x402.freeq.one/tools/google_serp",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/google_serp",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T12:05:44.812Z"
+   "price": "20000",
+   "updated": "2026-11-03T00:51:29.724Z"
   },
   {
-   "key": "https://wriggly-singer-earpiece.ngrok-free.dev/api/fi/company",
-   "name": "wriggly-singer-earpiece.ngrok-free.dev",
-   "url": "https://wriggly-singer-earpiece.ngrok-free.dev/api/fi/company",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T12:04:34.845Z"
-  },
-  {
-   "key": "https://voice.madebydevx.com/v1/tts",
-   "name": "voice.madebydevx.com",
-   "url": "https://voice.madebydevx.com/v1/tts",
-   "type": "http",
-   "network": "eip155:43114",
-   "price": "1000",
-   "updated": "2026-11-01T12:01:03.886Z"
-  },
-  {
-   "key": "https://automaton-paid.sharkquant.ai/v1/extract",
-   "name": "automaton-paid.sharkquant.ai",
-   "url": "https://automaton-paid.sharkquant.ai/v1/extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T12:00:17.539Z"
-  },
-  {
-   "key": "https://automaton-paid.sharkquant.ai/v1/summarize",
-   "name": "automaton-paid.sharkquant.ai",
-   "url": "https://automaton-paid.sharkquant.ai/v1/summarize",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T12:00:13.514Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/payment-reconcile",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/payment-reconcile",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-01T11:37:40.403Z"
-  },
-  {
-   "key": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/agent-sanitize",
-   "name": "scanpay-edge.alextaghiashvili.workers.dev",
-   "url": "https://scanpay-edge.alextaghiashvili.workers.dev/api/v1/agent-sanitize",
+   "key": "https://x402.freeq.one/tools/jobs",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/jobs",
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-01T11:37:21.597Z"
+   "updated": "2026-11-03T00:51:28.313Z"
   },
   {
-   "key": "https://intel.rallylive.ca/bulk/contact-emails",
-   "name": "intel.rallylive.ca",
-   "url": "https://intel.rallylive.ca/bulk/contact-emails",
+   "key": "https://x402.freeq.one/tools/og_image_generator",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/og_image_generator",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T11:05:54.836Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:51:26.867Z"
   },
   {
-   "key": "https://altspider.ai/api/check",
-   "name": "altspider.ai",
-   "url": "https://altspider.ai/api/check",
+   "key": "https://x402.freeq.one/tools/qr_generator",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/qr_generator",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:39:36.145Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:51:25.460Z"
   },
   {
-   "key": "https://pal-full-catalog-remediation.onrender.com/v1/usdc/feed-diff",
-   "name": "pal-full-catalog-remediation.onrender.com",
-   "url": "https://pal-full-catalog-remediation.onrender.com/v1/usdc/feed-diff",
+   "key": "https://x402.freeq.one/tools/html_to_markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/html_to_markdown",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:37:40.343Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:51:24.052Z"
   },
   {
-   "key": "https://altspider.ai/api/job",
-   "name": "altspider.ai",
-   "url": "https://altspider.ai/api/job",
+   "key": "https://x402.freeq.one/tools/mermaid",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/mermaid",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:36:45.914Z"
+   "price": "5000",
+   "updated": "2026-11-03T00:51:22.655Z"
   },
   {
-   "key": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/gtin-check",
-   "name": "pal-nano-catalog-audit.onrender.com",
-   "url": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/gtin-check",
+   "key": "https://x402.freeq.one/tools/changelog_git",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/changelog_git",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:36:19.508Z"
+   "price": "5000",
+   "updated": "2026-11-03T00:51:21.245Z"
   },
   {
-   "key": "https://pal-full-catalog-remediation.onrender.com/v1/usdc/gtin-check",
-   "name": "pal-full-catalog-remediation.onrender.com",
-   "url": "https://pal-full-catalog-remediation.onrender.com/v1/usdc/gtin-check",
+   "key": "https://x402.freeq.one/tools/changelog_openapi",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/changelog_openapi",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:32:21.713Z"
+   "price": "5000",
+   "updated": "2026-11-03T00:51:19.838Z"
   },
   {
-   "key": "https://altspider.ai/api/fetch",
-   "name": "altspider.ai",
-   "url": "https://altspider.ai/api/fetch",
+   "key": "https://x402.freeq.one/tools/wallet_token_risk",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_token_risk",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:32:06.118Z"
+   "price": "50000",
+   "updated": "2026-11-03T00:51:18.425Z"
   },
   {
-   "key": "https://api.xona-agent.com/llm/prova",
-   "name": "api.xona-agent.com",
-   "url": "https://api.xona-agent.com/llm/prova",
+   "key": "https://x402.freeq.one/tools/cross_chain_balance",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/cross_chain_balance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:17.015Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/whale_alerts",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/whale_alerts",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:15.597Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/wallet_portfolio",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/wallet_portfolio",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:14.192Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/token_price",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/token_price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:12.757Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/markdown",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:11.304Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/shortlink_stats",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/shortlink_stats",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:51:09.900Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/shortlink_create",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/shortlink_create",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:51:08.470Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/raas_project_provision",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/raas_project_provision",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-03T00:51:07.070Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/binance/candles/BTCUSDT",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/binance/candles/BTCUSDT",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1400",
-   "updated": "2026-11-01T10:31:48.703Z"
+   "price": "7500",
+   "updated": "2026-11-03T00:51:06.337Z"
   },
   {
-   "key": "https://api.xona-agent.com/llm/gemini-3.5-flash",
-   "name": "api.xona-agent.com",
-   "url": "https://api.xona-agent.com/llm/gemini-3.5-flash",
+   "key": "https://x402.freeq.one/mcp",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/mcp",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-03T00:51:05.663Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x5268527977f700f9bf9b6d5cd843859e4e70135d",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-01T10:31:23.456Z"
+   "price": "7500",
+   "updated": "2026-11-03T00:50:49.394Z"
   },
   {
-   "key": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/catalog-audit",
-   "name": "pal-nano-catalog-audit.onrender.com",
-   "url": "https://pal-nano-catalog-audit.onrender.com/v1/usdc/catalog-audit",
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:50:46.646Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x4f1d5ae26fc31472966e951af3183308736d8de2",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x4f1d5ae26fc31472966e951af3183308736d8de2",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:44:07.718Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x4f1d5ae26fc31472966e951af3183308736d8de2",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x4f1d5ae26fc31472966e951af3183308736d8de2",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:44:07.339Z"
+  },
+  {
+   "key": "https://tokenomics-x402.gtcclothing1.workers.dev/unlocks",
+   "name": "tokenomics-x402.gtcclothing1.workers.dev",
+   "url": "https://tokenomics-x402.gtcclothing1.workers.dev/unlocks",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-01T10:31:11.499Z"
+   "updated": "2026-11-03T00:41:39.611Z"
   },
   {
-   "key": "https://brasil-data-x402.wagner-proc.workers.dev/v1/cnpj/:cnpj",
-   "name": "brasil-data-x402.wagner-proc.workers.dev",
-   "url": "https://brasil-data-x402.wagner-proc.workers.dev/v1/cnpj/:cnpj",
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:19.531Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:19.082Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:18.511Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:16.110Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:14.573Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:39:13.504Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:38:09.386Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:38:07.853Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/wrap-text",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/wrap-text",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:18:16.653Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:38:07.675Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/security-npm-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-npm-risk",
+   "key": "https://api.gadgethumans.com/word-similarity",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/word-similarity",
    "type": "http",
    "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-01T10:00:35.149Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:38:06.753Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/security-github-repo-health",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-github-repo-health",
+   "key": "https://api.gadgethumans.com/whois",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/whois",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:00:34.458Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:38:05.790Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/security-deploy-config-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-deploy-config-risk",
+   "key": "https://api.gadgethumans.com/week-number",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/week-number",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T10:00:33.826Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:38:04.816Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/security-db-migration-risk",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-db-migration-risk",
+   "key": "https://api.gadgethumans.com/volume-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/volume-convert",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T10:00:32.862Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:38:03.818Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/security-cve-lookup",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/security-cve-lookup",
+   "key": "https://api.gadgethumans.com/tsv-to-json",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/tsv-to-json",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:38:02.791Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/truncate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/truncate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:38:01.795Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/title-case",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/title-case",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:38:00.778Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/tip",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/tip",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:59.844Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/text-replace",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/text-replace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:58.825Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/temperature-all",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/temperature-all",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:57.824Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/status-check",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/status-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:56.816Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ssl-check",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ssl-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:55.858Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/sql-prettify",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/sql-prettify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:54.823Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/speed-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/speed-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:53.807Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/soundex",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/soundex",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:52.785Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/salary-calc",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/salary-calc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:51.810Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/reverse-text",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/reverse-text",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:50.780Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/remove-accents",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/remove-accents",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:49.760Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/readability",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/readability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:48.744Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/random-number",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/random-number",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:47.765Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/random-data",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/random-data",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:46.759Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/prime",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/prime",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:45.642Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/pressure-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/pressure-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:44.656Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/pixel-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/pixel-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:43.688Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/percentage",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/percentage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:42.713Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/password-strength",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/password-strength",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:37:41.747Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/paper-sizes",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/paper-sizes",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:40.740Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/page-size",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/page-size",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:39.745Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/nato-phonetic",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/nato-phonetic",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:38.738Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/mortgage",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/mortgage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:37.712Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/mime-types",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/mime-types",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:36.699Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/meta-scrape",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/meta-scrape",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:35.728Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/matrix",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/matrix",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:34.747Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/math-eval",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/math-eval",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:33.724Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/markdown",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/markdown",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:32.702Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/loan",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/loan",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:31.664Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/link-check",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/link-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:30.625Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/language-list",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/language-list",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:29.628Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-to-xml",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-to-xml",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:37:28.617Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-merge",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-merge",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:37:27.597Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/investment",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/investment",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:26.666Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ini-to-json",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ini-to-json",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:25.649Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/indent",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/indent",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:24.631Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/http-status",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/http-status",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:23.615Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/html-table",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/html-table",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:22.594Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/html-minify",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/html-minify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:21.545Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:37:20.790Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/hashtag",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/hashtag",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:37:20.520Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/geometry",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/geometry",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:19.504Z"
+  },
+  {
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/wallet/pnl/0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-03T00:37:19.350Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/gcd-lcm",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/gcd-lcm",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:18.480Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/fuel-calc",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/fuel-calc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:17.482Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/file-size",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/file-size",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:16.493Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/fibonacci",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/fibonacci",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:15.478Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/factorial",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/factorial",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:14.508Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/entropy",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/entropy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:13.487Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/entity-count",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/entity-count",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:12.514Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/energy-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/energy-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:11.536Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/emoji-list",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/emoji-list",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:10.498Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/discount",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/discount",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:09.478Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/dice",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/dice",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:08.476Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/detect-lang",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/detect-lang",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:07.453Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/data-sort",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/data-sort",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:06.424Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/data-rate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/data-rate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:05.405Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/data-filter",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/data-filter",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:04.377Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/data-dedupe",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/data-dedupe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:03.355Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/currency-list",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/currency-list",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:02.398Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/css-minify",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/css-minify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:01.450Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/country-list",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/country-list",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:37:00.474Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/count-syllables",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/count-syllables",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:59.462Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/compound-interest",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/compound-interest",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:58.438Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/combinations",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/combinations",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:57.424Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color-palette",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color-palette",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:56.380Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color-names",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color-names",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:55.353Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color-name-lookup",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color-name-lookup",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:54.314Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color-harmony",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color-harmony",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:53.284Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color-contrast",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color-contrast",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:52.252Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/coinflip",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/coinflip",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:51.214Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/chemical-elements",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/chemical-elements",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:50.218Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/case-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/case-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:49.169Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/bytes-format",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/bytes-format",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:48.140Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/business-days",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/business-days",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:47.144Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/bmi",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/bmi",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:46.112Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/binary-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/binary-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:45.063Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ascii-table",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ascii-table",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:44.049Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/area-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/area-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:43.028Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/angle-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/angle-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:42.010Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/age",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/age",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:40.997Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/sentiment",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/sentiment",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:39.955Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/translate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/translate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:38.912Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ens",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ens",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:37.852Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ocr",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ocr",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:36.816Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/caption",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/caption",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:35.785Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/embed",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/embed",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:34.758Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/extract",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/extract",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:33.778Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/summarize",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/summarize",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:32.783Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/time-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/time-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:31.746Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/unit-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/unit-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:30.716Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/timezone",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/timezone",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:29.707Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/date-calc",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/date-calc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:28.685Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/timestamp",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/timestamp",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:27.661Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/phone-parse",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/phone-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:26.679Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/mask-text",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/mask-text",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:25.669Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/vat-validate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/vat-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:24.687Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/iban-validate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/iban-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:23.700Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ipv4-validate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ipv4-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:22.667Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/cidr-calc",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/cidr-calc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:21.628Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/semver-compare",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/semver-compare",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:20.588Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/mime-lookup",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/mime-lookup",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:19.571Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/http-codes",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/http-codes",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:18.486Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/cron-parse",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/cron-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:17.475Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/regex-test",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/regex-test",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:16.469Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/diff",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/diff",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:15.398Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/vigenere",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/vigenere",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:14.403Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/atbash",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/atbash",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:13.394Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/caesar-cipher",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/caesar-cipher",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:12.354Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/rot13",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/rot13",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:11.290Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/morse",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/morse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:10.301Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/number-to-words",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/number-to-words",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:09.281Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/roman-numerals",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/roman-numerals",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:08.034Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/levenshtein",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/levenshtein",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:06.965Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/word-frequency",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/word-frequency",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:05.812Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/word-count",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/word-count",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:04.765Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/slugify",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/slugify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:03.688Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/jwt-decode",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/jwt-decode",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:02.633Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/hash-compare",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/hash-compare",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:36:01.596Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/nanoid",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/nanoid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:36:00.315Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ulid",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ulid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:59.235Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/hex-dump",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/hex-dump",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:58.206Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/html-entities",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/html-entities",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:56.998Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/url-encode",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/url-encode",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:55.836Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/base-convert",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/base-convert",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:54.743Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/base85",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/base85",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:53.164Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/base32",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/base32",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:52.123Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/xml-to-json",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/xml-to-json",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:51.171Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/toml-to-json",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/toml-to-json",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:49.928Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-flatten",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-flatten",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:48.852Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-path",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-path",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:47.468Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/csv-to-json",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/csv-to-json",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:46.358Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-to-csv",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-to-csv",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:45.369Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-to-yaml",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-to-yaml",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:44.389Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/json-validate",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/json-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:43.391Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ip",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ip",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:42.344Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/password",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/password",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:41.348Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/color",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/color",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:40.369Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/lorem",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/lorem",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:39.331Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/uuid",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/uuid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:38.302Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/base64",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/base64",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:37.221Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/hash",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/hash",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-03T00:35:36.193Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/crypto-price",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/crypto-price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:32.128Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/weather-forecast",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/weather-forecast",
    "type": "http",
    "network": "eip155:8453",
    "price": "3000",
-   "updated": "2026-11-01T10:00:31.987Z"
+   "updated": "2026-11-03T00:35:26.999Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/sanctions-screen",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/sanctions-screen",
+   "key": "https://api.gadgethumans.com/web-search",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/web-search",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-01T10:00:31.643Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:24.814Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/robots-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/robots-check",
+   "key": "https://api.gadgethumans.com/irish-rail",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/irish-rail",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T10:00:29.637Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:20.640Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/public-holidays",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/public-holidays",
+   "key": "https://api.gadgethumans.com/ireland-rail",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ireland-rail",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T10:00:28.532Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:19.522Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/product-barcode",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/product-barcode",
+   "key": "https://api.gadgethumans.com/met-eireann",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/met-eireann",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-01T10:00:27.331Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:18.422Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/package-vulns",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/package-vulns",
+   "key": "https://api.gadgethumans.com/irish-weather",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/irish-weather",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T10:00:26.044Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:17.374Z"
   },
   {
-   "key": "https://api.predge.io/v1/verdicts",
-   "name": "api.predge.io",
-   "url": "https://api.predge.io/v1/verdicts",
+   "key": "https://api.gadgethumans.com/ireland-weather",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ireland-weather",
    "type": "http",
    "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-01T09:21:55.573Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:16.274Z"
   },
   {
-   "key": "https://authichain.com/api/v1/agent-verify",
-   "name": "authichain.com",
-   "url": "https://authichain.com/api/v1/agent-verify",
-   "type": "http",
-   "network": "base",
-   "price": "50000",
-   "updated": "2026-11-01T09:20:09.782Z"
-  },
-  {
-   "key": "https://altspider.ai/api/sample",
-   "name": "altspider.ai",
-   "url": "https://altspider.ai/api/sample",
+   "key": "https://api.gadgethumans.com/irish-statistics",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/irish-statistics",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T08:19:43.889Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:15.149Z"
   },
   {
-   "key": "https://api.aifoundry.sh/v1/weather",
-   "name": "api.aifoundry.sh",
-   "url": "https://api.aifoundry.sh/v1/weather",
+   "key": "https://api.gadgethumans.com/ireland-statistics",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ireland-statistics",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T08:19:39.629Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:14.055Z"
   },
   {
-   "key": "https://rugshield-402.onrender.com/v1/scan",
-   "name": "rugshield-402.onrender.com",
-   "url": "https://rugshield-402.onrender.com/v1/scan",
+   "key": "https://api.gadgethumans.com/ireland-population",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ireland-population",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T08:19:35.367Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:12.953Z"
   },
   {
-   "key": "https://toolmint-openapi-normalize.toolmint.workers.dev/normalize",
-   "name": "toolmint-openapi-normalize.toolmint.workers.dev",
-   "url": "https://toolmint-openapi-normalize.toolmint.workers.dev/normalize",
+   "key": "https://api.gadgethumans.com/cso-statistics",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/cso-statistics",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-01T07:55:44.085Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:11.982Z"
   },
   {
-   "key": "https://citable.run/v1/keyword-suggest",
-   "name": "citable.run",
-   "url": "https://citable.run/v1/keyword-suggest",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-01T07:31:23.253Z"
-  },
-  {
-   "key": "https://api.paysponge.com/v0/pods",
-   "name": "api.paysponge.com",
-   "url": "https://api.paysponge.com/v0/pods",
+   "key": "https://api.gadgethumans.com/cso-ireland",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/cso-ireland",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-01T07:18:51.819Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:10.877Z"
   },
   {
-   "key": "https://fastx402.tools/solidity-selector",
-   "name": "fastx402.tools",
-   "url": "https://fastx402.tools/solidity-selector",
+   "key": "https://api.gadgethumans.com/ie-stats",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ie-stats",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-01T07:18:49.710Z"
+   "price": "2000",
+   "updated": "2026-11-03T00:35:03.581Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ie-rail",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ie-rail",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:02.623Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/ie-weather",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/ie-weather",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:01.522Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/eu-vat",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/eu-vat",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:35:00.522Z"
+  },
+  {
+   "key": "https://api.gadgethumans.com/memory",
+   "name": "api.gadgethumans.com",
+   "url": "https://api.gadgethumans.com/memory",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-03T00:34:59.560Z"
   }
  ]
 }
