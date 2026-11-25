@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-24T05:11:28.095546Z",
- "total": 18159,
- "added24h": 281,
+ "generatedAt": "2026-11-25T04:00:56.798856Z",
+ "total": 19010,
+ "added24h": 1055,
  "networks": {
-  "eip155:8453": 12329,
-  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4129,
-  "base": 1185,
+  "base": 1194,
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4115,
+  "eip155:8453": 12545,
   "solana": 443,
-  "eip155:42161": 21,
+  "eip155:42161": 628,
   "eip155:1329": 9,
   "eip155:56": 10,
   "eip155:43114": 7,
@@ -20,319 +20,274 @@
  },
  "items": [
   {
-   "key": "https://hodoyoku.pages.dev/api/v1/earthquakes",
-   "name": "hodoyoku.pages.dev",
-   "url": "https://hodoyoku.pages.dev/api/v1/earthquakes",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T05:09:47.981Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/chat/completions",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/chat/completions",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-24T05:00:49.256Z"
-  },
-  {
-   "key": "https://x402.minara.ai/x402/strategy-studio/codegen-prompt",
-   "name": "x402.minara.ai",
-   "url": "https://x402.minara.ai/x402/strategy-studio/codegen-prompt",
-   "type": "http",
-   "network": "base",
-   "price": "1000",
-   "updated": "2026-11-24T04:47:30.381Z"
-  },
-  {
    "key": "https://x402.minara.ai/",
    "name": "x402.minara.ai",
    "url": "https://x402.minara.ai/",
    "type": "http",
    "network": "base",
    "price": "200000",
-   "updated": "2026-11-24T04:43:04.924Z"
+   "updated": "2026-11-25T03:58:39.823Z"
   },
   {
-   "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "name": "mpp.hyreagent.fun",
-   "url": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "type": "http",
-   "network": "solana",
-   "price": "80000",
-   "updated": "2026-11-24T04:41:40.098Z"
-  },
-  {
-   "key": "https://hermes-price-api.separate-chopper.workers.dev/v1/mprices",
-   "name": "hermes-price-api.separate-chopper.workers.dev",
-   "url": "https://hermes-price-api.separate-chopper.workers.dev/v1/mprices",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-24T04:17:02.052Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/stocks/us/price/TSLA",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/stocks/us/price/TSLA",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-24T04:15:12.455Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000000",
-   "updated": "2026-11-24T03:52:27.163Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-24T03:52:26.983Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-24T03:52:26.807Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-24T03:52:26.605Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-24T03:52:26.350Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-24T03:52:26.149Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-24T03:52:25.951Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-24T03:52:25.756Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-24T03:52:25.565Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-24T03:52:25.375Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-24T03:52:24.538Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T03:52:24.351Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:23.984Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:23.789Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-24T03:52:23.551Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:23.372Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T03:52:23.135Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:22.880Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:22.618Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:22.335Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T03:52:21.994Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-24T03:52:21.701Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/social-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/social-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T03:52:21.469Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/ping",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/ping",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-24T03:52:20.908Z"
-  },
-  {
-   "key": "https://agent-tools.jbarkules.workers.dev/v1/fx/rates",
-   "name": "agent-tools.jbarkules.workers.dev",
-   "url": "https://agent-tools.jbarkules.workers.dev/v1/fx/rates",
+   "key": "https://orbit-chain.orbit-builder.workers.dev/v1/ens",
+   "name": "orbit-chain.orbit-builder.workers.dev",
+   "url": "https://orbit-chain.orbit-builder.workers.dev/v1/ens",
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "1000",
-   "updated": "2026-11-24T03:33:39.016Z"
+   "updated": "2026-11-25T03:58:01.107Z"
   },
   {
-   "key": "https://base-token-snapshot-20261010.genial-clove-9914.chatgpt.site/api/base/token-snapshot",
-   "name": "base-token-snapshot-20261010.genial-clove-9914.chatgpt.site",
-   "url": "https://base-token-snapshot-20261010.genial-clove-9914.chatgpt.site/api/base/token-snapshot",
+   "key": "https://northline-chainkit.northline-c86.workers.dev/v1/network/status",
+   "name": "northline-chainkit.northline-c86.workers.dev",
+   "url": "https://northline-chainkit.northline-c86.workers.dev/v1/network/status",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:57:48.095Z"
+  },
+  {
+   "key": "https://orbit-econ.orbit-builder.workers.dev/v1/fx",
+   "name": "orbit-econ.orbit-builder.workers.dev",
+   "url": "https://orbit-econ.orbit-builder.workers.dev/v1/fx",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:57:40.233Z"
+  },
+  {
+   "key": "https://payai-eni-x402.systempayroll880.workers.dev/micro",
+   "name": "payai-eni-x402.systempayroll880.workers.dev",
+   "url": "https://payai-eni-x402.systempayroll880.workers.dev/micro",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:57:14.062Z"
+  },
+  {
+   "key": "https://farsi-tools.johnaio281.workers.dev/api/fa/jalali-to-gregorian",
+   "name": "farsi-tools.johnaio281.workers.dev",
+   "url": "https://farsi-tools.johnaio281.workers.dev/api/fa/jalali-to-gregorian",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:57:04.488Z"
+  },
+  {
+   "key": "https://calculators-data-portal.ngsiyuan.workers.dev/v1/warnings/met/2026-10/31",
+   "name": "calculators-data-portal.ngsiyuan.workers.dev",
+   "url": "https://calculators-data-portal.ngsiyuan.workers.dev/v1/warnings/met/2026-10/31",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-24T03:18:22.627Z"
+   "updated": "2026-11-25T03:56:57.730Z"
   },
   {
-   "key": "https://trawl.run/snapshot",
-   "name": "trawl.run",
-   "url": "https://trawl.run/snapshot",
+   "key": "https://swishrjobs.com/v1/services/csv-preflight/authorize",
+   "name": "swishrjobs.com",
+   "url": "https://swishrjobs.com/v1/services/csv-preflight/authorize",
    "type": "http",
-   "network": "solana",
-   "price": "99000000",
-   "updated": "2026-11-24T02:37:53.350Z"
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:55:53.308Z"
   },
   {
-   "key": "https://agentsvc.io/api/v1/proxy/gas-price",
-   "name": "agentsvc.io",
-   "url": "https://agentsvc.io/api/v1/proxy/gas-price",
+   "key": "https://money-lab.app/api/agent/corpus",
+   "name": "money-lab.app",
+   "url": "https://money-lab.app/api/agent/corpus",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:55:02.983Z"
+  },
+  {
+   "key": "https://tokyofuturo-syndicates.gate-server.workers.dev/x402/base/agent",
+   "name": "tokyofuturo-syndicates.gate-server.workers.dev",
+   "url": "https://tokyofuturo-syndicates.gate-server.workers.dev/x402/base/agent",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:54:24.366Z"
+  },
+  {
+   "key": "https://x402-v1.sky-1.org/v1/rates/series",
+   "name": "x402-v1.sky-1.org",
+   "url": "https://x402-v1.sky-1.org/v1/rates/series",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-25T03:53:12.375Z"
+  },
+  {
+   "key": "https://fastx402.tools/token-units",
+   "name": "fastx402.tools",
+   "url": "https://fastx402.tools/token-units",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:53:01.536Z"
+  },
+  {
+   "key": "https://orbit-web.orbit-builder.workers.dev/v1/agent-ready",
+   "name": "orbit-web.orbit-builder.workers.dev",
+   "url": "https://orbit-web.orbit-builder.workers.dev/v1/agent-ready",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:52:51.396Z"
+  },
+  {
+   "key": "https://cbs.thesoulnetwork.eu/sanctions",
+   "name": "cbs.thesoulnetwork.eu",
+   "url": "https://cbs.thesoulnetwork.eu/sanctions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:52:16.354Z"
+  },
+  {
+   "key": "https://orbit-geo.orbit-builder.workers.dev/v1/sun",
+   "name": "orbit-geo.orbit-builder.workers.dev",
+   "url": "https://orbit-geo.orbit-builder.workers.dev/v1/sun",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:51:28.987Z"
+  },
+  {
+   "key": "https://volkov.evgeny.m2.fvds.ru/pay/gas",
+   "name": "volkov.evgeny.m2.fvds.ru",
+   "url": "https://volkov.evgeny.m2.fvds.ru/pay/gas",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:51:18.504Z"
+  },
+  {
+   "key": "https://cryptopulse.saascloud.ai/api/price",
+   "name": "cryptopulse.saascloud.ai",
+   "url": "https://cryptopulse.saascloud.ai/api/price",
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-24T02:20:46.524Z"
+   "updated": "2026-11-25T03:50:07.420Z"
+  },
+  {
+   "key": "https://app-00c89dcdfe54831bf106.x402-hosting.com/v1/base/contract-check",
+   "name": "app-00c89dcdfe54831bf106.x402-hosting.com",
+   "url": "https://app-00c89dcdfe54831bf106.x402-hosting.com/v1/base/contract-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:49:27.921Z"
+  },
+  {
+   "key": "https://api.nullclear.dev/v1/bazaar/audit",
+   "name": "api.nullclear.dev",
+   "url": "https://api.nullclear.dev/v1/bazaar/audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:48:29.271Z"
+  },
+  {
+   "key": "https://agentkit-x402.zenith-ops.workers.dev/v1/bank-days",
+   "name": "agentkit-x402.zenith-ops.workers.dev",
+   "url": "https://agentkit-x402.zenith-ops.workers.dev/v1/bank-days",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:47:53.135Z"
+  },
+  {
+   "key": "https://hodoyoku.pages.dev/api/v1/earthquakes",
+   "name": "hodoyoku.pages.dev",
+   "url": "https://hodoyoku.pages.dev/api/v1/earthquakes",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:47:17.872Z"
+  },
+  {
+   "key": "https://x402.cambrian.org/api/v1/evm/chains",
+   "name": "x402.cambrian.org",
+   "url": "https://x402.cambrian.org/api/v1/evm/chains",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "50000",
+   "updated": "2026-11-25T03:46:25.036Z"
+  },
+  {
+   "key": "https://lupapago.com/api/fee/changelog",
+   "name": "lupapago.com",
+   "url": "https://lupapago.com/api/fee/changelog",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:46:13.552Z"
+  },
+  {
+   "key": "https://zero-payment-guard.worker.beacon.host/v1/page-extract",
+   "name": "zero-payment-guard.worker.beacon.host",
+   "url": "https://zero-payment-guard.worker.beacon.host/v1/page-extract",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:45:27.999Z"
+  },
+  {
+   "key": "https://cleanread402.netlify.app/textstats",
+   "name": "cleanread402.netlify.app",
+   "url": "https://cleanread402.netlify.app/textstats",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:45:17.733Z"
+  },
+  {
+   "key": "https://api.chainward.ai/api/risk/sanctions",
+   "name": "api.chainward.ai",
+   "url": "https://api.chainward.ai/api/risk/sanctions",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:44:48.711Z"
+  },
+  {
+   "key": "https://api.lupapago.com/v1/fx/ar/brecha",
+   "name": "api.lupapago.com",
+   "url": "https://api.lupapago.com/v1/fx/ar/brecha",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:44:40.077Z"
+  },
+  {
+   "key": "https://klowor-token-check.vercel.app/market-snapshot",
+   "name": "klowor-token-check.vercel.app",
+   "url": "https://klowor-token-check.vercel.app/market-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:44:07.899Z"
+  },
+  {
+   "key": "https://api.premiumrewards.vip/fx",
+   "name": "api.premiumrewards.vip",
+   "url": "https://api.premiumrewards.vip/fx",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:43:26.757Z"
+  },
+  {
+   "key": "https://assetfactory-jobs-x402.sigrunner.workers.dev/email/verify",
+   "name": "assetfactory-jobs-x402.sigrunner.workers.dev",
+   "url": "https://assetfactory-jobs-x402.sigrunner.workers.dev/email/verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:43:01.464Z"
   },
   {
    "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/hash-text-get",
@@ -341,52 +296,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-11-24T02:19:57.374Z"
-  },
-  {
-   "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/fx-rate-get",
-   "name": "a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/fx-rate-get",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-24T02:19:56.716Z"
-  },
-  {
-   "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/gas-estimate-get",
-   "name": "a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/gas-estimate-get",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-24T02:19:56.084Z"
-  },
-  {
-   "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/crypto-price-get",
-   "name": "a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/crypto-price-get",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-24T02:19:55.482Z"
-  },
-  {
-   "key": "https://stratly.us/v1/extract",
-   "name": "stratly.us",
-   "url": "https://stratly.us/v1/extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T02:18:41.181Z"
-  },
-  {
-   "key": "https://api.aurelianflo.com/api/ofac-wallet-screen/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
-   "name": "api.aurelianflo.com",
-   "url": "https://api.aurelianflo.com/api/ofac-wallet-screen/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T02:12:52.447Z"
+   "updated": "2026-11-25T03:42:46.217Z"
   },
   {
    "key": "https://rentcast.x402.paysponge.com/properties",
@@ -395,142 +305,259 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-24T02:07:36.511Z"
+   "updated": "2026-11-25T03:42:37.047Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/npm-package-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/npm-package-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T02:00:59.230Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-24T02:00:53.590Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-24T02:00:47.814Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-24T02:00:42.412Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "60000",
-   "updated": "2026-11-24T02:00:37.944Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/company-jobs",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/company-jobs",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-24T02:00:32.453Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
+   "key": "https://scavenger-labs-api.serveousercontent.com/kits/erc8004-registration-kit",
+   "name": "scavenger-labs-api.serveousercontent.com",
+   "url": "https://scavenger-labs-api.serveousercontent.com/kits/erc8004-registration-kit",
    "type": "http",
    "network": "eip155:8453",
    "price": "20000",
-   "updated": "2026-11-24T02:00:27.644Z"
+   "updated": "2026-11-25T03:42:28.855Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
+   "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
+   "name": "mpp.hyreagent.fun",
+   "url": "https://mpp.hyreagent.fun/trenches/new-tokens",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-24T02:00:23.119Z"
+   "network": "solana",
+   "price": "80000",
+   "updated": "2026-11-25T03:41:47.664Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
+   "key": "https://sol.blockrun.ai/api/v1/chat/completions",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/chat/completions",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T02:00:18.644Z"
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "2444",
+   "updated": "2026-11-25T03:40:43.612Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T02:00:14.105Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
+   "key": "https://hermes-price-api.living-chipmunk-ba0.workers.dev/v1/mprices",
+   "name": "hermes-price-api.living-chipmunk-ba0.workers.dev",
+   "url": "https://hermes-price-api.living-chipmunk-ba0.workers.dev/v1/mprices",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-11-24T02:00:04.790Z"
+   "updated": "2026-11-25T03:40:39.263Z"
   },
   {
-   "key": "https://h1-x402-api.nohitori.workers.dev/jp/business-day",
-   "name": "h1-x402-api.nohitori.workers.dev",
-   "url": "https://h1-x402-api.nohitori.workers.dev/jp/business-day",
+   "key": "https://rioeaqui.com.br/x402/cinema/horarios",
+   "name": "rioeaqui.com.br",
+   "url": "https://rioeaqui.com.br/x402/cinema/horarios",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-24T01:53:46.999Z"
+   "price": "1000",
+   "updated": "2026-11-25T03:39:45.669Z"
   },
   {
-   "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/verify-usdc-get",
-   "name": "a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/verify-usdc-get",
+   "key": "https://brasiliaeaqui.com.br/x402/materias",
+   "name": "brasiliaeaqui.com.br",
+   "url": "https://brasiliaeaqui.com.br/x402/materias",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:39:26.247Z"
+  },
+  {
+   "key": "https://api.predge.io/v1/bets/biggest",
+   "name": "api.predge.io",
+   "url": "https://api.predge.io/v1/bets/biggest",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-24T01:45:19.359Z"
+   "updated": "2026-11-25T03:39:00.676Z"
   },
   {
-   "key": "https://api.nansen.ai/api/v1/tgm/who-bought-sold",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/tgm/who-bought-sold",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:37:04.568Z"
-  },
-  {
-   "key": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-   "name": "money-reactor.makar52nn2016.workers.dev",
-   "url": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
+   "key": "https://tkoqkknsezxavtxfywkm.supabase.co/functions/v1/dns-lookup-x402-v1",
+   "name": "tkoqkknsezxavtxfywkm.supabase.co",
+   "url": "https://tkoqkknsezxavtxfywkm.supabase.co/functions/v1/dns-lookup-x402-v1",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-24T01:33:04.865Z"
+   "price": "1000",
+   "updated": "2026-11-25T03:37:44.335Z"
+  },
+  {
+   "key": "https://nightshift-agent.solaris-organization.workers.dev/api/x402-revenue",
+   "name": "nightshift-agent.solaris-organization.workers.dev",
+   "url": "https://nightshift-agent.solaris-organization.workers.dev/api/x402-revenue",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:37:36.252Z"
+  },
+  {
+   "key": "https://agentum.lat/company-enrich",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/company-enrich",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:36:55.972Z"
+  },
+  {
+   "key": "https://pay.kenwardai.my.id/v1/payability",
+   "name": "pay.kenwardai.my.id",
+   "url": "https://pay.kenwardai.my.id/v1/payability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:35:37.602Z"
+  },
+  {
+   "key": "https://crypto-micro-agent.mykira.workers.dev/api/agent/yuran-rangkaian",
+   "name": "crypto-micro-agent.mykira.workers.dev",
+   "url": "https://crypto-micro-agent.mykira.workers.dev/api/agent/yuran-rangkaian",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "5000",
+   "updated": "2026-11-25T03:35:00.584Z"
+  },
+  {
+   "key": "https://veriql.app/api/v1/launches",
+   "name": "veriql.app",
+   "url": "https://veriql.app/api/v1/launches",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:34:41.586Z"
+  },
+  {
+   "key": "https://library.intel.rallylive.ca/library/texts/1860s",
+   "name": "library.intel.rallylive.ca",
+   "url": "https://library.intel.rallylive.ca/library/texts/1860s",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:34:11.683Z"
+  },
+  {
+   "key": "https://api.chaink9.com/risk-changes",
+   "name": "api.chaink9.com",
+   "url": "https://api.chaink9.com/risk-changes",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:33:47.622Z"
+  },
+  {
+   "key": "https://mpp-agent-data.fmf-x402.workers.dev/mpp/daily/onthisday",
+   "name": "mpp-agent-data.fmf-x402.workers.dev",
+   "url": "https://mpp-agent-data.fmf-x402.workers.dev/mpp/daily/onthisday",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:33:16.432Z"
+  },
+  {
+   "key": "https://origin-mcp.fly.dev/mcp/tools/basescan_tx_details",
+   "name": "origin-mcp.fly.dev",
+   "url": "https://origin-mcp.fly.dev/mcp/tools/basescan_tx_details",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:30:41.736Z"
+  },
+  {
+   "key": "https://monitor.intel.rallylive.ca/monitor/status/github",
+   "name": "monitor.intel.rallylive.ca",
+   "url": "https://monitor.intel.rallylive.ca/monitor/status/github",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:30:30.201Z"
+  },
+  {
+   "key": "https://vm5-openapi-x402.onrender.com/v1/ping",
+   "name": "vm5-openapi-x402.onrender.com",
+   "url": "https://vm5-openapi-x402.onrender.com/v1/ping",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:29:04.650Z"
+  },
+  {
+   "key": "https://new.shuiyun.us.ci/x402/v1/rpc/erc20-balance",
+   "name": "new.shuiyun.us.ci",
+   "url": "https://new.shuiyun.us.ci/x402/v1/rpc/erc20-balance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:27:31.807Z"
+  },
+  {
+   "key": "https://ozeejewwpjmabshxyitc.supabase.co/functions/v1/telago-x402-live-v1/logistics/mae-sot-myawaddy-status",
+   "name": "ozeejewwpjmabshxyitc.supabase.co",
+   "url": "https://ozeejewwpjmabshxyitc.supabase.co/functions/v1/telago-x402-live-v1/logistics/mae-sot-myawaddy-status",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:26:52.771Z"
+  },
+  {
+   "key": "https://x-data-gateway.annushka1190.workers.dev/v1/health/paid",
+   "name": "x-data-gateway.annushka1190.workers.dev",
+   "url": "https://x-data-gateway.annushka1190.workers.dev/v1/health/paid",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:25:50.085Z"
+  },
+  {
+   "key": "https://chain.intel.rallylive.ca/ens/resolve",
+   "name": "chain.intel.rallylive.ca",
+   "url": "https://chain.intel.rallylive.ca/ens/resolve",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:24:51.657Z"
+  },
+  {
+   "key": "https://beggar-bot-demand.beggarbot.workers.dev/v1/evmtx",
+   "name": "beggar-bot-demand.beggarbot.workers.dev",
+   "url": "https://beggar-bot-demand.beggarbot.workers.dev/v1/evmtx",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-25T03:24:24.480Z"
+  },
+  {
+   "key": "https://grid402.online/api/v1/email-verify",
+   "name": "grid402.online",
+   "url": "https://grid402.online/api/v1/email-verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:23:41.418Z"
+  },
+  {
+   "key": "https://task-radar-x402.vercel.app/api/trending",
+   "name": "task-radar-x402.vercel.app",
+   "url": "https://task-radar-x402.vercel.app/api/trending",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:23:03.828Z"
+  },
+  {
+   "key": "https://mnogo2-deneg.makar52nn2016.workers.dev/api/crypto-price",
+   "name": "mnogo2-deneg.makar52nn2016.workers.dev",
+   "url": "https://mnogo2-deneg.makar52nn2016.workers.dev/api/crypto-price",
+   "type": "http",
+   "network": "base",
+   "price": "1000",
+   "updated": "2026-11-25T03:20:49.212Z"
+  },
+  {
+   "key": "https://data.intel.rallylive.ca/data/weather/bristol",
+   "name": "data.intel.rallylive.ca",
+   "url": "https://data.intel.rallylive.ca/data/weather/bristol",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:20:15.966Z"
   },
   {
    "key": "https://werner.ddns.net/price",
@@ -539,2005 +566,34 @@
    "type": "http",
    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "1000",
-   "updated": "2026-11-24T01:29:15.753Z"
+   "updated": "2026-11-25T03:19:40.263Z"
   },
   {
-   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "7500",
-   "updated": "2026-11-24T01:27:31.480Z"
-  },
-  {
-   "key": "https://loki.freedomlab.space/x402/rail",
-   "name": "loki.freedomlab.space",
-   "url": "https://loki.freedomlab.space/x402/rail",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-24T01:27:07.142Z"
-  },
-  {
-   "key": "https://madeonsol.com/api/x402/kol/feed",
-   "name": "madeonsol.com",
-   "url": "https://madeonsol.com/api/x402/kol/feed",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-24T01:26:53.948Z"
-  },
-  {
-   "key": "https://api.x402node.dev/finance/crypto",
-   "name": "api.x402node.dev",
-   "url": "https://api.x402node.dev/finance/crypto",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "4000",
-   "updated": "2026-11-24T01:25:42.538Z"
-  },
-  {
-   "key": "https://payai.agentstools.dev/quant/kelly",
-   "name": "payai.agentstools.dev",
-   "url": "https://payai.agentstools.dev/quant/kelly",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-24T01:25:07.904Z"
-  },
-  {
-   "key": "https://earlythunder.com/api/x402/v1/scores",
-   "name": "earlythunder.com",
-   "url": "https://earlythunder.com/api/x402/v1/scores",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:24:58.746Z"
-  },
-  {
-   "key": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
-   "name": "rentcast.x402.paysponge.com",
-   "url": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:24:46.629Z"
-  },
-  {
-   "key": "https://aws-bedrock.grok.me/api/v1/search",
-   "name": "aws-bedrock.grok.me",
-   "url": "https://aws-bedrock.grok.me/api/v1/search",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-24T01:24:42.874Z"
-  },
-  {
-   "key": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
-   "name": "47620.xyz",
-   "url": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-24T01:24:40.279Z"
-  },
-  {
-   "key": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "name": "aijobsboom-x402.sonofgus.workers.dev",
-   "url": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "type": "http",
-   "network": "solana",
-   "price": "10000",
-   "updated": "2026-11-24T01:22:59.041Z"
-  },
-  {
-   "key": "https://coord.taifoon.dev/v1/x402/class/market.price",
-   "name": "coord.taifoon.dev",
-   "url": "https://coord.taifoon.dev/v1/x402/class/market.price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1714",
-   "updated": "2026-11-24T01:22:54.285Z"
-  },
-  {
-   "key": "https://mpp.hyreagent.fun/defi/tvl",
-   "name": "mpp.hyreagent.fun",
-   "url": "https://mpp.hyreagent.fun/defi/tvl",
-   "type": "http",
-   "network": "solana",
-   "price": "10000",
-   "updated": "2026-11-24T01:22:46.412Z"
-  },
-  {
-   "key": "https://citable.run/v1/serp",
-   "name": "citable.run",
-   "url": "https://citable.run/v1/serp",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "8000",
-   "updated": "2026-11-24T01:22:05.947Z"
-  },
-  {
-   "key": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
-   "name": "changelog-state-api.replit.app",
-   "url": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:21:55.360Z"
-  },
-  {
-   "key": "https://api.bentcrypto.com/v1/token/risk",
-   "name": "api.bentcrypto.com",
-   "url": "https://api.bentcrypto.com/v1/token/risk",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:21:51.442Z"
-  },
-  {
-   "key": "https://underground.substratesymposium.com/buy/echeveria",
-   "name": "underground.substratesymposium.com",
-   "url": "https://underground.substratesymposium.com/buy/echeveria",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-24T01:21:46.502Z"
-  },
-  {
-   "key": "https://api.syraa.fun/assets",
-   "name": "api.syraa.fun",
-   "url": "https://api.syraa.fun/assets",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-24T01:21:37.954Z"
-  },
-  {
-   "key": "https://juno-picks.agent-arena-base.workers.dev/v1/work/board",
-   "name": "juno-picks.agent-arena-base.workers.dev",
-   "url": "https://juno-picks.agent-arena-base.workers.dev/v1/work/board",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T01:19:02.478Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/wallet-rep",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/wallet-rep",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "5000",
-   "updated": "2026-11-24T01:11:49.064Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/contract-vet",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/contract-vet",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "5000",
-   "updated": "2026-11-24T01:11:44.381Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/watchman/check",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/watchman/check",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "2000",
-   "updated": "2026-11-24T01:09:59.121Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/watchman",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/watchman",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "5000",
-   "updated": "2026-11-24T01:09:54.820Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/stems",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/stems",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "20000",
-   "updated": "2026-11-24T01:09:50.061Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/tx-intent",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/tx-intent",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "5000",
-   "updated": "2026-11-24T01:09:45.179Z"
-  },
-  {
-   "key": "https://desk.mirage.fyi/gpu-spot",
-   "name": "desk.mirage.fyi",
-   "url": "https://desk.mirage.fyi/gpu-spot",
-   "type": "http",
-   "network": "eip155:42161",
-   "price": "1000",
-   "updated": "2026-11-24T01:09:40.250Z"
-  },
-  {
-   "key": "https://relay.imagiolabs.com/health",
-   "name": "relay.imagiolabs.com",
-   "url": "https://relay.imagiolabs.com/health",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-24T00:51:32.477Z"
-  },
-  {
-   "key": "https://agent402.tools/api/hash",
-   "name": "agent402.tools",
-   "url": "https://agent402.tools/api/hash",
-   "type": "http",
-   "network": "eip155:1329",
-   "price": "1000",
-   "updated": "2026-11-24T00:51:24.958Z"
-  },
-  {
-   "key": "https://api.pacta.wtf/v1/x402/verdict",
-   "name": "api.pacta.wtf",
-   "url": "https://api.pacta.wtf/v1/x402/verdict",
-   "type": "http",
-   "network": "base",
-   "price": "20000",
-   "updated": "2026-11-24T00:47:57.336Z"
-  },
-  {
-   "key": "https://penny-x402-endpoint-audit.penny-mcamp.workers.dev/v1/audit",
-   "name": "penny-x402-endpoint-audit.penny-mcamp.workers.dev",
-   "url": "https://penny-x402-endpoint-audit.penny-mcamp.workers.dev/v1/audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10318",
-   "updated": "2026-11-24T00:19:09.775Z"
-  },
-  {
-   "key": "https://hodoyoku.pages.dev/api/v1/warnings",
-   "name": "hodoyoku.pages.dev",
-   "url": "https://hodoyoku.pages.dev/api/v1/warnings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T00:18:47.182Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/news",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/news",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T00:18:45.440Z"
-  },
-  {
-   "key": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/gas-estimate",
-   "name": "a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-2bfcb8e6-p347-fiatdock-audit-mcp-3hgwe6ziea-uc.a.run.app/gas-estimate",
+   "key": "https://x402-checker.nock-for-mak.workers.dev/crypto-news",
+   "name": "x402-checker.nock-for-mak.workers.dev",
+   "url": "https://x402-checker.nock-for-mak.workers.dev/crypto-news",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-11-24T00:13:24.839Z"
+   "updated": "2026-11-25T03:18:43.609Z"
   },
   {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/ai",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/ai",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:31.827Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/sanctions-batch",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/sanctions-batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:31.658Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/sanctions-screen",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/sanctions-screen",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:31.451Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/portfolio-risk",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/portfolio-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:31.230Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/liquidity",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/liquidity",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:31.059Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/token-risk",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/token-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:30.870Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/tenders",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/tenders",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-24T00:05:30.658Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/weather",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/weather",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T00:05:30.266Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/fx",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/fx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-24T00:05:30.087Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/crypto",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/crypto",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-24T00:05:29.881Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/demand",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/demand",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-24T00:05:29.655Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/quote",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-24T00:05:29.396Z"
-  },
-  {
-   "key": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/factory-price",
-   "name": "work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev",
-   "url": "https://work-1-ihyuctawewiajirx.prod-runtime.all-hands.dev/paid/factory-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-24T00:05:29.137Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/webhook_catch",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/webhook_catch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:42:58.847Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/giftcard/api/buy",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/giftcard/api/buy",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:42:57.488Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/email_deliverability_check",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/email_deliverability_check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:56.144Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/deep_research",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/deep_research",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "64000",
-   "updated": "2026-11-23T22:42:54.780Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/web_scrape",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/web_scrape",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:42:53.441Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/rdap_lookup",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/rdap_lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:52.096Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/dns_lookup",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/dns_lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:50.751Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wikipedia_summary",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wikipedia_summary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:49.402Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/earthquakes",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/earthquakes",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:48.055Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/air_quality",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/air_quality",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:46.684Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/weather_forecast",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/weather_forecast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:45.333Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/geocode",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/geocode",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:43.980Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/postcode_lookup",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/postcode_lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:42.614Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/vat_check",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/vat_check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:41.273Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/public_holidays",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/public_holidays",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:39.926Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/x_search",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/x_search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-11-23T22:42:38.561Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/news_search",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/news_search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "7000",
-   "updated": "2026-11-23T22:42:37.192Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/web_search",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/web_search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "7000",
-   "updated": "2026-11-23T22:42:35.853Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_exec_pay",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_exec_pay",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-11-23T22:42:34.359Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_npx_proxy_votes",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_npx_proxy_votes",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:33.012Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_ncen_fund_census",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_ncen_fund_census",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:31.667Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_nport_fund_holdings",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_nport_fund_holdings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:42:30.280Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_form_d_raises",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_form_d_raises",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:28.883Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_8k_events",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_8k_events",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:27.532Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_13f_holdings",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_13f_holdings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:26.184Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/clinical_trial_intel",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/clinical_trial_intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:24.831Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/fda_drug_safety",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/fda_drug_safety",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:23.478Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cve_exploit_risk",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cve_exploit_risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-23T22:42:22.132Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_financial_snapshot",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_financial_snapshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-23T22:42:20.791Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/sec_insider_trades",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_insider_trades",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-23T22:42:19.442Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cargo_run",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cargo_run",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "9246",
-   "updated": "2026-11-23T22:42:18.087Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/swap_create",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/swap_create",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:42:16.726Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/page_screenshot",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/page_screenshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:42:15.374Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/web_archive_history",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/web_archive_history",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:14.030Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/package_supply_chain_risk",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/package_supply_chain_risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-23T22:42:12.643Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cert_transparency_bundle",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cert_transparency_bundle",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:11.246Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_reputation",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_reputation",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:09.865Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/seo_audit",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/seo_audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:08.518Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/document_extract",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/document_extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:07.171Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/photo_to_3d_hq",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/photo_to_3d_hq",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500000",
-   "updated": "2026-11-23T22:42:05.822Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/photo_to_3d_fast",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/photo_to_3d_fast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "150000",
-   "updated": "2026-11-23T22:42:04.417Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/image_generate_quality",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/image_generate_quality",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "90000",
-   "updated": "2026-11-23T22:42:03.070Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/image_generate",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/image_generate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:42:01.709Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/document_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/document_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:42:00.343Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/epub_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/epub_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:59.000Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/xlsx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/xlsx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:57.603Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/pptx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/pptx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:56.240Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/docx_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/docx_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:54.876Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/pdf_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/pdf_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:41:53.506Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/llm_chat",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/llm_chat",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:52.156Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_checksum",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_checksum",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:50.811Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_solana",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_solana",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:49.459Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_nostr",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_nostr",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:48.112Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_verify_siwe",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_verify_siwe",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:46.745Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_stablecoin",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_stablecoin",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:45.397Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_batch",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:44.022Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_worldid",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_worldid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:42.680Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/verify_semaphore",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/verify_semaphore",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:41.341Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/search_intent",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/search_intent",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:41:40.003Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/company_signals",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/company_signals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:38.641Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/enrich_company",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/enrich_company",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-23T22:41:37.270Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/enrich_person",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/enrich_person",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "60000",
-   "updated": "2026-11-23T22:41:35.919Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/find_email",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/find_email",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "25000",
-   "updated": "2026-11-23T22:41:34.571Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/backlinks_overview",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/backlinks_overview",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:33.229Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_keywords",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_keywords",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:31.877Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/domain_competitors",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/domain_competitors",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:30.527Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/keyword_ideas",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/keyword_ideas",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:29.154Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/keyword_volume",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/keyword_volume",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-23T22:41:27.798Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/google_serp",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/google_serp",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:41:26.454Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/jobs",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/jobs",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:25.110Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/og_image_generator_ai",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/og_image_generator_ai",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:41:23.764Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/og_image_generator",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/og_image_generator",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:22.421Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/qr_generator",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/qr_generator",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:21.067Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/html_to_markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/html_to_markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:19.728Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/mermaid",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/mermaid",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:18.366Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/github_repo_health",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/github_repo_health",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:16.906Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/changelog_git",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/changelog_git",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:15.560Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/changelog_openapi",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/changelog_openapi",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:41:14.126Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/token_contract_safety",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/token_contract_safety",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:41:12.712Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/whale_tracker",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/whale_tracker",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T22:41:11.368Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/token_holders",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/token_holders",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "4000",
-   "updated": "2026-11-23T22:41:10.006Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_score",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_score",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T22:41:08.617Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_token_risk",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_token_risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:41:07.236Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/cross_chain_balance",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/cross_chain_balance",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:05.878Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/whale_alerts",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/whale_alerts",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:04.516Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/wallet_portfolio",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/wallet_portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:03.155Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/token_price",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/token_price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:01.759Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/markdown",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/markdown",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:41:00.412Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/shortlink_stats",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/shortlink_stats",
+   "key": "https://dnsdomain.hergertsynthora.com/service",
+   "name": "dnsdomain.hergertsynthora.com",
+   "url": "https://dnsdomain.hergertsynthora.com/service",
    "type": "http",
    "network": "eip155:8453",
    "price": "1000",
-   "updated": "2026-11-23T22:40:59.036Z"
+   "updated": "2026-11-25T03:18:39.370Z"
   },
   {
-   "key": "https://x402.freeq.one/tools/shortlink_create",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/shortlink_create",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-23T22:40:57.613Z"
-  },
-  {
-   "key": "https://x402.freeq.one/tools/raas_project_provision",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/raas_project_provision",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T22:40:56.260Z"
-  },
-  {
-   "key": "https://x402.freeq.one/mcp",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/mcp",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T22:40:54.811Z"
-  },
-  {
-   "key": "https://m2m-wallet-proof-codina.pages.dev/v1/domain-security",
-   "name": "m2m-wallet-proof-codina.pages.dev",
-   "url": "https://m2m-wallet-proof-codina.pages.dev/v1/domain-security",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "19000",
-   "updated": "2026-11-23T22:18:32.290Z"
-  },
-  {
-   "key": "https://a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app/v1/diagnose",
-   "name": "a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app/v1/diagnose",
+   "key": "https://money-reactor.makar52nn2016.workers.dev/api/fear-greed",
+   "name": "money-reactor.makar52nn2016.workers.dev",
+   "url": "https://money-reactor.makar52nn2016.workers.dev/api/fear-greed",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T22:18:22.067Z"
-  },
-  {
-   "key": "https://api.flashctx.xyz/v1/chat/completions",
-   "name": "api.flashctx.xyz",
-   "url": "https://api.flashctx.xyz/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-23T22:17:16.391Z"
-  },
-  {
-   "key": "https://api.criptonlabs.com/v1/pro/xrpl/payment-readiness",
-   "name": "api.criptonlabs.com",
-   "url": "https://api.criptonlabs.com/v1/pro/xrpl/payment-readiness",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "43560",
-   "updated": "2026-11-23T20:47:10.883Z"
-  },
-  {
-   "key": "https://api.dev.hypercli.com/agents/x402/solo",
-   "name": "api.dev.hypercli.com",
-   "url": "https://api.dev.hypercli.com/agents/x402/solo",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T20:26:32.480Z"
-  },
-  {
-   "key": "https://hodoyoku.pages.dev/api/v1/calendar",
-   "name": "hodoyoku.pages.dev",
-   "url": "https://hodoyoku.pages.dev/api/v1/calendar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:59:37.004Z"
-  },
-  {
-   "key": "https://hodoyoku.pages.dev/api/v1/worker-rights",
-   "name": "hodoyoku.pages.dev",
-   "url": "https://hodoyoku.pages.dev/api/v1/worker-rights",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:58:04.662Z"
-  },
-  {
-   "key": "https://api.criptonlabs.com/v1/pro/xrpl/metrics/peg",
-   "name": "api.criptonlabs.com",
-   "url": "https://api.criptonlabs.com/v1/pro/xrpl/metrics/peg",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "43560",
-   "updated": "2026-11-23T19:37:10.597Z"
-  },
-  {
-   "key": "https://agents.getardaro.com/v1/agent-utilities/context-compression/analyze",
-   "name": "agents.getardaro.com",
-   "url": "https://agents.getardaro.com/v1/agent-utilities/context-compression/analyze",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:18:15.571Z"
-  },
-  {
-   "key": "https://a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app/v1/check",
-   "name": "a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app",
-   "url": "https://a-1bc9a5e3-1bc9a5e3-doctor-3hgwe6ziea-uc.a.run.app/v1/check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:09:20.197Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/url-safety/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/url-safety/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:20.018Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:19.399Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:18.826Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:18.261Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:17.690Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:17.105Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:16.530Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:15.970Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/safe-to-send/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/safe-to-send/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:15.406Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:14.828Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:14.246Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:13.677Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:13.100Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:12.552Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:11.971Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/approvals/batch",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/approvals/batch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T19:03:11.343Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/smart-money",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/smart-money",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:31.573Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/launches",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/launches",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:31.017Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/launches",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/launches",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:30.452Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/launches",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/launches",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:29.868Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/launches",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/launches",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:29.309Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:28.477Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:27.886Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:27.338Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:26.783Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:26.227Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:25.640Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:25.036Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/safe-to-send",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/safe-to-send",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:24.479Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/verdict",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:23.912Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/verdict",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:23.372Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/verdict",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/verdict",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:22.811Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/honeypot",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/honeypot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:22.258Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/honeypot",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/honeypot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:21.676Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/honeypot",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/honeypot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:21.096Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/bundles",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/bundles",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:20.537Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/approvals/sweep",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/approvals/sweep",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-23T19:02:19.962Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/delegates",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/delegates",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:19.378Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:18.820Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/token",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/token",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:18.264Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/portfolio",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/portfolio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:02:07.395Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/decode",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/decode",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:06.844Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ens",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ens",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:06.288Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/gas",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/gas",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:05.701Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/url-safety",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/url-safety",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:05.155Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:04.587Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:04.029Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:03.473Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/avalanche/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/avalanche/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:02.864Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:02.287Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:01.739Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:01.124Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/polygon/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/polygon/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:02:00.566Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:59.887Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:59.338Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:58.769Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/optimism/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/optimism/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:58.200Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:57.637Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:57.078Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:56.534Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/arbitrum/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:55.957Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:55.395Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:54.838Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:54.282Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:53.734Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:53.181Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:52.641Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:52.090Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/ethereum/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/ethereum/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:51.544Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/contract-risk",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/contract-risk",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:50.988Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/address",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/address",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:50.436Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/approvals",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/approvals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-23T19:01:49.732Z"
-  },
-  {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/base/tx",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/base/tx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T19:01:44.300Z"
-  },
-  {
-   "key": "https://x402.minara.ai/x402/intent-to-swap-tx",
-   "name": "x402.minara.ai",
-   "url": "https://x402.minara.ai/x402/intent-to-swap-tx",
-   "type": "http",
-   "network": "base",
-   "price": "100000",
-   "updated": "2026-11-23T18:57:31.849Z"
-  },
-  {
-   "key": "https://x402-probe.lucciocarmino.workers.dev/probe",
-   "name": "x402-probe.lucciocarmino.workers.dev",
-   "url": "https://x402-probe.lucciocarmino.workers.dev/probe",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T18:54:31.672Z"
+   "updated": "2026-11-25T03:18:29.490Z"
   },
   {
    "key": "https://x402.cambrian.org/x402/api/v1/evm/price-current",
@@ -2546,178 +602,2122 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-11-23T18:19:58.682Z"
+   "updated": "2026-11-25T03:18:21.072Z"
   },
   {
-   "key": "https://mediaapi.wafflehacker.dev/v1/download",
-   "name": "mediaapi.wafflehacker.dev",
-   "url": "https://mediaapi.wafflehacker.dev/v1/download",
-   "type": "http",
-   "network": "base",
-   "price": "20000",
-   "updated": "2026-11-23T18:18:52.996Z"
-  },
-  {
-   "key": "https://signallayer.floot.app/_api/v1/agent/preflight",
-   "name": "signallayer.floot.app",
-   "url": "https://signallayer.floot.app/_api/v1/agent/preflight",
+   "key": "https://chiefofstaff-solana.iodized-lemon.workers.dev/rh/check",
+   "name": "chiefofstaff-solana.iodized-lemon.workers.dev",
+   "url": "https://chiefofstaff-solana.iodized-lemon.workers.dev/rh/check",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T18:18:42.853Z"
+   "updated": "2026-11-25T03:18:14.294Z"
   },
   {
-   "key": "https://freelancedesk-payments.obtranzat.workers.dev/v1/bounties",
-   "name": "freelancedesk-payments.obtranzat.workers.dev",
-   "url": "https://freelancedesk-payments.obtranzat.workers.dev/v1/bounties",
+   "key": "https://santyvv-x402.santyvv1993.workers.dev/api/defi/fees",
+   "name": "santyvv-x402.santyvv1993.workers.dev",
+   "url": "https://santyvv-x402.santyvv1993.workers.dev/api/defi/fees",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T18:13:13.184Z"
+   "updated": "2026-11-25T03:17:29.191Z"
   },
   {
-   "key": "https://hodoyoku.pages.dev/api/v1/minimum-wage",
-   "name": "hodoyoku.pages.dev",
-   "url": "https://hodoyoku.pages.dev/api/v1/minimum-wage",
+   "key": "https://x402.santyvv.com/api/fx/rates",
+   "name": "x402.santyvv.com",
+   "url": "https://x402.santyvv.com/api/fx/rates",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T18:10:24.712Z"
+   "updated": "2026-11-25T03:17:11.241Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
+   "key": "https://apistead.qd.je/api/v1/geocode",
+   "name": "apistead.qd.je",
+   "url": "https://apistead.qd.je/api/v1/geocode",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:17:02.215Z"
+  },
+  {
+   "key": "https://site.intel.rallylive.ca/site/uses/trustarc",
+   "name": "site.intel.rallylive.ca",
+   "url": "https://site.intel.rallylive.ca/site/uses/trustarc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:16:50.858Z"
+  },
+  {
+   "key": "https://engedi.digi-life17.workers.dev/api/joke",
+   "name": "engedi.digi-life17.workers.dev",
+   "url": "https://engedi.digi-life17.workers.dev/api/joke",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T03:16:42.615Z"
+  },
+  {
+   "key": "https://api.syraa.fun/assets",
+   "name": "api.syraa.fun",
+   "url": "https://api.syraa.fun/assets",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:16:30.215Z"
+  },
+  {
+   "key": "https://x402-zoo.lolagent.workers.dev/api/paid-before-you",
+   "name": "x402-zoo.lolagent.workers.dev",
+   "url": "https://x402-zoo.lolagent.workers.dev/api/paid-before-you",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100",
+   "updated": "2026-11-25T03:14:03.036Z"
+  },
+  {
+   "key": "https://shoe-count.fmf-x402.workers.dev/v1/webhook",
+   "name": "shoe-count.fmf-x402.workers.dev",
+   "url": "https://shoe-count.fmf-x402.workers.dev/v1/webhook",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:12:58.824Z"
+  },
+  {
+   "key": "https://shoe-count.fmf-x402.workers.dev/v1/events",
+   "name": "shoe-count.fmf-x402.workers.dev",
+   "url": "https://shoe-count.fmf-x402.workers.dev/v1/events",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:12:58.708Z"
+  },
+  {
+   "key": "https://shoe-count.fmf-x402.workers.dev/v1/count",
+   "name": "shoe-count.fmf-x402.workers.dev",
+   "url": "https://shoe-count.fmf-x402.workers.dev/v1/count",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:12:58.597Z"
+  },
+  {
+   "key": "https://kr-x402-mvp.kgy5612.workers.dev/pay",
+   "name": "kr-x402-mvp.kgy5612.workers.dev",
+   "url": "https://kr-x402-mvp.kgy5612.workers.dev/pay",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:12:40.119Z"
+  },
+  {
+   "key": "https://mcp.f1ow.com/x402/v1/sentiment/fear-greed",
+   "name": "mcp.f1ow.com",
+   "url": "https://mcp.f1ow.com/x402/v1/sentiment/fear-greed",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T03:12:28.822Z"
+  },
+  {
+   "key": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
+   "name": "changelog-state-api.replit.app",
+   "url": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-25T03:11:54.658Z"
+  },
+  {
+   "key": "https://fastx402.tools/dns",
+   "name": "fastx402.tools",
+   "url": "https://fastx402.tools/dns",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:10:48.763Z"
+  },
+  {
+   "key": "https://agents.crowdspark.me/v1/fx/rates",
+   "name": "agents.crowdspark.me",
+   "url": "https://agents.crowdspark.me/v1/fx/rates",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T03:10:48.087Z"
+  },
+  {
+   "key": "https://payai.agentstools.dev/quant/kelly",
+   "name": "payai.agentstools.dev",
+   "url": "https://payai.agentstools.dev/quant/kelly",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:09:58.285Z"
+  },
+  {
+   "key": "https://dns.intel.rallylive.ca/dns/dkim/shopify2",
+   "name": "dns.intel.rallylive.ca",
+   "url": "https://dns.intel.rallylive.ca/dns/dkim/shopify2",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T03:09:35.595Z"
+  },
+  {
+   "key": "https://agent-tools.jbarkules.workers.dev/v1/fx/rates",
+   "name": "agent-tools.jbarkules.workers.dev",
+   "url": "https://agent-tools.jbarkules.workers.dev/v1/fx/rates",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T03:09:26.679Z"
+  },
+  {
+   "key": "https://botboard.forgemesh.io/api/post",
+   "name": "botboard.forgemesh.io",
+   "url": "https://botboard.forgemesh.io/api/post",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "5000",
+   "updated": "2026-11-25T02:40:43.865Z"
+  },
+  {
+   "key": "https://payai.agentstools.dev/search",
+   "name": "payai.agentstools.dev",
+   "url": "https://payai.agentstools.dev/search",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "3000",
+   "updated": "2026-11-25T02:36:34.673Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/dev/raw-tx-report/compliance-review",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/dev/raw-tx-report/compliance-review",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:21:47.719Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/dev/raw-tx-report/defi-due-diligence",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/dev/raw-tx-report/defi-due-diligence",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:21:39.668Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tx-intent/arbitrum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tx-intent/arbitrum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:21:26.400Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tx-explainer/arbitrum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tx-explainer/arbitrum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:21:04.325Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/transaction-intent/arbitrum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/transaction-intent/arbitrum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:51.992Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/raw-tx-report/arbitrum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/raw-tx-report/arbitrum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:42.314Z"
+  },
+  {
+   "key": "https://agentsvc.io/api/v1/proxy/gas-price",
+   "name": "agentsvc.io",
+   "url": "https://agentsvc.io/api/v1/proxy/gas-price",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T02:20:33.879Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tx-intent/ethereum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tx-intent/ethereum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:33.290Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tx-decoder/ethereum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tx-decoder/ethereum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:23.689Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tx-explainer/ethereum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tx-explainer/ethereum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:13.586Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/transaction-intent/ethereum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/transaction-intent/ethereum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:20:04.962Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/raw-tx-report/ethereum",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/raw-tx-report/ethereum",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:56.404Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/watchman/check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/watchman/check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:50.328Z"
+  },
+  {
+   "key": "https://reality-assurance.up.railway.app/v1/assess",
+   "name": "reality-assurance.up.railway.app",
+   "url": "https://reality-assurance.up.railway.app/v1/assess",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "110000",
+   "updated": "2026-11-25T02:19:46.383Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/price-watch-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/price-watch-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:42.225Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/price-watch-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/price-watch-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:34.755Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/price-watch-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/price-watch-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:26.229Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/price-watch-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/price-watch-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:19.414Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/price-watch-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/price-watch-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:14.370Z"
+  },
+  {
+   "key": "https://ravi-ci-guard.agent-arena-base.workers.dev/v1/gha/audit",
+   "name": "ravi-ci-guard.agent-arena-base.workers.dev",
+   "url": "https://ravi-ci-guard.agent-arena-base.workers.dev/v1/gha/audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T02:19:09.891Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/price-watch-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/price-watch-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:19:07.249Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/price-watch-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/price-watch-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:18:57.785Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/price-watch-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/price-watch-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:18:49.785Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/price-watch-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/price-watch-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T02:18:43.570Z"
+  },
+  {
+   "key": "https://chiefofstaff-solana.iodized-lemon.workers.dev/check",
+   "name": "chiefofstaff-solana.iodized-lemon.workers.dev",
+   "url": "https://chiefofstaff-solana.iodized-lemon.workers.dev/check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T02:18:25.371Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/npm-package-check",
    "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-website-trust-report",
+   "url": "https://relay402.georgespring.workers.dev/api/npm-package-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T02:01:08.787Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-11-25T02:01:07.628Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
    "type": "http",
    "network": "eip155:8453",
    "price": "30000",
-   "updated": "2026-11-23T18:00:57.434Z"
+   "updated": "2026-11-25T02:01:07.057Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
+   "key": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
    "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-ssl-cert-info",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "40000",
+   "updated": "2026-11-25T02:01:06.311Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "60000",
+   "updated": "2026-11-25T02:01:05.867Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/company-jobs",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/company-jobs",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "15000",
+   "updated": "2026-11-25T02:01:04.913Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-25T02:01:04.310Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-23T18:00:50.634Z"
+   "updated": "2026-11-25T02:01:03.848Z"
   },
   {
-   "key": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
+   "key": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
    "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/web-email-deliverability",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-25T02:01:03.146Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-25T02:01:02.498Z"
+  },
+  {
+   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
+   "name": "relay402.georgespring.workers.dev",
+   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "1000",
+   "updated": "2026-11-25T02:01:00.765Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/gpu-spot",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/gpu-spot",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "8200",
+   "updated": "2026-11-25T01:56:28.629Z"
+  },
+  {
+   "key": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
+   "name": "mr-river3.makar52nn2016.workers.dev",
+   "url": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T01:28:54.002Z"
+  },
+  {
+   "key": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
+   "name": "mr-river4.makar52nn2016.workers.dev",
+   "url": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T01:28:52.351Z"
+  },
+  {
+   "key": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
+   "name": "mr-river5.makar52nn2016.workers.dev",
+   "url": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T01:28:45.945Z"
+  },
+  {
+   "key": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+   "name": "mr-river6.makar52nn2016.workers.dev",
+   "url": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T01:28:44.577Z"
+  },
+  {
+   "key": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
+   "name": "money-reactor.makar52nn2016.workers.dev",
+   "url": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "100000",
+   "updated": "2026-11-25T01:28:34.735Z"
+  },
+  {
+   "key": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals",
+   "name": "automaton-tx-explainer.vercel.app",
+   "url": "https://automaton-tx-explainer.vercel.app/v1/bsc/approvals",
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-23T18:00:45.345Z"
+   "updated": "2026-11-25T01:28:20.679Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/ai",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/ai",
+   "key": "https://api.kit-rx.com/v1/chain/contract-abi",
+   "name": "api.kit-rx.com",
+   "url": "https://api.kit-rx.com/v1/chain/contract-abi",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:43.880Z"
+   "price": "2000",
+   "updated": "2026-11-25T01:28:12.366Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/sanctions-batch",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/sanctions-batch",
+   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
+   "name": "sol.blockrun.ai",
+   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "7500",
+   "updated": "2026-11-25T01:27:22.008Z"
+  },
+  {
+   "key": "https://loki.freedomlab.space/x402/rail",
+   "name": "loki.freedomlab.space",
+   "url": "https://loki.freedomlab.space/x402/rail",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "1000",
+   "updated": "2026-11-25T01:26:59.825Z"
+  },
+  {
+   "key": "https://madeonsol.com/api/x402/kol/feed",
+   "name": "madeonsol.com",
+   "url": "https://madeonsol.com/api/x402/kol/feed",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "5000",
+   "updated": "2026-11-25T01:26:48.221Z"
+  },
+  {
+   "key": "https://earlythunder.com/api/x402/v1/scores",
+   "name": "earlythunder.com",
+   "url": "https://earlythunder.com/api/x402/v1/scores",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-25T01:24:56.621Z"
+  },
+  {
+   "key": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
+   "name": "rentcast.x402.paysponge.com",
+   "url": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-25T01:24:43.987Z"
+  },
+  {
+   "key": "https://aws-bedrock.grok.me/api/v1/search",
+   "name": "aws-bedrock.grok.me",
+   "url": "https://aws-bedrock.grok.me/api/v1/search",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "5000",
+   "updated": "2026-11-25T01:24:40.778Z"
+  },
+  {
+   "key": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
+   "name": "47620.xyz",
+   "url": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "5000",
+   "updated": "2026-11-25T01:24:37.940Z"
+  },
+  {
+   "key": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
+   "name": "mr-river9.makar52nn2016.workers.dev",
+   "url": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:43.698Z"
+   "price": "100000",
+   "updated": "2026-11-25T01:23:11.994Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/sanctions-screen",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/sanctions-screen",
+   "key": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
+   "name": "aijobsboom-x402.sonofgus.workers.dev",
+   "url": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
+   "type": "http",
+   "network": "solana",
+   "price": "10000",
+   "updated": "2026-11-25T01:22:56.573Z"
+  },
+  {
+   "key": "https://mpp.hyreagent.fun/defi/tvl",
+   "name": "mpp.hyreagent.fun",
+   "url": "https://mpp.hyreagent.fun/defi/tvl",
+   "type": "http",
+   "network": "solana",
+   "price": "10000",
+   "updated": "2026-11-25T01:22:45.657Z"
+  },
+  {
+   "key": "https://citable.run/v1/serp",
+   "name": "citable.run",
+   "url": "https://citable.run/v1/serp",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "8000",
+   "updated": "2026-11-25T01:22:09.045Z"
+  },
+  {
+   "key": "https://api.bentcrypto.com/v1/token/risk",
+   "name": "api.bentcrypto.com",
+   "url": "https://api.bentcrypto.com/v1/token/risk",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-25T01:21:54.604Z"
+  },
+  {
+   "key": "https://underground.substratesymposium.com/buy/echeveria",
+   "name": "underground.substratesymposium.com",
+   "url": "https://underground.substratesymposium.com/buy/echeveria",
+   "type": "http",
+   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+   "price": "10000",
+   "updated": "2026-11-25T01:21:46.501Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/news-wire-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/news-wire-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:10:33.252Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/news-wire-delta/compliance-teams",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/news-wire-delta/compliance-teams",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:10:08.842Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/news-wire-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/news-wire-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:09:57.650Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/news-wire-delta/compliance-teams",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/news-wire-delta/compliance-teams",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:09:17.063Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/news-wire-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/news-wire-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:09:05.832Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/sec-filing-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/sec-filing-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:54.437Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/sec-filing-delta/market-watchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/sec-filing-delta/market-watchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:44.269Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/sec-filing-delta/compliance-teams",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/sec-filing-delta/compliance-teams",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:33.274Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/sec-filing-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/sec-filing-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:27.758Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/sec-filing-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/sec-filing-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:15.267Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/sec-filing-delta/market-watchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/sec-filing-delta/market-watchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:08:04.028Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/sec-filing-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/sec-filing-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:07:32.295Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/sec-filing-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/sec-filing-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:07:22.940Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/sec-filing-delta/market-watchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/sec-filing-delta/market-watchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:07:11.459Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/sec-filing-delta/compliance-teams",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/sec-filing-delta/compliance-teams",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:07:05.838Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/sec-filing-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/sec-filing-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:06:58.246Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/regulatory-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/regulatory-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:06:45.570Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/regulatory-delta/market-watchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/regulatory-delta/market-watchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:06:34.685Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/regulatory-delta/compliance-teams",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/regulatory-delta/compliance-teams",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:06:26.649Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulation/regulatory-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulation/regulatory-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:06:14.688Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/current-events/regulatory-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/current-events/regulatory-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:05:06.413Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulatory-delta/policy-analysts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulatory-delta/policy-analysts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:04:58.503Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/regulatory-delta/market-watchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/regulatory-delta/market-watchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:04:47.673Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/event-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/event-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:03:50.281Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/launch-watch/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/launch-watch/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:03:26.791Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/launch-watch/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/launch-watch/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:03:15.149Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/launch-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/launch-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:03:05.397Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/launch-watch/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/launch-watch/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:02:54.218Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/launch-watch/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/launch-watch/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:02:26.202Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/launch-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/launch-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:02:12.933Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/launch-watch/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/launch-watch/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:02:00.714Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/launch-watch/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/launch-watch/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:01:30.831Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/launch-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/launch-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:01:10.572Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/rising-repos-signal/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/rising-repos-signal/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:00:42.661Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/rising-repos-signal/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/rising-repos-signal/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:00:34.374Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/rising-repos-signal",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/rising-repos-signal",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:00:24.056Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/rising-repos-signal/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/rising-repos-signal/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:00:16.804Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/rising-repos-signal/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/rising-repos-signal/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T01:00:06.451Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/rising-repos-signal/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/rising-repos-signal/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:55.536Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/rising-repos-signal",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/rising-repos-signal",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:42.362Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/rising-repos-signal/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/rising-repos-signal/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:34.667Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/rising-repos-signal/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/rising-repos-signal/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:26.455Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/rising-repos-signal/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/rising-repos-signal/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:17.571Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/rising-repos-signal",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/rising-repos-signal",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:59:05.670Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/tech-news-delta/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/tech-news-delta/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:58:53.778Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/tech-news-delta/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/tech-news-delta/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:58:44.482Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/research/tech-news-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/research/tech-news-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:58:18.800Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/tech-news-delta/ai-researchers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/tech-news-delta/ai-researchers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:58:07.473Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/tech-news-delta/investors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/tech-news-delta/investors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:57:58.365Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/tech-news-delta/engineering-leads",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/tech-news-delta/engineering-leads",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:57:47.177Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-news/tech-news-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news/tech-news-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:57:32.967Z"
+  },
+  {
+   "key": "https://business.agentum.lat/preflight",
+   "name": "business.agentum.lat",
+   "url": "https://business.agentum.lat/preflight",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:43.531Z"
+   "price": "150000",
+   "updated": "2026-11-25T00:56:48.801Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/portfolio-risk",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/portfolio-risk",
+   "key": "https://business.agentum.lat/company-intelligence",
+   "name": "business.agentum.lat",
+   "url": "https://business.agentum.lat/company-intelligence",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:43.345Z"
+   "price": "20000",
+   "updated": "2026-11-25T00:56:38.859Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/liquidity",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/liquidity",
+   "key": "https://desk.mirage.fyi/tech-news-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-news-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:56:26.326Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/tech-digest",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/tech-digest",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:56:16.165Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/franchise-news-delta/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/franchise-news-delta/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:56:07.370Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/franchise-news-delta/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/franchise-news-delta/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:55:43.353Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/franchise-news-delta/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/franchise-news-delta/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:55:36.575Z"
+  },
+  {
+   "key": "https://agentum.lat/vat-validate",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/vat-validate",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:43.107Z"
+   "price": "10000",
+   "updated": "2026-11-25T00:55:24.045Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/token-risk",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/token-risk",
+   "key": "https://agentum.lat/economic-data",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/economic-data",
    "type": "http",
    "network": "eip155:8453",
-   "price": "0",
-   "updated": "2026-11-23T18:00:42.928Z"
+   "price": "10000",
+   "updated": "2026-11-25T00:55:21.572Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/tenders",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/tenders",
+   "key": "https://agentum.lat/fx-rates",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/fx-rates",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T00:55:19.058Z"
+  },
+  {
+   "key": "https://agentum.lat/business-intelligence",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/business-intelligence",
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-11-23T18:00:42.825Z"
+   "updated": "2026-11-25T00:55:16.763Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/news",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/news",
+   "key": "https://agentum.lat/validar-cpf",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/validar-cpf",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T18:00:42.602Z"
+   "updated": "2026-11-25T00:55:11.845Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/weather",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/weather",
+   "key": "https://desk.mirage.fyi/entertainment/franchise-news-delta/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/franchise-news-delta/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:55:10.367Z"
+  },
+  {
+   "key": "https://agentum.lat/verificar-cep",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/verificar-cep",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-23T18:00:42.425Z"
+   "updated": "2026-11-25T00:55:09.763Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/fx",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/fx",
+   "key": "https://pay.x402monopoly.com/api/x402/payment/player_to_player",
+   "name": "pay.x402monopoly.com",
+   "url": "https://pay.x402monopoly.com/api/x402/payment/player_to_player",
    "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-23T18:00:42.254Z"
-  },
-  {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/crypto",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/crypto",
-   "type": "http",
-   "network": "eip155:8453",
+   "network": "base",
    "price": "0",
-   "updated": "2026-11-23T18:00:42.066Z"
+   "updated": "2026-11-25T00:55:07.247Z"
   },
   {
-   "key": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/demand",
-   "name": "work-1-bxaubcktahccohze.prod-runtime.all-hands.dev",
-   "url": "https://work-1-bxaubcktahccohze.prod-runtime.all-hands.dev/paid/demand",
+   "key": "https://desk.mirage.fyi/entertainment/franchise-news-delta/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/franchise-news-delta/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:54:44.564Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/franchise-news-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/franchise-news-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:54:33.058Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/franchise-news-delta/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/franchise-news-delta/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:54:21.092Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/franchise-news-delta/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/franchise-news-delta/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:54:07.062Z"
+  },
+  {
+   "key": "https://agentum.lat/taxas-brasil",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/taxas-brasil",
    "type": "http",
    "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-23T18:00:41.887Z"
+   "price": "10000",
+   "updated": "2026-11-25T00:54:04.994Z"
+  },
+  {
+   "key": "https://agentum.lat/verificar-cnpj",
+   "name": "agentum.lat",
+   "url": "https://agentum.lat/verificar-cnpj",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "20000",
+   "updated": "2026-11-25T00:54:03.472Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/franchise-news-delta/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/franchise-news-delta/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:53:52.865Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/game-leak-watch/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/game-leak-watch/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:53:15.235Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/game-leak-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/game-leak-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:52:49.038Z"
+  },
+  {
+   "key": "https://pay.x402monopoly.com/api/x402/payment/system_to_player",
+   "name": "pay.x402monopoly.com",
+   "url": "https://pay.x402monopoly.com/api/x402/payment/system_to_player",
+   "type": "http",
+   "network": "base",
+   "price": "0",
+   "updated": "2026-11-25T00:52:42.591Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/game-leak-watch/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/game-leak-watch/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:52:36.441Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/game-leak-watch/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/game-leak-watch/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:52:23.038Z"
+  },
+  {
+   "key": "https://relay.imagiolabs.com/health",
+   "name": "relay.imagiolabs.com",
+   "url": "https://relay.imagiolabs.com/health",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T00:51:23.085Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/game-leak-watch/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/game-leak-watch/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:51:20.087Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/game-leak-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/game-leak-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:50:54.395Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/gta6-leak-feed/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/gta6-leak-feed/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:50:42.839Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/gta6-leak-feed/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/gta6-leak-feed/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:50:13.691Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leaks/gta6-leak-feed",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leaks/gta6-leak-feed",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:50:03.791Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/gta6-leak-feed/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/gta6-leak-feed/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:49:38.862Z"
+  },
+  {
+   "key": "https://pay.x402monopoly.com/api/x402/payment/player_to_system",
+   "name": "pay.x402monopoly.com",
+   "url": "https://pay.x402monopoly.com/api/x402/payment/player_to_system",
+   "type": "http",
+   "network": "base",
+   "price": "0",
+   "updated": "2026-11-25T00:49:22.788Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/gta6-leak-feed/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/gta6-leak-feed/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:49:11.737Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/entertainment/gta6-leak-feed",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/entertainment/gta6-leak-feed",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:48:55.123Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/gta6-leak-feed/community-managers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/gta6-leak-feed/community-managers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:48:35.584Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/gta6-leak-feed/hype-trackers",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/gta6-leak-feed/hype-trackers",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:48:20.793Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/gta6-leak-feed/gaming-news",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/gta6-leak-feed/gaming-news",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:48:06.067Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/leak-pulse",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/leak-pulse",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:47:28.844Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/agent-tools/harness-release-watch/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/agent-tools/harness-release-watch/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:47:15.077Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/agent-tools/harness-release-watch/agent-operators",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/agent-tools/harness-release-watch/agent-operators",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:46:49.455Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/agent-tools/harness-release-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/agent-tools/harness-release-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:46:38.193Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/harness-release-watch/agent-operators",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/harness-release-watch/agent-operators",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:45:58.042Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/harness-release-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/harness-release-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:45:37.740Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/harness-release-watch/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/harness-release-watch/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:45:25.612Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/harness-release-watch/ai-builders",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/harness-release-watch/ai-builders",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:45:08.967Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/harness-release-watch/agent-operators",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/harness-release-watch/agent-operators",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:44:58.243Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/agent-tools/llm-update-delta/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/agent-tools/llm-update-delta/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:44:33.149Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/llm-update-delta",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/llm-update-delta",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:42:41.788Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/llm-update-delta/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/llm-update-delta/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:42:30.043Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/agent-tools/model-release-feed/ai-builders",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/agent-tools/model-release-feed/ai-builders",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:41:11.048Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/model-release-feed/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/model-release-feed/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:40:21.126Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/model-release-feed/agent-operators",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/model-release-feed/agent-operators",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:39:38.945Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/ai-models/model-release-feed",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/ai-models/model-release-feed",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:39:28.203Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/model-release-feed/newsletter-authors",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/model-release-feed/newsletter-authors",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:39:18.246Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/model-release-feed/ai-builders",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/model-release-feed/ai-builders",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:39:03.357Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/model-release-feed/agent-operators",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/model-release-feed/agent-operators",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:53.430Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/model-release-feed",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/model-release-feed",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:44.857Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/harness-watch",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/harness-watch",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:25.169Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/trigger-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/trigger-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:17.928Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/trigger-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/trigger-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:13.302Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/trigger-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/trigger-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:38:02.103Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/trigger-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/trigger-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:55.914Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/trigger-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/trigger-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:50.369Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/trigger-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/trigger-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:38.925Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/trigger-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/trigger-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:33.276Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/trigger-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/trigger-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:24.012Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/trigger-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/trigger-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:17.323Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/trigger-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/trigger-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:11.914Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/trigger-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/trigger-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:37:00.141Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/trigger-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/trigger-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:55.507Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/trigger-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/trigger-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:51.431Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/trigger-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/trigger-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:44.264Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/trigger-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/trigger-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:39.178Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/trigger-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/trigger-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:31.408Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/trigger-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/trigger-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:36:09.336Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/trigger-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/trigger-check/trading-desk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "2000",
+   "updated": "2026-11-25T00:36:04.820Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/trigger-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/trigger-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:59.168Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/trigger-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/trigger-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:55.513Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/watch-status/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/watch-status/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:50.216Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/watch-status/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/watch-status/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:43.805Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/watch-status/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/watch-status/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:34.920Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/watch-status/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/watch-status/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:25.741Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/watch-status",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/watch-status",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:20.635Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/watch-status/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/watch-status/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:16.452Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/watch-status/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/watch-status/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:12.822Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/watch-status/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/watch-status/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:35:08.783Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/watch-status/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/watch-status/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:34:45.688Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/market/watch-status",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/market/watch-status",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:34:38.964Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/watch-status/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/watch-status/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:34:32.938Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/watch-status/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/watch-status/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:34:26.694Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/watch-status/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/watch-status/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:34:03.509Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/alerts/watch-status",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/alerts/watch-status",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:55.714Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/watch-status/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/watch-status/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:51.599Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/watch-status/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/watch-status/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:47.967Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/watch-status/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/watch-status/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:42.874Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/watch-status",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/watch-status",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:17.190Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/price-alert-check/budget-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/price-alert-check/budget-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:11.380Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/price-alert-check/defi-risk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/price-alert-check/defi-risk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:06.362Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/price-alert-check/trading-desk",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/price-alert-check/trading-desk",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:33:02.281Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/price-alert-check/portfolio-alerts",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/price-alert-check/portfolio-alerts",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:32:57.635Z"
+  },
+  {
+   "key": "https://desk.mirage.fyi/portfolio/price-alert-check",
+   "name": "desk.mirage.fyi",
+   "url": "https://desk.mirage.fyi/portfolio/price-alert-check",
+   "type": "http",
+   "network": "eip155:42161",
+   "price": "5200",
+   "updated": "2026-11-25T00:32:53.109Z"
+  },
+  {
+   "key": "https://mpp-walletintel.fmf-x402.workers.dev/wallet/snapshot",
+   "name": "mpp-walletintel.fmf-x402.workers.dev",
+   "url": "https://mpp-walletintel.fmf-x402.workers.dev/wallet/snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "3000",
+   "updated": "2026-11-25T00:32:31.482Z"
+  },
+  {
+   "key": "https://mpp-walletintel.fmf-x402.workers.dev/wallet/flows",
+   "name": "mpp-walletintel.fmf-x402.workers.dev",
+   "url": "https://mpp-walletintel.fmf-x402.workers.dev/wallet/flows",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-25T00:32:31.403Z"
   }
  ]
 }
