@@ -1,2417 +1,1370 @@
 {
- "generatedAt": "2026-11-26T03:27:42.710016Z",
- "total": 19228,
- "added24h": 604,
+ "generatedAt": "2026-11-27T03:32:52.474668Z",
+ "total": 20178,
+ "added24h": 1194,
  "networks": {
-  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4136,
-  "eip155:8453": 12737,
-  "solana": 443,
+  "eip155:8453": 13884,
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": 4184,
+  "solana": 437,
+  "eip155:56": 11,
+  "base": 986,
   "eip155:1329": 10,
-  "base": 1198,
-  "eip155:42161": 629,
-  "eip155:56": 10,
+  "eip155:42161": 630,
   "eip155:43114": 7,
-  "eip155:137": 48,
+  "eip155:137": 49,
   "arbitrum": 1,
-  "eip155:1187947933": 1,
-  "polygon": 6,
-  "xlayer": 1,
-  "peaq": 1
+  "eip155:1187947933": 1
  },
  "items": [
   {
-   "key": "https://sol.blockrun.ai/api/v1/chat/completions",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/chat/completions",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-26T03:21:13.282Z"
-  },
-  {
-   "key": "https://proofwork-the402-webhook.phase-voice.workers.dev/v1/base-network-status",
-   "name": "proofwork-the402-webhook.phase-voice.workers.dev",
-   "url": "https://proofwork-the402-webhook.phase-voice.workers.dev/v1/base-network-status",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T03:19:01.730Z"
-  },
-  {
-   "key": "https://agent.zbang.net/api/paid/contract",
-   "name": "agent.zbang.net",
-   "url": "https://agent.zbang.net/api/paid/contract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T03:18:55.513Z"
-  },
-  {
-   "key": "https://agentfuel402.ak10082247.workers.dev/v1/fuel/ecom-price-stock",
-   "name": "agentfuel402.ak10082247.workers.dev",
-   "url": "https://agentfuel402.ak10082247.workers.dev/v1/fuel/ecom-price-stock",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T03:18:53.251Z"
-  },
-  {
-   "key": "https://get402.ai/v1/fetch",
-   "name": "get402.ai",
-   "url": "https://get402.ai/v1/fetch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T03:18:27.905Z"
-  },
-  {
-   "key": "https://webmaillookup.com/public_api/v1/get_webmail_info",
-   "name": "webmaillookup.com",
-   "url": "https://webmaillookup.com/public_api/v1/get_webmail_info",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T03:18:13.214Z"
-  },
-  {
-   "key": "https://bookproof-api.sn95wjq846.chatgpt.site/api/v1/market-health",
-   "name": "bookproof-api.sn95wjq846.chatgpt.site",
-   "url": "https://bookproof-api.sn95wjq846.chatgpt.site/api/v1/market-health",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T03:18:04.834Z"
-  },
-  {
-   "key": "https://hermes-price-api.charmed-tadpole.workers.dev/v1/mprices",
-   "name": "hermes-price-api.charmed-tadpole.workers.dev",
-   "url": "https://hermes-price-api.charmed-tadpole.workers.dev/v1/mprices",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T03:17:48.275Z"
-  },
-  {
-   "key": "https://rentcast.x402.paysponge.com/properties",
-   "name": "rentcast.x402.paysponge.com",
-   "url": "https://rentcast.x402.paysponge.com/properties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T03:17:17.160Z"
-  },
-  {
-   "key": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "name": "mpp.hyreagent.fun",
-   "url": "https://mpp.hyreagent.fun/trenches/new-tokens",
-   "type": "http",
-   "network": "solana",
-   "price": "80000",
-   "updated": "2026-11-26T03:11:39.392Z"
-  },
-  {
-   "key": "https://api.taxrail.online/api/v1/unlock-plan",
-   "name": "api.taxrail.online",
-   "url": "https://api.taxrail.online/api/v1/unlock-plan",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "800000",
-   "updated": "2026-11-26T02:44:16.250Z"
-  },
-  {
-   "key": "https://jp-tokyo-reach.factory-tour-data.workers.dev/v1/reach",
-   "name": "jp-tokyo-reach.factory-tour-data.workers.dev",
-   "url": "https://jp-tokyo-reach.factory-tour-data.workers.dev/v1/reach",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T02:41:44.748Z"
-  },
-  {
-   "key": "https://jp-legacy-address.factory-tour-data.workers.dev/resolve",
-   "name": "jp-legacy-address.factory-tour-data.workers.dev",
-   "url": "https://jp-legacy-address.factory-tour-data.workers.dev/resolve",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T02:40:47.825Z"
-  },
-  {
-   "key": "https://jp-factory-tours.factory-tour-data.workers.dev/v1/facilities/jal-sky-museum",
-   "name": "jp-factory-tours.factory-tour-data.workers.dev",
-   "url": "https://jp-factory-tours.factory-tour-data.workers.dev/v1/facilities/jal-sky-museum",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T02:39:28.273Z"
-  },
-  {
-   "key": "https://api.nansen.ai/api/v1/tgm/who-bought-sold",
-   "name": "api.nansen.ai",
-   "url": "https://api.nansen.ai/api/v1/tgm/who-bought-sold",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T02:36:59.308Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/weather-forecast",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/weather-forecast",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T02:32:00.079Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/qr-code",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/qr-code",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T02:31:52.321Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/transcribe-audio",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/transcribe-audio",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T02:31:10.589Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/dns-lookup",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/dns-lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:30:59.861Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/prompt-injection-scan",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/prompt-injection-scan",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T02:30:53.246Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/pii-redact",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/pii-redact",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T02:30:46.056Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/image-ocr",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/image-ocr",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:30:38.664Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/pdf-ocr",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/pdf-ocr",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:30:31.402Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/pdf-text",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/pdf-text",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:30:24.318Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/page-extract",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/page-extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:30:16.899Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/upscale-image-hq",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/upscale-image-hq",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:30:09.481Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/remove-background",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/remove-background",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T02:30:02.876Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/image-budget",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/image-budget",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T02:29:55.632Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/image",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/image",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:29:48.675Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/extract-pdf-tables",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/extract-pdf-tables",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-26T02:29:18.921Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/semantic-similarity-embed",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/semantic-similarity-embed",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.899Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/site-trust-bundle",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/site-trust-bundle",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T02:28:10.885Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/sec-edgar-filings",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/sec-edgar-filings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.870Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/sec-8k-events",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/sec-8k-events",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.856Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/screen-sanctions-watchlist",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/screen-sanctions-watchlist",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.610Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/rag-safe-ingest",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/rag-safe-ingest",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-26T02:28:10.447Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/screen-export-controls",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/screen-export-controls",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.407Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/render-document-pdf",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/render-document-pdf",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T02:28:10.379Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/audit-package-advisories",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/audit-package-advisories",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.107Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/fda-med-safety",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/fda-med-safety",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.090Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/federal-register-search",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/federal-register-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.065Z"
-  },
-  {
-   "key": "https://api.delx.ai/api/v1/x402/clinical-trials-query",
-   "name": "api.delx.ai",
-   "url": "https://api.delx.ai/api/v1/x402/clinical-trials-query",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-26T02:28:10.046Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-26T02:26:03.046Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/lookup",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-26T02:26:01.089Z"
-  },
-  {
-   "key": "https://agentsvc.io/api/v1/proxy/gas-price",
-   "name": "agentsvc.io",
-   "url": "https://agentsvc.io/api/v1/proxy/gas-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T02:20:34.888Z"
-  },
-  {
-   "key": "https://wren-wire.agent-arena-base.workers.dev/v1/regwatch",
-   "name": "wren-wire.agent-arena-base.workers.dev",
-   "url": "https://wren-wire.agent-arena-base.workers.dev/v1/regwatch",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "150000",
-   "updated": "2026-11-26T02:19:43.469Z"
-  },
-  {
-   "key": "https://agent-web-extract-api.akhabr09.workers.dev/extract",
-   "name": "agent-web-extract-api.akhabr09.workers.dev",
-   "url": "https://agent-web-extract-api.akhabr09.workers.dev/extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T02:18:31.898Z"
-  },
-  {
-   "key": "https://api.seidlerweb.de/hash.php",
-   "name": "api.seidlerweb.de",
-   "url": "https://api.seidlerweb.de/hash.php",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T02:17:51.640Z"
-  },
-  {
-   "key": "https://api.accessvera.com/v1/einvoice",
-   "name": "api.accessvera.com",
-   "url": "https://api.accessvera.com/v1/einvoice",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "100000",
-   "updated": "2026-11-26T02:16:26.908Z"
-  },
-  {
-   "key": "https://api.accessvera.com/v1/einvoice-validate",
-   "name": "api.accessvera.com",
-   "url": "https://api.accessvera.com/v1/einvoice-validate",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-26T02:11:49.982Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/npm-package-check",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/npm-package-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T02:01:05.862Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-repo-health-brief",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-26T02:01:03.454Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-email-trust-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-26T02:01:01.208Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-domain-threat-report",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "40000",
-   "updated": "2026-11-26T02:00:59.103Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/compose-agent-prelaunch-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "60000",
-   "updated": "2026-11-26T02:00:57.068Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/company-jobs",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/company-jobs",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-26T02:00:54.668Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-trace-brief",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T02:00:52.862Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-tool-call-diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T02:00:51.063Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-mcp-tool-risk-score",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T02:00:49.156Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/agent-eval-case-generate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T02:00:47.369Z"
-  },
-  {
-   "key": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "name": "relay402.georgespring.workers.dev",
-   "url": "https://relay402.georgespring.workers.dev/api/wayback-snapshot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T02:00:43.846Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/buy-pass",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000000",
-   "updated": "2026-11-26T01:54:04.107Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T01:54:03.862Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-arb",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-26T01:54:03.608Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/macro-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-26T01:54:03.339Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/funding-rates",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-26T01:54:03.102Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/tx-simulate",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-26T01:54:02.863Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-swap-quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T01:54:02.603Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/compliance-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T01:54:02.367Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/whale-alpha-radar",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:54:02.129Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/b2b-company-dossier",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:54:01.886Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-due-diligence",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:54:01.641Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/github-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T01:54:01.392Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/defi-yields",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:54:01.162Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/prediction-markets",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:54:00.895Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/wallet-profiler",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-26T01:54:00.646Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/academic-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:54:00.394Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/package-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T01:53:59.973Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/domain-intel",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:53:59.730Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/token-alpha",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:53:59.472Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/security-audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:53:59.201Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/web-extract",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T01:53:58.920Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/maps-leads",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-26T01:53:58.656Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/social-search",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/social-search",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T01:53:58.379Z"
-  },
-  {
-   "key": "https://agent-kiosk.vercel.app/v1/ping",
-   "name": "agent-kiosk.vercel.app",
-   "url": "https://agent-kiosk.vercel.app/v1/ping",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T01:53:57.821Z"
-  },
-  {
-   "key": "https://werner.ddns.net/price",
-   "name": "werner.ddns.net",
-   "url": "https://werner.ddns.net/price",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-26T01:31:53.749Z"
-  },
-  {
-   "key": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
-   "name": "mr-river10.makar52nn2016.workers.dev",
-   "url": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T01:30:57.220Z"
-  },
-  {
-   "key": "https://mr-river7.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river7.makar52nn2016.workers.dev",
-   "url": "https://mr-river7.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:47.941Z"
-  },
-  {
-   "key": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river3.makar52nn2016.workers.dev",
-   "url": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:47.739Z"
-  },
-  {
-   "key": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river4.makar52nn2016.workers.dev",
-   "url": "https://mr-river4.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:46.166Z"
-  },
-  {
-   "key": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river5.makar52nn2016.workers.dev",
-   "url": "https://mr-river5.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:38.098Z"
-  },
-  {
-   "key": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river6.makar52nn2016.workers.dev",
-   "url": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:37.650Z"
-  },
-  {
-   "key": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-   "name": "money-reactor.makar52nn2016.workers.dev",
-   "url": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T01:30:34.234Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/pm/polymarket/positions",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "7500",
-   "updated": "2026-11-26T01:30:11.066Z"
-  },
-  {
-   "key": "https://loki.freedomlab.space/x402/rail",
-   "name": "loki.freedomlab.space",
-   "url": "https://loki.freedomlab.space/x402/rail",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-26T01:29:49.616Z"
-  },
-  {
-   "key": "https://madeonsol.com/api/x402/kol/feed",
-   "name": "madeonsol.com",
-   "url": "https://madeonsol.com/api/x402/kol/feed",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-26T01:29:39.922Z"
-  },
-  {
-   "key": "https://payai.agentstools.dev/quant/kelly",
-   "name": "payai.agentstools.dev",
-   "url": "https://payai.agentstools.dev/quant/kelly",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-26T01:27:56.386Z"
-  },
-  {
-   "key": "https://earlythunder.com/api/x402/v1/scores",
-   "name": "earlythunder.com",
-   "url": "https://earlythunder.com/api/x402/v1/scores",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T01:27:47.047Z"
-  },
-  {
-   "key": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
-   "name": "rentcast.x402.paysponge.com",
-   "url": "https://rentcast.x402.paysponge.com/avm/rent/long-term",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T01:26:02.490Z"
-  },
-  {
-   "key": "https://aws-bedrock.grok.me/api/v1/search",
-   "name": "aws-bedrock.grok.me",
-   "url": "https://aws-bedrock.grok.me/api/v1/search",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-26T01:25:59.653Z"
-  },
-  {
-   "key": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
-   "name": "47620.xyz",
-   "url": "https://47620.xyz/x/account/8iZbjedTiMYVYGE9PZBHPm7k2KeXRqWAuCpSAxHm7j68",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-26T01:25:57.191Z"
-  },
-  {
-   "key": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "name": "aijobsboom-x402.sonofgus.workers.dev",
-   "url": "https://aijobsboom-x402.sonofgus.workers.dev/snapshot",
-   "type": "http",
-   "network": "solana",
-   "price": "10000",
-   "updated": "2026-11-26T01:24:11.816Z"
-  },
-  {
-   "key": "https://mpp.hyreagent.fun/defi/tvl",
-   "name": "mpp.hyreagent.fun",
-   "url": "https://mpp.hyreagent.fun/defi/tvl",
-   "type": "http",
-   "network": "solana",
-   "price": "10000",
-   "updated": "2026-11-26T01:24:00.431Z"
-  },
-  {
-   "key": "https://citable.run/v1/serp",
-   "name": "citable.run",
-   "url": "https://citable.run/v1/serp",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "8000",
-   "updated": "2026-11-26T01:23:21.512Z"
-  },
-  {
-   "key": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
-   "name": "changelog-state-api.replit.app",
-   "url": "https://changelog-state-api.replit.app/api/monitors/chainlink/changes",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T01:23:11.583Z"
-  },
-  {
-   "key": "https://api.bentcrypto.com/v1/token/risk",
-   "name": "api.bentcrypto.com",
-   "url": "https://api.bentcrypto.com/v1/token/risk",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T01:23:07.271Z"
-  },
-  {
-   "key": "https://underground.substratesymposium.com/buy/echeveria",
-   "name": "underground.substratesymposium.com",
-   "url": "https://underground.substratesymposium.com/buy/echeveria",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T01:23:02.125Z"
-  },
-  {
-   "key": "https://api.syraa.fun/assets",
-   "name": "api.syraa.fun",
-   "url": "https://api.syraa.fun/assets",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-26T01:22:55.532Z"
-  },
-  {
-   "key": "https://api.dev.hypercli.com/agents/x402/solo",
-   "name": "api.dev.hypercli.com",
-   "url": "https://api.dev.hypercli.com/agents/x402/solo",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T01:08:10.466Z"
-  },
-  {
-   "key": "https://bucks-check.vercel.app/stocks/pools",
-   "name": "bucks-check.vercel.app",
-   "url": "https://bucks-check.vercel.app/stocks/pools",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T00:50:52.777Z"
-  },
-  {
-   "key": "https://relay.imagiolabs.com/health",
-   "name": "relay.imagiolabs.com",
-   "url": "https://relay.imagiolabs.com/health",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T00:49:41.121Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/pii/detect",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/pii/detect",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.822Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/keywords",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/keywords",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.737Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/sentiment",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/sentiment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.688Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-large",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-large",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.591Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-base",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-base",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.523Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-small",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings/bge-small",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.470Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pro/embeddings",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:53.323Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/data/dedupe",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/data/dedupe",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.811Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/domain/subdomains",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/domain/subdomains",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.803Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/domain/rdap",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/domain/rdap",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.652Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/ip/asn",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/ip/asn",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.572Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/text/diff",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/text/diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.506Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/data/json-schema",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/data/json-schema",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.422Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/ssl/cert",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/ssl/cert",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.353Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/http/redirects",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/http/redirects",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.252Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/http/headers",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/http/headers",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.170Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/email-auth",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/email-auth",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:52.122Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/reverse",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/reverse",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:51.937Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/lookup",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/pro/dns/lookup",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-26T00:24:51.763Z"
-  },
-  {
-   "key": "https://ohd-machine-x402-v2.hibiki3027.workers.dev/api/preflight",
-   "name": "ohd-machine-x402-v2.hibiki3027.workers.dev",
-   "url": "https://ohd-machine-x402-v2.hibiki3027.workers.dev/api/preflight",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T00:19:42.447Z"
-  },
-  {
-   "key": "https://agentgate-x402.netlify.app/api/route",
-   "name": "agentgate-x402.netlify.app",
-   "url": "https://agentgate-x402.netlify.app/api/route",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-26T00:18:38.282Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/ai",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/ai",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/cve/lookup",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/cve/lookup",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:02.185Z"
+   "updated": "2026-11-27T03:30:50.997Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/sanctions-batch",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/sanctions-batch",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/cve-info",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/cve-info",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:01.962Z"
+   "updated": "2026-11-27T03:30:50.987Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/sanctions-screen",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/sanctions-screen",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/npm-package-check",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/npm-package-check",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:01.790Z"
+   "updated": "2026-11-27T03:30:50.785Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/portfolio-risk",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/portfolio-risk",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/mailauth",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/mailauth",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:01.571Z"
+   "updated": "2026-11-27T03:30:50.376Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/liquidity",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/liquidity",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/check",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/check",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:01.395Z"
+   "updated": "2026-11-27T03:30:50.353Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/token-risk",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/token-risk",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/crypto-price",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/crypto-price",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:01.219Z"
+   "updated": "2026-11-27T03:30:49.818Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/tenders",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/tenders",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T00:05:01.052Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/news",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/news",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T00:05:00.820Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/weather",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/weather",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T00:05:00.604Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/fx",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/fx",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-26T00:05:00.358Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/crypto",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/crypto",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/screen",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/screen",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-26T00:05:00.137Z"
+   "updated": "2026-11-27T03:30:49.506Z"
   },
   {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/demand",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/demand",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-26T00:04:59.970Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/quote",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/quote",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-26T00:04:59.792Z"
-  },
-  {
-   "key": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/factory-price",
-   "name": "work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev",
-   "url": "https://work-1-qzajjldltbrsrohn.prod-runtime.all-hands.dev/paid/factory-price",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-26T00:04:59.482Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/ledger/report",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/ledger/report",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "350000",
-   "updated": "2026-11-26T00:00:01.773Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/ledger/summary",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/ledger/summary",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-26T00:00:00.412Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/text/diff",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/text/diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:44.315Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/convert",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/convert",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:43.479Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/dedupe",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/dedupe",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:43.404Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/json-schema",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/json-schema",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:43.303Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/json-diff",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/json-diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:43.232Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/csv-diff",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/data/csv-diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:43.098Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/url/robots",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/url/robots",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:42.605Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/ssl/cert",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/ssl/cert",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:42.186Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/http/redirects",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/http/redirects",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:41.133Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/http/headers",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/http/headers",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:40.983Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/ip/asn",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/ip/asn",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:40.542Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/ip/rdap",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/ip/rdap",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:40.083Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/subdomains",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/subdomains",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:39.448Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/available",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/available",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:39.384Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/rdap",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/domain/rdap",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:39.284Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/email-auth",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/email-auth",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:38.857Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/propagation",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/propagation",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:38.424Z"
-  },
-  {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/reverse",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/dns/reverse",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:37.978Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/pii/detect",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/pii/detect",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:37.524Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/keywords",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/keywords",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:37.050Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/language/detect",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/language/detect",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:36.644Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/summarize",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/summarize",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T23:57:36.232Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/sentiment",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/sentiment",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:35.820Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/classify",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/classify",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:35.324Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/similarity",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/similarity",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:34.763Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/qwen3",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/qwen3",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:34.302Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-large",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-large",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:34.260Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-base",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-base",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:34.076Z"
-  },
-  {
-   "key": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-small",
-   "name": "mpp-ai.fmf-x402.workers.dev",
-   "url": "https://mpp-ai.fmf-x402.workers.dev/mpp/embeddings/bge-small",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "500",
-   "updated": "2026-11-25T23:57:33.991Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/roll",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/roll",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:51.608Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/grade",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/grade",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-25T23:56:50.607Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/aura",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/aura",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-25T23:56:49.481Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/tldr",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/tldr",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-25T23:56:48.413Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/oracle",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/oracle",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-25T23:56:47.376Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/roast",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/roast",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "50000",
-   "updated": "2026-11-25T23:56:46.397Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/investigate",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/investigate",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1770000",
-   "updated": "2026-11-25T23:56:45.328Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/intel/wallet",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/intel/wallet",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-25T23:56:44.111Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/parse/datetime",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/parse/datetime",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:43.109Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/decode/calldata",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/decode/calldata",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:42.093Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/price/token",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/price/token",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:40.986Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/resolve/name",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/resolve/name",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:39.928Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/decode/tx",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/decode/tx",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "1000",
-   "updated": "2026-11-25T23:56:38.876Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/attest",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/attest",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "10000",
-   "updated": "2026-11-25T23:56:37.860Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/screen",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/screen",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-25T23:56:36.785Z"
-  },
-  {
-   "key": "https://api.anchor-x402.com/v1/anchor",
-   "name": "api.anchor-x402.com",
-   "url": "https://api.anchor-x402.com/v1/anchor",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "5000",
-   "updated": "2026-11-25T23:56:35.686Z"
-  },
-  {
-   "key": "https://api.accessvera.com/v1/vendor-check",
-   "name": "api.accessvera.com",
-   "url": "https://api.accessvera.com/v1/vendor-check",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "500000",
-   "updated": "2026-11-25T23:48:26.130Z"
-  },
-  {
-   "key": "https://api.accessvera.com/v1/cookie-scan",
-   "name": "api.accessvera.com",
-   "url": "https://api.accessvera.com/v1/cookie-scan",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "250000",
-   "updated": "2026-11-25T23:48:19.813Z"
-  },
-  {
-   "key": "https://api.accessvera.com/v1/a11y-scan",
-   "name": "api.accessvera.com",
-   "url": "https://api.accessvera.com/v1/a11y-scan",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-   "price": "250000",
-   "updated": "2026-11-25T23:48:13.457Z"
-  },
-  {
-   "key": "https://codex-locale-json-audit.netlify.app/audit",
-   "name": "codex-locale-json-audit.netlify.app",
-   "url": "https://codex-locale-json-audit.netlify.app/audit",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-25T23:18:14.218Z"
-  },
-  {
-   "key": "https://x-data-gateway.annushka1190.workers.dev/tweets/replies",
-   "name": "x-data-gateway.annushka1190.workers.dev",
-   "url": "https://x-data-gateway.annushka1190.workers.dev/tweets/replies",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-25T22:50:08.778Z"
-  },
-  {
-   "key": "https://x-data-gateway.annushka1190.workers.dev/tweets",
-   "name": "x-data-gateway.annushka1190.workers.dev",
-   "url": "https://x-data-gateway.annushka1190.workers.dev/tweets",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "7000",
-   "updated": "2026-11-25T22:50:08.646Z"
-  },
-  {
-   "key": "https://x-data-gateway.annushka1190.workers.dev/tweets/user",
-   "name": "x-data-gateway.annushka1190.workers.dev",
-   "url": "https://x-data-gateway.annushka1190.workers.dev/tweets/user",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "7000",
-   "updated": "2026-11-25T22:49:53.235Z"
-  },
-  {
-   "key": "https://x-data-gateway.annushka1190.workers.dev/tweets/by/id",
-   "name": "x-data-gateway.annushka1190.workers.dev",
-   "url": "https://x-data-gateway.annushka1190.workers.dev/tweets/by/id",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T22:49:52.955Z"
-  },
-  {
-   "key": "https://x402.payai.network/api/base/paid-content",
-   "name": "x402.payai.network",
-   "url": "https://x402.payai.network/api/base/paid-content",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/dmarc-check",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/dmarc-check",
    "type": "http",
    "network": "eip155:8453",
    "price": "0",
-   "updated": "2026-11-25T22:45:02.776Z"
+   "updated": "2026-11-27T03:30:49.372Z"
   },
   {
-   "key": "https://agent402.tools/api/hash",
-   "name": "agent402.tools",
-   "url": "https://agent402.tools/api/hash",
-   "type": "http",
-   "network": "eip155:1329",
-   "price": "1000",
-   "updated": "2026-11-25T22:31:11.664Z"
-  },
-  {
-   "key": "https://api.flashctx.xyz/v1/chat/completions",
-   "name": "api.flashctx.xyz",
-   "url": "https://api.flashctx.xyz/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T22:25:17.982Z"
-  },
-  {
-   "key": "https://www.nftdata.app/api/get-collection-data",
-   "name": "www.nftdata.app",
-   "url": "https://www.nftdata.app/api/get-collection-data",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T22:20:14.624Z"
-  },
-  {
-   "key": "https://api.seidlerweb.de/plz.php",
-   "name": "api.seidlerweb.de",
-   "url": "https://api.seidlerweb.de/plz.php",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T22:18:24.379Z"
-  },
-  {
-   "key": "https://ai.hollateknologi.id/payai/v1/chat/completions",
-   "name": "ai.hollateknologi.id",
-   "url": "https://ai.hollateknologi.id/payai/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:59:39.448Z"
-  },
-  {
-   "key": "https://black-friday-deals.fmf-x402.workers.dev/deals",
-   "name": "black-friday-deals.fmf-x402.workers.dev",
-   "url": "https://black-friday-deals.fmf-x402.workers.dev/deals",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "3000",
-   "updated": "2026-11-25T21:53:18.200Z"
-  },
-  {
-   "key": "https://api.pacta.wtf/v1/x402/dossier",
-   "name": "api.pacta.wtf",
-   "url": "https://api.pacta.wtf/v1/x402/dossier",
-   "type": "http",
-   "network": "base",
-   "price": "50000",
-   "updated": "2026-11-25T21:50:30.795Z"
-  },
-  {
-   "key": "https://deadline-sla-clock.fmf-x402.workers.dev/v1/deadline-clock",
-   "name": "deadline-sla-clock.fmf-x402.workers.dev",
-   "url": "https://deadline-sla-clock.fmf-x402.workers.dev/v1/deadline-clock",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:38:44.792Z"
-  },
-  {
-   "key": "https://soft-404-link-classifier.fmf-x402.workers.dev/v1/link-rot",
-   "name": "soft-404-link-classifier.fmf-x402.workers.dev",
-   "url": "https://soft-404-link-classifier.fmf-x402.workers.dev/v1/link-rot",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:44.280Z"
-  },
-  {
-   "key": "https://must-fail-fixture-replay.fmf-x402.workers.dev/v1/fixture-replay",
-   "name": "must-fail-fixture-replay.fmf-x402.workers.dev",
-   "url": "https://must-fail-fixture-replay.fmf-x402.workers.dev/v1/fixture-replay",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:43.859Z"
-  },
-  {
-   "key": "https://pagination-completeness-checker.fmf-x402.workers.dev/v1/pagination-check",
-   "name": "pagination-completeness-checker.fmf-x402.workers.dev",
-   "url": "https://pagination-completeness-checker.fmf-x402.workers.dev/v1/pagination-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:43.236Z"
-  },
-  {
-   "key": "https://claim-quote-checker.fmf-x402.workers.dev/v1/quote-check",
-   "name": "claim-quote-checker.fmf-x402.workers.dev",
-   "url": "https://claim-quote-checker.fmf-x402.workers.dev/v1/quote-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:42.794Z"
-  },
-  {
-   "key": "https://timezone-instant-checker.fmf-x402.workers.dev/v1/timezone-instant",
-   "name": "timezone-instant-checker.fmf-x402.workers.dev",
-   "url": "https://timezone-instant-checker.fmf-x402.workers.dev/v1/timezone-instant",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:42.333Z"
-  },
-  {
-   "key": "https://x402-facilitator-and-pay-to-checker.fmf-x402.workers.dev/v1/facilitator-payto",
-   "name": "x402-facilitator-and-pay-to-checker.fmf-x402.workers.dev",
-   "url": "https://x402-facilitator-and-pay-to-checker.fmf-x402.workers.dev/v1/facilitator-payto",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:32.266Z"
-  },
-  {
-   "key": "https://write-read-back-checker.fmf-x402.workers.dev/v1/write-read-back",
-   "name": "write-read-back-checker.fmf-x402.workers.dev",
-   "url": "https://write-read-back-checker.fmf-x402.workers.dev/v1/write-read-back",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:31.712Z"
-  },
-  {
-   "key": "https://structured-file-diff.fmf-x402.workers.dev/v1/structured-diff",
-   "name": "structured-file-diff.fmf-x402.workers.dev",
-   "url": "https://structured-file-diff.fmf-x402.workers.dev/v1/structured-diff",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:38:31.005Z"
-  },
-  {
-   "key": "https://docs-vs-live-checker.fmf-x402.workers.dev/v1/docs-vs-live",
-   "name": "docs-vs-live-checker.fmf-x402.workers.dev",
-   "url": "https://docs-vs-live-checker.fmf-x402.workers.dev/v1/docs-vs-live",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:38:30.293Z"
-  },
-  {
-   "key": "https://problem-detail-extension-checker.fmf-x402.workers.dev/v1/problem-detail",
-   "name": "problem-detail-extension-checker.fmf-x402.workers.dev",
-   "url": "https://problem-detail-extension-checker.fmf-x402.workers.dev/v1/problem-detail",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:33:50.069Z"
-  },
-  {
-   "key": "https://nested-create-id-locator.fmf-x402.workers.dev/v1/nested-id",
-   "name": "nested-create-id-locator.fmf-x402.workers.dev",
-   "url": "https://nested-create-id-locator.fmf-x402.workers.dev/v1/nested-id",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:33:49.429Z"
-  },
-  {
-   "key": "https://untrusted-instruction-detector.fmf-x402.workers.dev/v1/instruction-scan",
-   "name": "untrusted-instruction-detector.fmf-x402.workers.dev",
-   "url": "https://untrusted-instruction-detector.fmf-x402.workers.dev/v1/instruction-scan",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:33:48.811Z"
-  },
-  {
-   "key": "https://truncated-tool-output-checker.fmf-x402.workers.dev/v1/truncation-check",
-   "name": "truncated-tool-output-checker.fmf-x402.workers.dev",
-   "url": "https://truncated-tool-output-checker.fmf-x402.workers.dev/v1/truncation-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:33:48.295Z"
-  },
-  {
-   "key": "https://http-failure-classifier.fmf-x402.workers.dev/v1/classify-http",
-   "name": "http-failure-classifier.fmf-x402.workers.dev",
-   "url": "https://http-failure-classifier.fmf-x402.workers.dev/v1/classify-http",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:33:47.696Z"
-  },
-  {
-   "key": "https://stable-payload-pin.fmf-x402.workers.dev/v1/stable-hash",
-   "name": "stable-payload-pin.fmf-x402.workers.dev",
-   "url": "https://stable-payload-pin.fmf-x402.workers.dev/v1/stable-hash",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T21:33:47.300Z"
-  },
-  {
-   "key": "https://bachelor-party-activity-finder.fmf-x402.workers.dev/activities",
-   "name": "bachelor-party-activity-finder.fmf-x402.workers.dev",
-   "url": "https://bachelor-party-activity-finder.fmf-x402.workers.dev/activities",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "30000",
-   "updated": "2026-11-25T21:22:19.192Z"
-  },
-  {
-   "key": "https://bachelor-party-itinerary-builder.fmf-x402.workers.dev/test/itinerary",
-   "name": "bachelor-party-itinerary-builder.fmf-x402.workers.dev",
-   "url": "https://bachelor-party-itinerary-builder.fmf-x402.workers.dev/test/itinerary",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:19:34.079Z"
-  },
-  {
-   "key": "https://bachelor-party-activity-finder.fmf-x402.workers.dev/test/activities",
-   "name": "bachelor-party-activity-finder.fmf-x402.workers.dev",
-   "url": "https://bachelor-party-activity-finder.fmf-x402.workers.dev/test/activities",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:18:44.973Z"
-  },
-  {
-   "key": "https://world-hack.vercel.app/api/expertise/query",
-   "name": "world-hack.vercel.app",
-   "url": "https://world-hack.vercel.app/api/expertise/query",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "50000",
-   "updated": "2026-11-25T21:18:39.083Z"
-  },
-  {
-   "key": "https://pocket-editions-party-preview.cocobravebird.chatgpt.site/v1/base-usdc-receipt",
-   "name": "pocket-editions-party-preview.cocobravebird.chatgpt.site",
-   "url": "https://pocket-editions-party-preview.cocobravebird.chatgpt.site/v1/base-usdc-receipt",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/base-gas-price",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/base-gas-price",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-25T21:18:03.877Z"
+   "updated": "2026-11-27T03:30:48.830Z"
   },
   {
-   "key": "https://order-export-reconciler.fmf-x402.workers.dev/v1/reconcile-tabular",
-   "name": "order-export-reconciler.fmf-x402.workers.dev",
-   "url": "https://order-export-reconciler.fmf-x402.workers.dev/v1/reconcile-tabular",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/ofac",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/v1/ofac",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T21:13:13.626Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:48.122Z"
   },
   {
-   "key": "https://black-friday-deal-monitor.fmf-x402.workers.dev/watch",
-   "name": "black-friday-deal-monitor.fmf-x402.workers.dev",
-   "url": "https://black-friday-deal-monitor.fmf-x402.workers.dev/watch",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/token-allowance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/token-allowance",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-25T20:47:47.884Z"
+   "updated": "2026-11-27T03:30:47.481Z"
   },
   {
-   "key": "https://persistent-auditable-memory.fmf-x402.workers.dev/v1/constraint-memory",
-   "name": "persistent-auditable-memory.fmf-x402.workers.dev",
-   "url": "https://persistent-auditable-memory.fmf-x402.workers.dev/v1/constraint-memory",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/subdomain-takeover-fingerprint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/subdomain-takeover-fingerprint",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:55.087Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:47.380Z"
   },
   {
-   "key": "https://landed-receipt-checker.fmf-x402.workers.dev/v1/receipts",
-   "name": "landed-receipt-checker.fmf-x402.workers.dev",
-   "url": "https://landed-receipt-checker.fmf-x402.workers.dev/v1/receipts",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cve-lookup",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cve-lookup",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:54.601Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:47.293Z"
   },
   {
-   "key": "https://x402-validate-vs-discovery.fmf-x402.workers.dev/v1/x402/status",
-   "name": "x402-validate-vs-discovery.fmf-x402.workers.dev",
-   "url": "https://x402-validate-vs-discovery.fmf-x402.workers.dev/v1/x402/status",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/archive-item-lookup",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/archive-item-lookup",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:54.108Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:47.235Z"
   },
   {
-   "key": "https://symbol-at-version-lookup.fmf-x402.workers.dev/v1/symbol-exists",
-   "name": "symbol-at-version-lookup.fmf-x402.workers.dev",
-   "url": "https://symbol-at-version-lookup.fmf-x402.workers.dev/v1/symbol-exists",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-resource-scheme-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-resource-scheme-audit",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-25T20:31:54.108Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:46.061Z"
   },
   {
-   "key": "https://idempotency-replay-checker.fmf-x402.workers.dev/v1/idempotency-check",
-   "name": "idempotency-replay-checker.fmf-x402.workers.dev",
-   "url": "https://idempotency-replay-checker.fmf-x402.workers.dev/v1/idempotency-check",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-trust-dossier",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-trust-dossier",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:54.105Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:46.034Z"
   },
   {
-   "key": "https://public-url-vantage-report.fmf-x402.workers.dev/v1/vantage",
-   "name": "public-url-vantage-report.fmf-x402.workers.dev",
-   "url": "https://public-url-vantage-report.fmf-x402.workers.dev/v1/vantage",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-domain-media-demand-match",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-domain-media-demand-match",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:53.995Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:45.339Z"
   },
   {
-   "key": "https://consent-revocation-checker.fmf-x402.workers.dev/v1/consent-check",
-   "name": "consent-revocation-checker.fmf-x402.workers.dev",
-   "url": "https://consent-revocation-checker.fmf-x402.workers.dev/v1/consent-check",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-audiobook-narration-advisor",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-audiobook-narration-advisor",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:53.913Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:45.292Z"
   },
   {
-   "key": "https://verifiable-handoff-receipt.fmf-x402.workers.dev/v1/handoff-receipt",
-   "name": "verifiable-handoff-receipt.fmf-x402.workers.dev",
-   "url": "https://verifiable-handoff-receipt.fmf-x402.workers.dev/v1/handoff-receipt",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/fx-rate-impact",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/fx-rate-impact",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:53.884Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:45.277Z"
   },
   {
-   "key": "https://npm-pre-install-report.fmf-x402.workers.dev/v1/preinstall-report",
-   "name": "npm-pre-install-report.fmf-x402.workers.dev",
-   "url": "https://npm-pre-install-report.fmf-x402.workers.dev/v1/preinstall-report",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-indexing-readiness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-indexing-readiness",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-25T20:31:53.247Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:45.239Z"
   },
   {
-   "key": "https://source-freshness-checker.fmf-x402.workers.dev/v1/source-freshness",
-   "name": "source-freshness-checker.fmf-x402.workers.dev",
-   "url": "https://source-freshness-checker.fmf-x402.workers.dev/v1/source-freshness",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ofac-sanctions-screen",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ofac-sanctions-screen",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T20:31:53.089Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:43.724Z"
   },
   {
-   "key": "https://honest-price-checker.fmf-x402.workers.dev/v1/price-honesty",
-   "name": "honest-price-checker.fmf-x402.workers.dev",
-   "url": "https://honest-price-checker.fmf-x402.workers.dev/v1/price-honesty",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-lint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-lint",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:53.072Z"
-  },
-  {
-   "key": "https://etag-contract-tester.fmf-x402.workers.dev/v1/http-cache-check",
-   "name": "etag-contract-tester.fmf-x402.workers.dev",
-   "url": "https://etag-contract-tester.fmf-x402.workers.dev/v1/http-cache-check",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:50.990Z"
-  },
-  {
-   "key": "https://webhook-delivery-receipt.fmf-x402.workers.dev/v1/webhook-receipt",
-   "name": "webhook-delivery-receipt.fmf-x402.workers.dev",
-   "url": "https://webhook-delivery-receipt.fmf-x402.workers.dev/v1/webhook-receipt",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:50.970Z"
-  },
-  {
-   "key": "https://retry-budget-guard.fmf-x402.workers.dev/v1/retry-budget",
-   "name": "retry-budget-guard.fmf-x402.workers.dev",
-   "url": "https://retry-budget-guard.fmf-x402.workers.dev/v1/retry-budget",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:31:50.931Z"
-  },
-  {
-   "key": "https://stellarator.site/v1/chat/completions",
-   "name": "stellarator.site",
-   "url": "https://stellarator.site/v1/chat/completions",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-25T20:18:59.952Z"
-  },
-  {
-   "key": "https://x402check.anton-14a.workers.dev/check",
-   "name": "x402check.anton-14a.workers.dev",
-   "url": "https://x402check.anton-14a.workers.dev/check",
-   "type": "http",
-   "network": "base",
-   "price": "2000",
-   "updated": "2026-11-25T20:18:17.436Z"
-  },
-  {
-   "key": "https://transcribe.soboljem.cz/cutlist",
-   "name": "transcribe.soboljem.cz",
-   "url": "https://transcribe.soboljem.cz/cutlist",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:17:59.781Z"
-  },
-  {
-   "key": "https://mpp-agent-data.fmf-x402.workers.dev/mpp/web/sitemap",
-   "name": "mpp-agent-data.fmf-x402.workers.dev",
-   "url": "https://mpp-agent-data.fmf-x402.workers.dev/mpp/web/sitemap",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:17:15.306Z"
-  },
-  {
-   "key": "https://pokemon-tcg-sim.fmf-x402.workers.dev/mpp/ptcg/prize-odds",
-   "name": "pokemon-tcg-sim.fmf-x402.workers.dev",
-   "url": "https://pokemon-tcg-sim.fmf-x402.workers.dev/mpp/ptcg/prize-odds",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T20:17:13.852Z"
-  },
-  {
-   "key": "https://mpp-compat.fmf-x402.workers.dev/edgar/company-concept",
-   "name": "mpp-compat.fmf-x402.workers.dev",
-   "url": "https://mpp-compat.fmf-x402.workers.dev/edgar/company-concept",
-   "type": "http",
-   "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:17:12.058Z"
-  },
-  {
-   "key": "https://sol.blockrun.ai/api/v1/exa/answer",
-   "name": "sol.blockrun.ai",
-   "url": "https://sol.blockrun.ai/api/v1/exa/answer",
-   "type": "http",
-   "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
    "price": "10000",
-   "updated": "2026-11-25T20:16:46.172Z"
+   "updated": "2026-11-27T03:30:43.674Z"
   },
   {
-   "key": "https://mpp-domain.fmf-x402.workers.dev/http/status",
-   "name": "mpp-domain.fmf-x402.workers.dev",
-   "url": "https://mpp-domain.fmf-x402.workers.dev/http/status",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sec-edgar-filing-search",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sec-edgar-filing-search",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T20:16:39.694Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:42.522Z"
   },
   {
-   "key": "https://mpp-tools.fmf-x402.workers.dev/mpp/geo/reverse",
-   "name": "mpp-tools.fmf-x402.workers.dev",
-   "url": "https://mpp-tools.fmf-x402.workers.dev/mpp/geo/reverse",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/defi-yield-risk-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/defi-yield-risk-verdict",
    "type": "http",
    "network": "eip155:8453",
-   "price": "1000",
-   "updated": "2026-11-25T20:16:38.209Z"
+   "price": "0",
+   "updated": "2026-11-27T03:30:42.439Z"
   },
   {
-   "key": "https://automaton-tx-explainer.vercel.app/v1/solana/verdict",
-   "name": "automaton-tx-explainer.vercel.app",
-   "url": "https://automaton-tx-explainer.vercel.app/v1/solana/verdict",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/solana-token-risk-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/solana-token-risk-verdict",
    "type": "http",
    "network": "eip155:8453",
-   "price": "20000",
-   "updated": "2026-11-25T20:16:33.976Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:42.415Z"
   },
   {
-   "key": "https://defi.brunopompeo.com.br/check",
-   "name": "defi.brunopompeo.com.br",
-   "url": "https://defi.brunopompeo.com.br/check",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/news-headlines-feed",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/news-headlines-feed",
    "type": "http",
    "network": "eip155:8453",
-   "price": "14000",
-   "updated": "2026-11-25T19:54:46.819Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:42.414Z"
   },
   {
-   "key": "https://fin.brunopompeo.com.br/fin",
-   "name": "fin.brunopompeo.com.br",
-   "url": "https://fin.brunopompeo.com.br/fin",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/perp-funding-rate",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/perp-funding-rate",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-25T19:52:18.389Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:41.164Z"
   },
   {
-   "key": "https://pulse.brunopompeo.com.br/funding",
-   "name": "pulse.brunopompeo.com.br",
-   "url": "https://pulse.brunopompeo.com.br/funding",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/block-number",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/block-number",
    "type": "http",
    "network": "eip155:8453",
-   "price": "15000",
-   "updated": "2026-11-25T19:51:47.643Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.799Z"
   },
   {
-   "key": "https://latam.brunopompeo.com.br/latam",
-   "name": "latam.brunopompeo.com.br",
-   "url": "https://latam.brunopompeo.com.br/latam",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/base-gas-price",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/base-gas-price",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-25T19:51:42.403Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.796Z"
   },
   {
-   "key": "https://guard.brunopompeo.com.br/guard",
-   "name": "guard.brunopompeo.com.br",
-   "url": "https://guard.brunopompeo.com.br/guard",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/token-allowance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/token-allowance",
    "type": "http",
    "network": "eip155:8453",
-   "price": "8000",
-   "updated": "2026-11-25T19:51:40.696Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.794Z"
   },
   {
-   "key": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
-   "name": "mr-river9.makar52nn2016.workers.dev",
-   "url": "https://mr-river9.makar52nn2016.workers.dev/api/bounties",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/eth-balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/eth-balance",
    "type": "http",
    "network": "eip155:8453",
-   "price": "100000",
-   "updated": "2026-11-25T19:24:08.656Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.133Z"
   },
   {
-   "key": "https://agentgate-x402.netlify.app/api/dns",
-   "name": "agentgate-x402.netlify.app",
-   "url": "https://agentgate-x402.netlify.app/api/dns",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/balance",
    "type": "http",
    "network": "eip155:8453",
-   "price": "2000",
-   "updated": "2026-11-25T19:18:13.157Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.133Z"
   },
   {
-   "key": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
-   "name": "llmrt-companion.manhliemcn4euwlu.workers.dev",
-   "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/pro/micro-402",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/live-balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/live-balance",
    "type": "http",
    "network": "eip155:8453",
-   "price": "3195",
-   "updated": "2026-11-25T19:17:16.785Z"
+   "price": "10000",
+   "updated": "2026-11-27T03:30:40.075Z"
   },
   {
-   "key": "https://x402factory.ai/solana/bridge",
-   "name": "x402factory.ai",
-   "url": "https://x402factory.ai/solana/bridge",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/usdc-balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/usdc-balance",
    "type": "http",
-   "network": "solana",
-   "price": "50000000",
-   "updated": "2026-11-25T19:16:44.199Z"
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:38.500Z"
   },
   {
-   "key": "https://x402.minara.ai/",
-   "name": "x402.minara.ai",
-   "url": "https://x402.minara.ai/",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/wallet-balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/wallet-balance",
    "type": "http",
-   "network": "base",
-   "price": "200000",
-   "updated": "2026-11-25T19:13:27.263Z"
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:38.467Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/block-number",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/block-number",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:38.466Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain-info",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain-info",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:38.460Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/news-signal-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/news-signal-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:38.457Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/total-supply",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/total-supply",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:37.379Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/perp-funding-rate-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/perp-funding-rate-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:37.354Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sec-filings-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sec-filings-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:37.354Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/erc20-balance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/chain/erc20-balance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:37.335Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/kalshi-event-odds-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/kalshi-event-odds-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:37.256Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/legal-case-search-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/legal-case-search-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:36.844Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/prediction-market-odds-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/prediction-market-odds-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:36.844Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/crypto-token-tradeability-radar",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/crypto-token-tradeability-radar",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:36.778Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-payment-challenge-conformance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-payment-challenge-conformance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:34.556Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/regulatory-impact-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/regulatory-impact-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:34.470Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sanctions-screening-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sanctions-screening-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:34.286Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-hash-ledger",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-hash-ledger",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:32.228Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/scholar-paper-evidence",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/scholar-paper-evidence",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:32.184Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/defi-yield-opportunity-radar",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/defi-yield-opportunity-radar",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:32.085Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-search-evidence",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-search-evidence",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:32.061Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/public-holidays",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/public-holidays",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:31.761Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/email-deliverability-check",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/email-deliverability-check",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:31.253Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/wayback-snapshot",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/wayback-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:31.251Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/rss-feed-item-count",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/rss-feed-item-count",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:31.234Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/isbn-lookup",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/isbn-lookup",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:31.128Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/gas-estimate",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/gas-estimate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:30.473Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-intent-signal-extractor",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-intent-signal-extractor",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:30.192Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wayback-snapshot",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wayback-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:29.876Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/holiday-calendar",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/holiday-calendar",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:29.464Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/rss-item-count",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/rss-item-count",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:29.308Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-holidays",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-holidays",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:29.046Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/holiday-calendar",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/holiday-calendar",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:28.926Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-deliverability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-deliverability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:28.514Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/librivox-audiobooks",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/librivox-audiobooks",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:24.705Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-domain-film-catalogue",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-domain-film-catalogue",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.189Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/book-metadata",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/book-metadata",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.161Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-public-holiday-impact",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-public-holiday-impact",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.147Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-dispatch-eligibility-report",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-dispatch-eligibility-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.132Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-holiday-calendar-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/public-holiday-calendar-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.073Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-competitor-gap",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-competitor-gap",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.020Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/token-market-verdict",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/token-market-verdict",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:24.004Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-index-presence",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-index-presence",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:21.367Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-marketplace-liveness-sweep",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-marketplace-liveness-sweep",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:20.365Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-contract-readiness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-contract-readiness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:20.350Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-funnel-conversion-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-funnel-conversion-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:20.332Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-payment-readiness-report",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-payment-readiness-report",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:20.205Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-demand-map",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-bazaar-demand-map",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:20.180Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-receipt-history",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-receipt-history",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:18.710Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-index-reachability-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-index-reachability-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:18.668Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-facilitator-benchmark",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-facilitator-benchmark",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:18.565Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-security-lint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-security-lint",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:17.759Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cloud-s3-bucket-exposure",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cloud-s3-bucket-exposure",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:17.446Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-endpoint-durability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-endpoint-durability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:17.159Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-spec-surface-conformance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-spec-surface-conformance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:17.126Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-reachability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-reachability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:17.065Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-sri-integrity-verify",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-sri-integrity-verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:15.724Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-bundle-fingerprint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-bundle-fingerprint",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:15.529Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/route-quality-vs-cost-arbiter",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/route-quality-vs-cost-arbiter",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.823Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-optimal-route-shopper",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-optimal-route-shopper",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.780Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-cli-template",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-cli-template",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.735Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-settlement-path-verify",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-settlement-path-verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:13.391Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-cost-quote",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-cost-quote",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.079Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/catalog-integrity-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/catalog-integrity-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.069Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-frame-anatomy-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-frame-anatomy-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:13.041Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-cost-projection",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-cost-projection",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:12.984Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-wallet-preflight",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buyer-wallet-preflight",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:12.912Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/bimi-selector-rotation",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/bimi-selector-rotation",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:10.955Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/did-method-catalog",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/did-method-catalog",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:10.895Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-problem-detail-conformance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-problem-detail-conformance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:10.840Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-credential-leak-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-credential-leak-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:10.258Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llm-tool-schema-converter",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llm-tool-schema-converter",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:10.009Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/passkey-attestation-validator",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/passkey-attestation-validator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:09.964Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-trusted-types-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-trusted-types-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:09.871Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/quic-spin-bit-privacy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/quic-spin-bit-privacy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:09.831Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webtransport-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webtransport-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:09.809Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-label-standards-compliance",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-label-standards-compliance",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:07.791Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-spf-record-density",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-spf-record-density",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:07.615Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-runtime-detect",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-runtime-detect",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:06.885Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dkim-key-rotation-freshness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dkim-key-rotation-freshness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:03.587Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/oauth2-authorization-hardening",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/oauth2-authorization-hardening",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:03.419Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-cache-key-analyzer",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-cache-key-analyzer",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:03.398Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-agent-readiness-card",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-agent-readiness-card",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:03.355Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-permitted-script-mapper",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-permitted-script-mapper",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:03.298Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webauthn-ceremony-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webauthn-ceremony-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:30:02.906Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-openrelay-test",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-openrelay-test",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:01.216Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-receipt-parse",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-receipt-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:01.139Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-caa-policy-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-caa-policy-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:30:00.417Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwt-timing-sidechannel",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwt-timing-sidechannel",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:59.275Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/owasp-api-top10-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/owasp-api-top10-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:59.226Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cors-runtime-violation-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cors-runtime-violation-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:59.108Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwt-alg-confusion-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwt-alg-confusion-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:59.103Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-permissive-directive-budget",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-permissive-directive-budget",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:59.068Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-zone-transfer-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-zone-transfer-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:58.292Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-rapid-reset-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-rapid-reset-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:58.259Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-cache-disclosure",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-cache-disclosure",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:58.177Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-monitor-batch",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-monitor-batch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:58.138Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mcp-server-tool-list-aggregator",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mcp-server-tool-list-aggregator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:58.056Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buy-decision-simulator",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-buy-decision-simulator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:57.694Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-payment-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-payment-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:56.011Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/hop-by-hop-strip",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/hop-by-hop-strip",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:55.889Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/doh-trust-anchor-comparison",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/doh-trust-anchor-comparison",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:55.834Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/page-typography",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/page-typography",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:55.208Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/preflight-cors-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/preflight-cors-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:54.700Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/web-bot-auth-verify",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/web-bot-auth-verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:54.679Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-language-detection",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-language-detection",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:54.644Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/structured-data-crossref",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/structured-data-crossref",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:53.546Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/security-header-mutation-test",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/security-header-mutation-test",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:53.513Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-cache-key-collision",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-cache-key-collision",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:53.434Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cache-poisoning-vulnerability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cache-poisoning-vulnerability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:53.359Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ocsp-must-staple",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ocsp-must-staple",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:52.614Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dane-tlsa-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dane-tlsa-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:52.267Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cross-origin-isolation",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cross-origin-isolation",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:52.033Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/encoding-integrity",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/encoding-integrity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:51.116Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wasm-csp-analyzer",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wasm-csp-analyzer",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:51.102Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ssl-pinning-policy-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ssl-pinning-policy-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:51.029Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jsonld-cross-validate",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jsonld-cross-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:50.682Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-cache-key-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-cache-key-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:50.422Z"
   },
   {
    "key": "https://x402.freeq.one/tools/webhook_catch",
@@ -2420,7 +1373,16 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-11-25T19:03:11.697Z"
+   "updated": "2026-11-27T03:29:49.106Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/graphql-introspection",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/graphql-introspection",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:48.634Z"
   },
   {
    "key": "https://x402.freeq.one/tools/giftcard/api/buy",
@@ -2429,7 +1391,16 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "50000",
-   "updated": "2026-11-25T19:03:10.321Z"
+   "updated": "2026-11-27T03:29:47.762Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/oauth-flow-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/oauth-flow-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:46.552Z"
   },
   {
    "key": "https://x402.freeq.one/tools/email_deliverability_check",
@@ -2438,7 +1409,88 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:03:08.963Z"
+   "updated": "2026-11-27T03:29:46.428Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ratelimit-headers-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ratelimit-headers-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:46.396Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ocsp-staple-verify",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ocsp-staple-verify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:46.027Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/markdown-link-graph",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/markdown-link-graph",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.996Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-inline-fidelity",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-inline-fidelity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.984Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-https-record",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-https-record",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.982Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/request-smuggling-evidence",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/request-smuggling-evidence",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.969Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-partition-consistency",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-partition-consistency",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.942Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-starttls-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/smtp-starttls-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.895Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-agent-onboardability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-agent-onboardability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:45.607Z"
   },
   {
    "key": "https://x402.freeq.one/tools/deep_research",
@@ -2447,7 +1499,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "64000",
-   "updated": "2026-11-25T19:03:07.569Z"
+   "updated": "2026-11-27T03:29:45.088Z"
   },
   {
    "key": "https://x402.freeq.one/tools/web_scrape",
@@ -2456,7 +1508,61 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-25T19:03:06.194Z"
+   "updated": "2026-11-27T03:29:43.749Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dev-portal-exposure",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dev-portal-exposure",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:43.652Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/bgp-route-leak-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/bgp-route-leak-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:43.529Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/feature-policy-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/feature-policy-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:42.493Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-spf-policy-strength",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-spf-policy-strength",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:42.491Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-policy-mode",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-policy-mode",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:42.435Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-trust-chain",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-trust-chain",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:42.425Z"
   },
   {
    "key": "https://x402.freeq.one/tools/rdap_lookup",
@@ -2465,7 +1571,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:03:04.855Z"
+   "updated": "2026-11-27T03:29:42.389Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-marketplace-trends",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-marketplace-trends",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:42.046Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/seller-catalog-bloat",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/seller-catalog-bloat",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:42.042Z"
   },
   {
    "key": "https://x402.freeq.one/tools/dns_lookup",
@@ -2474,7 +1598,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:03:03.493Z"
+   "updated": "2026-11-27T03:29:41.043Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/url-redirect-classify",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/url-redirect-classify",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:40.536Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cert-prefetch",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cert-prefetch",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:40.443Z"
   },
   {
    "key": "https://x402.freeq.one/tools/wikipedia_summary",
@@ -2483,7 +1625,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:03:02.117Z"
+   "updated": "2026-11-27T03:29:39.701Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-spam-assassin-score",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-spam-assassin-score",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:39.262Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/endpoint-quality-benchmark",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/endpoint-quality-benchmark",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:39.238Z"
   },
   {
    "key": "https://x402.freeq.one/tools/earthquakes",
@@ -2492,7 +1652,52 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:03:00.775Z"
+   "updated": "2026-11-27T03:29:38.348Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-crawler-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-crawler-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:37.954Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/idempotency-key-support",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/idempotency-key-support",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:37.195Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-price-optimizer",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-price-optimizer",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:37.122Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/web-vitals-inp-estimate",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/web-vitals-inp-estimate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:37.111Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cache-control-granularity",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cache-control-granularity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:37.080Z"
   },
   {
    "key": "https://x402.freeq.one/tools/air_quality",
@@ -2501,7 +1706,70 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:59.414Z"
+   "updated": "2026-11-27T03:29:37.003Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-profile",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-edge-profile",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:36.174Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-prefix-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-prefix-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:36.104Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/passkey-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/passkey-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:36.074Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/clickjacking-risk",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/clickjacking-risk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:36.024Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sri-collision-risk",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sri-collision-risk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:36.001Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dmarc-policy-strength",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dmarc-policy-strength",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:35.988Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-provider-fingerprint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-provider-fingerprint",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:35.960Z"
   },
   {
    "key": "https://x402.freeq.one/tools/weather_forecast",
@@ -2510,7 +1778,52 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:57.918Z"
+   "updated": "2026-11-27T03:29:35.661Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/accessibility-aria-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/accessibility-aria-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:35.138Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-quality",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/openapi-quality",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:34.642Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-summary-credibility",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/ai-summary-credibility",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:34.571Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-syntax-validity",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-syntax-validity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:34.474Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-syntax-validity",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-syntax-validity",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:34.474Z"
   },
   {
    "key": "https://x402.freeq.one/tools/geocode",
@@ -2519,7 +1832,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:56.567Z"
+   "updated": "2026-11-27T03:29:34.321Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-source-list-extraction",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-source-list-extraction",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:33.408Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-readability-times",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/content-readability-times",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:33.001Z"
   },
   {
    "key": "https://x402.freeq.one/tools/postcode_lookup",
@@ -2528,7 +1859,70 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:55.205Z"
+   "updated": "2026-11-27T03:29:32.975Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-header-anomaly",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-header-anomaly",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:32.962Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-purpose-classification",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cookie-purpose-classification",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:32.918Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/og-freshness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/og-freshness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:32.859Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mcp-server-discovery",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mcp-server-discovery",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:32.698Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-discovery-list-topology",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-discovery-list-topology",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:31.886Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jsonpath-extract",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jsonpath-extract",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:31.866Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/link-rot-probability",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/link-rot-probability",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:31.643Z"
   },
   {
    "key": "https://x402.freeq.one/tools/vat_check",
@@ -2537,7 +1931,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:53.833Z"
+   "updated": "2026-11-27T03:29:31.600Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-settings-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http2-settings-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:30.995Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/tls13-pqc-ech-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/tls13-pqc-ech-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:30.886Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-tool-call-card",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-tool-call-card",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:30.797Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/brand-impersonation-risk",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/brand-impersonation-risk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:30.779Z"
   },
   {
    "key": "https://x402.freeq.one/tools/public_holidays",
@@ -2546,7 +1976,79 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:52.480Z"
+   "updated": "2026-11-27T03:29:30.266Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-bimi-vmc",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-bimi-vmc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:29.799Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-discovery-crossref",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-discovery-crossref",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:29.566Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnssec-validate",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnssec-validate",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:29.181Z"
+  },
+  {
+   "key": "https://x402.freeq.one/tools/prediction_disagreement",
+   "name": "x402.freeq.one",
+   "url": "https://x402.freeq.one/tools/prediction_disagreement",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:28.922Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sitemap-hreflang-consistency",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sitemap-hreflang-consistency",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:28.498Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/quic-handshake-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/quic-handshake-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:27.904Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-author",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-author",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:27.859Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:27.683Z"
   },
   {
    "key": "https://x402.freeq.one/tools/polymarket_odds",
@@ -2555,7 +2057,61 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:51.126Z"
+   "updated": "2026-11-27T03:29:27.579Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-route-pipeline-planner",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-route-pipeline-planner",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:27.374Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/qpack-encoder-fingerprint-probe",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/qpack-encoder-fingerprint-probe",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:26.925Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-policy-violation-parser",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-policy-violation-parser",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:26.540Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-trend",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-trend",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:26.485Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-license-evolution-trace",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-license-evolution-trace",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:26.427Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-rankings",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-seller-rankings",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:26.293Z"
   },
   {
    "key": "https://x402.freeq.one/tools/x_search",
@@ -2564,16 +2120,16 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:49.791Z"
+   "updated": "2026-11-27T03:29:26.233Z"
   },
   {
-   "key": "https://veriql.app/api/v1/forecast-odds",
-   "name": "veriql.app",
-   "url": "https://veriql.app/api/v1/forecast-odds",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-route-recommender",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/x402-route-recommender",
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-25T19:02:49.470Z"
+   "updated": "2026-11-27T03:29:26.127Z"
   },
   {
    "key": "https://x402.freeq.one/tools/news_search",
@@ -2582,7 +2138,34 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "7000",
-   "updated": "2026-11-25T19:02:48.446Z"
+   "updated": "2026-11-27T03:29:24.893Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-srv-record-mapper",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-srv-record-mapper",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:24.484Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwks-key-fingerprint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/jwks-key-fingerprint",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:24.126Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-rpki-rov",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dns-rpki-rov",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:23.679Z"
   },
   {
    "key": "https://x402.freeq.one/tools/web_search",
@@ -2591,7 +2174,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "7000",
-   "updated": "2026-11-25T19:02:47.096Z"
+   "updated": "2026-11-27T03:29:23.540Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-record-validator",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mta-sts-record-validator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:23.280Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/svcb-record-parse",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/svcb-record-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:23.259Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-violation-replay",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-violation-replay",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:23.237Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cname-chain-tracer",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cname-chain-tracer",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:23.149Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_xbrl_frames",
@@ -2600,7 +2219,52 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:45.729Z"
+   "updated": "2026-11-27T03:29:22.189Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-header-parse",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-header-parse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:21.506Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-deliverability-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/email-deliverability-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:21.383Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/subdomain-takeover-risk",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/subdomain-takeover-risk",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:21.276Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-grade",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llms-txt-grade",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:21.176Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/safe-url-preview",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/safe-url-preview",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.796Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_segments",
@@ -2609,7 +2273,61 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:44.365Z"
+   "updated": "2026-11-27T03:29:20.765Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/spec-version-detect",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/spec-version-detect",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.752Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/client-hints-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/client-hints-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.646Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-projection",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-projection",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:20.629Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/header-inventory-full",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/header-inventory-full",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.593Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnt-gpc-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnt-gpc-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.547Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mixed-content-scan",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/mixed-content-scan",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:20.542Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_ncsr_fund_reports",
@@ -2618,7 +2336,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "10000",
-   "updated": "2026-11-25T19:02:43.021Z"
+   "updated": "2026-11-27T03:29:19.383Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/api-freshness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/api-freshness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:18.674Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-calculator",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-cost-calculator",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:18.551Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_earnings_releases",
@@ -2627,7 +2363,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:41.673Z"
+   "updated": "2026-11-27T03:29:18.048Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/captcha-botwall-detect",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/captcha-botwall-detect",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:17.742Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sri-readiness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sri-readiness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:17.436Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/disclosure-quality",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/disclosure-quality",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:17.033Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wellknown-inventory",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wellknown-inventory",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:16.915Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_filing_search",
@@ -2636,7 +2408,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:40.313Z"
+   "updated": "2026-11-27T03:29:16.695Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-framework-detect",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/js-framework-detect",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:16.670Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/page-archaeology",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/page-archaeology",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:16.551Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/redirect-chain-map",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/redirect-chain-map",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:16.437Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-friendliness",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/agent-friendliness",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:16.295Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_insider_ownership",
@@ -2645,16 +2453,25 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:38.953Z"
+   "updated": "2026-11-27T03:29:15.339Z"
   },
   {
-   "key": "https://veriql.app/api/v1/forecast",
-   "name": "veriql.app",
-   "url": "https://veriql.app/api/v1/forecast",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-report-test",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/csp-report-test",
    "type": "http",
    "network": "eip155:8453",
-   "price": "10000",
-   "updated": "2026-11-25T19:02:37.618Z"
+   "price": "0",
+   "updated": "2026-11-27T03:29:15.256Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/og-image-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/og-image-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:14.002Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_xbrl_concept",
@@ -2663,7 +2480,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:37.568Z"
+   "updated": "2026-11-27T03:29:13.916Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/readability-multi",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/readability-multi",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:13.818Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/header-policy-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/header-policy-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:13.529Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/security-txt-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/security-txt-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:13.430Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/safe-browse",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/safe-browse",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:13.206Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_foreign_financials",
@@ -2672,7 +2525,7 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:36.223Z"
+   "updated": "2026-11-27T03:29:12.573Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_quarterly_financials",
@@ -2681,7 +2534,43 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "2000",
-   "updated": "2026-11-25T19:02:34.883Z"
+   "updated": "2026-11-27T03:29:11.241Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/error-page-fingerprint",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/error-page-fingerprint",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:09.995Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/redirect-security",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/redirect-security",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:09.995Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/auth-scheme-discovery",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/auth-scheme-discovery",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:09.958Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-coverage",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cdn-coverage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "10000",
+   "updated": "2026-11-27T03:29:09.955Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_form_144_sale_notices",
@@ -2690,7 +2579,52 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:33.526Z"
+   "updated": "2026-11-27T03:29:09.891Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http3-alt-svc",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/http3-alt-svc",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:09.720Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llm-crawl-policy",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/llm-crawl-policy",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:08.992Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sourcemap-exposure",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/sourcemap-exposure",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:08.900Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webmanifest-audit",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/webmanifest-audit",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:08.788Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cert-transparency",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/cert-transparency",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:08.764Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_exec_pay",
@@ -2699,7 +2633,34 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "4000",
-   "updated": "2026-11-25T19:02:32.180Z"
+   "updated": "2026-11-27T03:29:08.525Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/meta-coverage",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/meta-coverage",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:07.579Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnssec-chain",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/dnssec-chain",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:07.518Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wayback-snapshots",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/wayback-snapshots",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:07.507Z"
   },
   {
    "key": "https://x402.freeq.one/tools/sec_npx_proxy_votes",
@@ -2708,16 +2669,52 @@
    "type": "http",
    "network": "eip155:8453",
    "price": "5000",
-   "updated": "2026-11-25T19:02:30.807Z"
+   "updated": "2026-11-27T03:29:07.184Z"
   },
   {
-   "key": "https://x402.freeq.one/tools/sec_ncen_fund_census",
-   "name": "x402.freeq.one",
-   "url": "https://x402.freeq.one/tools/sec_ncen_fund_census",
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/forms-check",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/forms-check",
    "type": "http",
    "network": "eip155:8453",
-   "price": "5000",
-   "updated": "2026-11-25T19:02:29.449Z"
+   "price": "0",
+   "updated": "2026-11-27T03:29:06.881Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/diff-snapshots",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/diff-snapshots",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:06.738Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/diff-snapshots",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/diff-snapshots",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:06.738Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/compliance-snapshot",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/compliance-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:06.223Z"
+  },
+  {
+   "key": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/compliance-snapshot",
+   "name": "lvfgx-38-190-144-122.run.pinggy-free.link",
+   "url": "https://lvfgx-38-190-144-122.run.pinggy-free.link/api/compliance-snapshot",
+   "type": "http",
+   "network": "eip155:8453",
+   "price": "0",
+   "updated": "2026-11-27T03:29:06.223Z"
   }
  ]
 }
